@@ -1,0 +1,3 @@
+experiment,intent_agent,acc,acc_known,acc_unseen,acc_generic,oov_gap,lat_s,usd
+E1,Lexicon (regex + substring),0.9,1.0,1.0,0.6666666666666666,0.16666666666666674,,0.0
+E5,LLM agent (tools + critic),0.8,1.0,0.0,0.6666666666666666,0.6666666666666667,24.688595306600018,0.006063904

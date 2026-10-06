@@ -1,0 +1,11 @@
+intent,verdict,retries,escalated,pred,truth,uc_kind
+"Create a network slice supporting AR/VR gaming with 95 Mbps guaranteed bitrate, 99.7574 percent reliability, 1,329 terminals per km2 and 197 km/h mobility.",ESCALATE,0,True,eMBB,eMBB,known
+"Deploy a slice for smart city service with latency under 254 ms, at least 0.688 Mbps throughput and 99.3875% reliability for about 9,111 devices per square km.",ESCALATE,0,True,eMBB,eMBB,generic
+"Deploy a slice for fixed wireless access with latency under 67 ms, at least 148 Mbps throughput and 99.4108% reliability for about 1,103 devices per square km.",ESCALATE,0,True,eMBB,eMBB,known
+"Deploy a slice for enterprise application with latency under 1.2 ms, at least 47 Mbps throughput and 99.9975% reliability for about 2,491 devices per square km.",ESCALATE,0,True,URLLC,URLLC,generic
+"Can you set up cold-chain condition reporting? We require no more than 84 ms one-way latency, a minimum of 0.026 Mbps and 97.4442% service availability.",ESCALATE,0,True,eMBB,mMTC,unseen
+"I need campus connectivity support: end-to-end delay must stay below 210 ms, sustained rate 0.368 Mbps, availability 99.4589%, device density around 75,279 per km2, mobility up to 2.4 km/h.",ESCALATE,0,True,eMBB,mMTC,generic
+"Create a network slice supporting haptic teleoperation with 0.568 Mbps guaranteed bitrate, 99.9959 percent reliability, 1,207 terminals per km2 and 386 km/h mobility.",ESCALATE,0,True,URLLC,URLLC,known
+"I need drone fleet control support: end-to-end delay must stay below 2.6 ms, sustained rate 13 Mbps, availability 99.9987%, device density around 127 per km2, mobility up to 487 km/h.",ESCALATE,0,True,eMBB,URLLC,known
+"Deploy a slice for fixed wireless access with latency under 21 ms, at least 284 Mbps throughput and 99.5127% reliability for about 379 devices per square km.",ESCALATE,0,True,eMBB,eMBB,known
+"Create a network slice supporting drone fleet control with 0.167 Mbps guaranteed bitrate, 99.9906 percent reliability, 528 terminals per km2 and 264 km/h mobility.",ESCALATE,0,True,eMBB,URLLC,known

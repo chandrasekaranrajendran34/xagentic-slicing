@@ -1,0 +1,166 @@
+{
+  "acc_overall": 0.9444444444444444,
+  "acc_clear": 0.9922779922779923,
+  "acc_ambiguous": 0.8217821782178217,
+  "n_clear": 259,
+  "n_ambiguous": 101,
+  "err_total": 20,
+  "err_from_ambiguous": 18,
+  "acc_known": 1.0,
+  "n_known": 138,
+  "err_known": 0,
+  "acc_unseen": 0.9375,
+  "n_unseen": 112,
+  "err_unseen": 7,
+  "acc_generic": 0.8818181818181818,
+  "n_generic": 110,
+  "err_generic": 13,
+  "oov_gap": 0.09034090909090908,
+  "experiment": "E1",
+  "label": "Post-hoc (SHAP)",
+  "model": "Gradient Boosting",
+  "model_selection": "5-fold CV macro F1 on train split",
+  "tau_selected": 0.9,
+  "tau_selection": "smallest tau with >=98% out-of-fold autonomous accuracy",
+  "escalation_oof": [
+    {
+      "tau": 0.5,
+      "escalated": 0.1261904761904762,
+      "precision": 0.14150943396226415,
+      "recall": 0.2727272727272727,
+      "autonomous_acc": 0.9455040871934605
+    },
+    {
+      "tau": 0.6,
+      "escalated": 0.14761904761904762,
+      "precision": 0.20967741935483872,
+      "recall": 0.4727272727272727,
+      "autonomous_acc": 0.9594972067039106
+    },
+    {
+      "tau": 0.7,
+      "escalated": 0.17142857142857143,
+      "precision": 0.20833333333333334,
+      "recall": 0.5454545454545454,
+      "autonomous_acc": 0.9640804597701149
+    },
+    {
+      "tau": 0.8,
+      "escalated": 0.19523809523809524,
+      "precision": 0.2073170731707317,
+      "recall": 0.6181818181818182,
+      "autonomous_acc": 0.9689349112426036
+    },
+    {
+      "tau": 0.9,
+      "escalated": 0.2523809523809524,
+      "precision": 0.2028301886792453,
+      "recall": 0.7818181818181819,
+      "autonomous_acc": 0.9808917197452229
+    }
+  ],
+  "escalation_signals": [
+    {
+      "signal": "Confidence only",
+      "budget": 0.175,
+      "escalated": 0.175,
+      "precision": 0.2698412698412698,
+      "recall": 0.85,
+      "autonomous_acc": 0.98989898989899
+    },
+    {
+      "signal": "Attribution concentration only",
+      "budget": 0.175,
+      "escalated": 0.175,
+      "precision": 0.12698412698412698,
+      "recall": 0.4,
+      "autonomous_acc": 0.9595959595959596
+    },
+    {
+      "signal": "Confidence + contract",
+      "budget": 0.175,
+      "escalated": 0.175,
+      "precision": 0.2222222222222222,
+      "recall": 0.7,
+      "autonomous_acc": 0.9797979797979798
+    },
+    {
+      "signal": "Confidence + contract + attribution",
+      "budget": 0.175,
+      "escalated": 0.175,
+      "precision": 0.20634920634920634,
+      "recall": 0.65,
+      "autonomous_acc": 0.9764309764309764
+    }
+  ],
+  "macro_f1": 0.9444657531062216,
+  "slot_recall": 0.9536809856809857,
+  "slot_false_positive": 0.0,
+  "parse_latency_ms": 0.11505952166620166,
+  "mean_confidence_correct": 0.9563056938741171,
+  "mean_confidence_wrong": 0.7196558041292931,
+  "fidelity": {
+    "top1": 0.13055555555555556,
+    "rand1": 0.013888888888888888,
+    "low1": 0.0,
+    "ratio1": 9.4,
+    "ratiolow1": 130555555.55555555,
+    "top2": 0.25833333333333336,
+    "rand2": 0.03333333333333333,
+    "low2": 0.0,
+    "ratio2": 7.750000000000001,
+    "ratiolow2": 258333333.33333334,
+    "top3": 0.37777777777777777,
+    "rand3": 0.044444444444444446,
+    "low3": 0.0,
+    "ratio3": 8.5,
+    "ratiolow3": 377777777.77777773,
+    "explanation_latency_ms": 161.33093226944263,
+    "inference_latency_ms": 0.010959716670792355,
+    "latency_ratio": 14720.35611097407,
+    "backend": "PermutationExplainer"
+  },
+  "baseline_rule_acc": 0.6972222222222222,
+  "baseline_rule_f1": 0.6989518595245142,
+  "baseline_rulelex_acc": 0.7944444444444444,
+  "baseline_rulelex_f1": 0.797597998036962,
+  "baseline_rulelex_valid": 0.9194444444444444,
+  "baseline_rulelex_lat_ms": 0.04758903333418453,
+  "escalation": [
+    {
+      "tau": 0.5,
+      "escalated": 0.10277777777777777,
+      "precision": 0.13513513513513514,
+      "recall": 0.25,
+      "autonomous_acc": 0.9535603715170279
+    },
+    {
+      "tau": 0.6,
+      "escalated": 0.12777777777777777,
+      "precision": 0.1956521739130435,
+      "recall": 0.45,
+      "autonomous_acc": 0.964968152866242
+    },
+    {
+      "tau": 0.7,
+      "escalated": 0.16111111111111112,
+      "precision": 0.20689655172413793,
+      "recall": 0.6,
+      "autonomous_acc": 0.9735099337748344
+    },
+    {
+      "tau": 0.8,
+      "escalated": 0.18611111111111112,
+      "precision": 0.22388059701492538,
+      "recall": 0.75,
+      "autonomous_acc": 0.9829351535836177
+    },
+    {
+      "tau": 0.9,
+      "escalated": 0.24444444444444444,
+      "precision": 0.20454545454545456,
+      "recall": 0.9,
+      "autonomous_acc": 0.9926470588235294
+    }
+  ]
+}

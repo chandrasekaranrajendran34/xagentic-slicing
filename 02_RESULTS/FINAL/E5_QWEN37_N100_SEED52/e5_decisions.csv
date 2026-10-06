@@ -1,0 +1,101 @@
+intent,verdict,retries,escalated,pred,truth,uc_kind
+"Provision connectivity for research testbed service. Target budget: 4.5 ms latency, 99.9935% reliability, 4,854 devices/km2, users moving at 121 km/h.",ACCEPT,0,False,URLLC,URLLC,generic
+"Provision connectivity for enterprise application. Target budget: 31 ms latency, 99.5696% reliability, 5,768 devices/km2, users moving at 149 km/h.",ACCEPT,0,False,URLLC,eMBB,generic
+"Deploy a slice for event coverage service with latency under 126 ms, at least 27 Mbps throughput and 99.0518% reliability for about 156 devices per square km.",ACCEPT,0,False,eMBB,eMBB,generic
+Please onboard AR/VR gaming with a 120 ms delay bound and 99.3361% availability.,ACCEPT,0,False,eMBB,eMBB,known
+"Deploy a slice for port crane synchronisation with latency under 1.6 ms, at least 2.6 Mbps throughput and 99.9938% reliability for about 8,586 devices per square km.",ACCEPT,0,False,URLLC,URLLC,unseen
+"Deploy a slice for research testbed service with latency under 374 ms, at least 0.014 Mbps throughput and 95.8431% reliability for about 14,488 devices per square km.",ACCEPT,0,False,mMTC,mMTC,generic
+"I need asset trackers support: end-to-end delay must stay below 6,109 ms, sustained rate 0.009 Mbps, availability 95.4285%, device density around 13,415 per km2, mobility up to 7.0 km/h.",ACCEPT,0,False,mMTC,mMTC,known
+"Set up fixed wireless access. It should sustain 159 Mbps for roughly 1,881 devices per km2.",ACCEPT,0,False,eMBB,eMBB,known
+Please onboard pipeline telemetry with a 389 ms delay bound and 98.5902% availability.,ACCEPT,0,False,mMTC,mMTC,known
+"Can you set up enterprise application? We require no more than 110 ms one-way latency, a minimum of 0.024 Mbps and 98.9415% service availability.",ESCALATE,0,True,eMBB,mMTC,generic
+"Can you set up event coverage service? We require no more than 3.5 ms one-way latency, a minimum of 11 Mbps and 99.9985% service availability.",ACCEPT,0,False,URLLC,URLLC,generic
+"Create a network slice supporting research testbed service with 0.040 Mbps guaranteed bitrate, 96.434 percent reliability, 98,237 terminals per km2 and 142 km/h mobility.",ESCALATE,0,True,mMTC,eMBB,generic
+"Create a network slice supporting factory robot control with 32 Mbps guaranteed bitrate, 99.6868 percent reliability, 236 terminals per km2 and 239 km/h mobility.",ACCEPT,0,False,URLLC,URLLC,known
+"Deploy a slice for pipeline telemetry with latency under 143 ms, at least 0.004 Mbps throughput and 97.4475% reliability for about 11,238 devices per square km.",ACCEPT,0,False,mMTC,mMTC,known
+"Can you set up soil-moisture reporting nodes? We require no more than 9,349 ms one-way latency, a minimum of 0.235 Mbps and 97.5956% service availability.",ACCEPT,0,False,mMTC,mMTC,unseen
+"Create a network slice supporting pipeline telemetry with 0.044 Mbps guaranteed bitrate, 98.7015 percent reliability, 30,010 terminals per km2 and 15 km/h mobility.",ACCEPT,0,False,mMTC,mMTC,known
+"Can you set up environmental monitoring? We require no more than 101 ms one-way latency, a minimum of 0.191 Mbps and 95.6419% service availability.",ACCEPT,0,False,mMTC,mMTC,known
+"I need smart water meters support: end-to-end delay must stay below 763 ms, sustained rate 0.003 Mbps, availability 98.3154%, device density around 57,287 per km2, mobility up to 29 km/h.",ACCEPT,0,False,mMTC,mMTC,known
+"Can you set up enterprise application? We require no more than 296 ms one-way latency, a minimum of 0.064 Mbps and 96.1891% service availability.",ACCEPT,0,False,mMTC,mMTC,generic
+"Set up event coverage service. It should sustain 15 Mbps for roughly 19,582 devices per km2.",ACCEPT,0,False,eMBB,mMTC,generic
+Please onboard in-flight entertainment uplink with a 10 ms delay bound and 99.5749% availability.,ESCALATE,0,True,eMBB,eMBB,unseen
+"Set up remote surgery. It should sustain 21 Mbps for roughly 4,190 devices per km2.",ACCEPT,0,False,URLLC,URLLC,known
+"Deploy a slice for stadium hotspot with latency under 62 ms, at least 33 Mbps throughput and 99.1959% reliability for about 5,018 devices per square km.",ACCEPT,0,False,eMBB,eMBB,known
+"I need stadium hotspot support: end-to-end delay must stay below 100 ms, sustained rate 86 Mbps, availability 99.3982%, device density around 27,543 per km2, mobility up to 238 km/h.",ACCEPT,0,False,eMBB,eMBB,known
+"Deploy a slice for cold-chain condition reporting with latency under 1,119 ms, at least 0.001 Mbps throughput and 98.0891% reliability for about 90,517 devices per square km.",ACCEPT,0,False,mMTC,mMTC,unseen
+"Create a network slice supporting research testbed service with 11 Mbps guaranteed bitrate, 99.6098 percent reliability, 1,637 terminals per km2 and 226 km/h mobility.",ESCALATE,0,True,eMBB,eMBB,generic
+"I need public safety communications support: end-to-end delay must stay below 273 ms, sustained rate 3.9 Mbps, availability 99.085%, device density around 17,339 per km2, mobility up to 145 km/h.",ESCALATE,0,True,eMBB,eMBB,generic
+"Create a network slice supporting retail branch connectivity with 0.387 Mbps guaranteed bitrate, 99.994 percent reliability, 150 terminals per km2 and 36 km/h mobility.",ACCEPT,0,False,URLLC,URLLC,generic
+"Deploy a slice for substation differential tripping with latency under 42 ms, at least 32 Mbps throughput and 99.5007% reliability for about 5,489 devices per square km.",ACCEPT,0,False,URLLC,URLLC,unseen
+"Set up 4K video streaming. It should sustain 32 Mbps for roughly 47,557 devices per km2.",ACCEPT,0,False,eMBB,eMBB,known
+"Create a network slice supporting utility submetering fleet with 0.002 Mbps guaranteed bitrate, 96.6115 percent reliability, 632,353 terminals per km2 and 10 km/h mobility.",ACCEPT,0,False,mMTC,mMTC,unseen
+"Can you set up campus connectivity? We require no more than 6.5 ms one-way latency, a minimum of 37 Mbps and 99.8259% service availability.",ESCALATE,0,True,URLLC,eMBB,generic
+"Create a network slice supporting port crane synchronisation with 3.9 Mbps guaranteed bitrate, 99.876 percent reliability, 12,741 terminals per km2 and 443 km/h mobility.",ACCEPT,0,False,URLLC,URLLC,unseen
+"Provision connectivity for in-flight entertainment uplink. Target budget: 57 ms latency, 99.2041% reliability, 217 devices/km2, users moving at 237 km/h.",ACCEPT,0,False,eMBB,eMBB,unseen
+"Provision connectivity for AR/VR gaming. Target budget: 36 ms latency, 99.1979% reliability, 3,053 devices/km2, users moving at 35 km/h.",ESCALATE,0,True,eMBB,eMBB,known
+"Create a network slice supporting municipal network service with 8.8 Mbps guaranteed bitrate, 99.9936 percent reliability, 3,396 terminals per km2 and 484 km/h mobility.",ACCEPT,0,False,URLLC,URLLC,generic
+"Provision connectivity for high-definition conferencing. Target budget: 33 ms latency, 97.9817% reliability, 3,941 devices/km2, users moving at 137 km/h.",ACCEPT,0,False,eMBB,eMBB,unseen
+"Deploy a slice for utility submetering fleet with latency under 2,331 ms, at least 0.030 Mbps throughput and 98.3351% reliability for about 635,270 devices per square km.",ACCEPT,0,False,mMTC,mMTC,unseen
+"Create a network slice supporting haptic teleoperation with 0.729 Mbps guaranteed bitrate, 99.9994 percent reliability, 1,193 terminals per km2 and 101 km/h mobility.",ACCEPT,0,False,URLLC,URLLC,known
+"Create a network slice supporting public safety communications with 1.5 Mbps guaranteed bitrate, 99.7677 percent reliability, 8,079 terminals per km2 and 137 km/h mobility.",ACCEPT,0,False,URLLC,eMBB,generic
+"Can you set up soil-moisture reporting nodes? We require no more than 154 ms one-way latency, a minimum of 0.009 Mbps and 95.649% service availability.",ACCEPT,0,False,mMTC,mMTC,unseen
+"I need utility submetering fleet support: end-to-end delay must stay below 302 ms, sustained rate 0.004 Mbps, availability 97.1513%, device density around 391,451 per km2, mobility up to 4.7 km/h.",ACCEPT,0,False,mMTC,mMTC,unseen
+"Create a network slice supporting enterprise application with 881 Mbps guaranteed bitrate, 99.5307 percent reliability, 114 terminals per km2 and 236 km/h mobility.",ACCEPT,0,False,eMBB,eMBB,generic
+"Can you set up street luminaire telemetry? We require no more than 89 ms one-way latency, a minimum of 0.002 Mbps and 99.1557% service availability.",ACCEPT,0,False,mMTC,mMTC,unseen
+"Set up haptic teleoperation. It should sustain 1.6 Mbps for roughly 2,766 devices per km2.",ACCEPT,0,False,URLLC,URLLC,known
+"Deploy a slice for live broadcast with latency under 121 ms, at least 25 Mbps throughput and 99.2533% reliability for about 12,813 devices per square km.",ACCEPT,0,False,eMBB,eMBB,known
+"Provision connectivity for environmental monitoring. Target budget: 840 ms latency, 95.7665% reliability, 56,019 devices/km2, users moving at 1.7 km/h.",ACCEPT,0,False,mMTC,mMTC,known
+"Set up smart-grid protection. It should sustain 0.539 Mbps for roughly 99,045 devices per km2.",ACCEPT,0,False,mMTC,URLLC,known
+"I need factory robot control support: end-to-end delay must stay below 1.8 ms, sustained rate 1.5 Mbps, availability 99.9989%, device density around 3,144 per km2, mobility up to 404 km/h.",ESCALATE,0,True,URLLC,URLLC,known
+"Provision connectivity for cold-chain condition reporting. Target budget: 3,047 ms latency, 97.9473% reliability, 289,657 devices/km2, users moving at 25 km/h.",ACCEPT,0,False,mMTC,mMTC,unseen
+"Can you set up smart city service? We require no more than 20 ms one-way latency, a minimum of 0.447 Mbps and 99.0117% service availability.",ESCALATE,0,True,eMBB,mMTC,generic
+"Create a network slice supporting remote surgery with 28 Mbps guaranteed bitrate, 99.9999 percent reliability, 8,235 terminals per km2 and 491 km/h mobility.",ACCEPT,0,False,URLLC,URLLC,known
+"I need street luminaire telemetry support: end-to-end delay must stay below 273 ms, sustained rate 1.1 Mbps, availability 96.8148%, device density around 118,066 per km2, mobility up to 8.9 km/h.",ACCEPT,0,False,mMTC,mMTC,unseen
+"Create a network slice supporting rail interlocking signalling with 45 Mbps guaranteed bitrate, 99.9966 percent reliability, 225 terminals per km2 and 267 km/h mobility.",ACCEPT,0,False,URLLC,URLLC,unseen
+"I need port crane synchronisation support: end-to-end delay must stay below 2.5 ms, sustained rate 14 Mbps, availability 99.9987%, device density around 570 per km2, mobility up to 315 km/h.",ACCEPT,0,False,URLLC,URLLC,unseen
+"Provision connectivity for public safety communications. Target budget: 84 ms latency, 99.7951% reliability, 18,171 devices/km2, users moving at 118 km/h.",ACCEPT,0,False,eMBB,eMBB,generic
+"Deploy a slice for surgical imaging feedback with latency under 1.5 ms, at least 0.768 Mbps throughput and 99.9958% reliability for about 1,057 devices per square km.",ACCEPT,0,False,URLLC,URLLC,unseen
+"Please onboard smart water meters with a 1,459 ms delay bound and 99.7486% availability.",ACCEPT,0,False,mMTC,mMTC,known
+"Provision connectivity for surgical imaging feedback. Target budget: 5.1 ms latency, 99.9929% reliability, 1,234 devices/km2, users moving at 143 km/h.",ACCEPT,0,False,URLLC,URLLC,unseen
+"I need remote surgery support: end-to-end delay must stay below 4.0 ms, sustained rate 16 Mbps, availability 99.9933%, device density around 4,250 per km2, mobility up to 3.7 km/h.",ESCALATE,0,True,URLLC,URLLC,known
+"Can you set up enterprise application? We require no more than 15 ms one-way latency, a minimum of 0.040 Mbps and 98.871% service availability.",ESCALATE,0,True,eMBB,mMTC,generic
+"Can you set up enterprise application? We require no more than 1.7 ms one-way latency, a minimum of 15 Mbps and 99.9944% service availability.",ACCEPT,0,False,URLLC,URLLC,generic
+"I need event coverage service support: end-to-end delay must stay below 6.8 ms, sustained rate 86 Mbps, availability 99.997%, device density around 6,777 per km2, mobility up to 60 km/h.",ESCALATE,0,True,URLLC,URLLC,generic
+"Can you set up retail branch connectivity? We require no more than 933 ms one-way latency, a minimum of 14 Mbps and 98.0586% service availability.",ACCEPT,0,False,eMBB,eMBB,generic
+"Create a network slice supporting soil-moisture reporting nodes with 0.006 Mbps guaranteed bitrate, 97.2588 percent reliability, 76,685 terminals per km2 and 26 km/h mobility.",ACCEPT,0,False,mMTC,mMTC,unseen
+"Can you set up public safety communications? We require no more than 60 ms one-way latency, a minimum of 408 Mbps and 99.6994% service availability.",ACCEPT,0,False,eMBB,eMBB,generic
+"Provision connectivity for newsroom contribution feed. Target budget: 121 ms latency, 99.7242% reliability, 11,554 devices/km2, users moving at 9.6 km/h.",ESCALATE,0,True,eMBB,eMBB,unseen
+"Set up 4K video streaming. It should sustain 841 Mbps for roughly 1,140 devices per km2.",ACCEPT,0,False,eMBB,eMBB,known
+"Set up surgical imaging feedback. It should sustain 0.647 Mbps for roughly 6,610 devices per km2.",ACCEPT,0,False,URLLC,URLLC,unseen
+"Deploy a slice for soil-moisture reporting nodes with latency under 51 ms, at least 5.2 Mbps throughput and 98.8025% reliability for about 125,782 devices per square km.",ACCEPT,0,False,mMTC,mMTC,unseen
+"I need 4K video streaming support: end-to-end delay must stay below 29 ms, sustained rate 78 Mbps, availability 99.6227%, device density around 17,470 per km2, mobility up to 100 km/h.",ACCEPT,0,False,eMBB,eMBB,known
+"Can you set up event coverage service? We require no more than 1.1 ms one-way latency, a minimum of 9.6 Mbps and 99.9984% service availability.",ACCEPT,0,False,URLLC,URLLC,generic
+"Can you set up public safety communications? We require no more than 103 ms one-way latency, a minimum of 34 Mbps and 99.7731% service availability.",ACCEPT,0,False,eMBB,eMBB,generic
+"Set up pipeline telemetry. It should sustain 0.005 Mbps for roughly 74,442 devices per km2.",ACCEPT,0,False,mMTC,mMTC,known
+"Can you set up public safety communications? We require no more than 461 ms one-way latency, a minimum of 1.9 Mbps and 98.4581% service availability.",ACCEPT,0,False,mMTC,mMTC,generic
+Please onboard pipeline telemetry with a 10 ms delay bound and 99.8942% availability.,ACCEPT,0,False,URLLC,mMTC,known
+"Can you set up smart water meters? We require no more than 1,465 ms one-way latency, a minimum of 0.586 Mbps and 96.6719% service availability.",ACCEPT,0,False,mMTC,mMTC,known
+"I need soil-moisture reporting nodes support: end-to-end delay must stay below 220 ms, sustained rate 0.004 Mbps, availability 98.1406%, device density around 17,477 per km2, mobility up to 10 km/h.",ACCEPT,0,False,mMTC,mMTC,unseen
+"Provision connectivity for soil-moisture reporting nodes. Target budget: 822 ms latency, 95.4491% reliability, 495,304 devices/km2, users moving at 16 km/h.",ACCEPT,0,False,mMTC,mMTC,unseen
+"Can you set up smart-grid protection? We require no more than 2.8 ms one-way latency, a minimum of 0.586 Mbps and 99.9909% service availability.",ACCEPT,0,False,URLLC,URLLC,known
+"Deploy a slice for cold-chain condition reporting with latency under 712 ms, at least 0.009 Mbps throughput and 96.7321% reliability for about 481,349 devices per square km.",ACCEPT,0,False,mMTC,mMTC,unseen
+"Can you set up newsroom contribution feed? We require no more than 107 ms one-way latency, a minimum of 106 Mbps and 99.2692% service availability.",ACCEPT,0,False,eMBB,eMBB,unseen
+"Create a network slice supporting utility submetering fleet with 0.002 Mbps guaranteed bitrate, 99.1288 percent reliability, 17,377 terminals per km2 and 16 km/h mobility.",ACCEPT,0,False,mMTC,mMTC,unseen
+"Provision connectivity for stadium hotspot. Target budget: 4.5 ms latency, 99.8497% reliability, 5,975 devices/km2, users moving at 218 km/h.",ESCALATE,0,True,URLLC,eMBB,known
+"Create a network slice supporting event coverage service with 32 Mbps guaranteed bitrate, 99.1459 percent reliability, 16,011 terminals per km2 and 55 km/h mobility.",ACCEPT,0,False,eMBB,eMBB,generic
+"Set up campus connectivity. It should sustain 0.056 Mbps for roughly 453,897 devices per km2.",ACCEPT,0,False,mMTC,mMTC,generic
+"Deploy a slice for smart city service with latency under 35 ms, at least 92 Mbps throughput and 99.3172% reliability for about 40,106 devices per square km.",ACCEPT,0,False,eMBB,eMBB,generic
+"Deploy a slice for live broadcast with latency under 18 ms, at least 435 Mbps throughput and 99.0559% reliability for about 8,043 devices per square km.",ACCEPT,0,False,eMBB,eMBB,known
+"Create a network slice supporting research testbed service with 0.007 Mbps guaranteed bitrate, 96.0196 percent reliability, 423,645 terminals per km2 and 4.8 km/h mobility.",ACCEPT,0,False,mMTC,mMTC,generic
+"Provision connectivity for remote surgery. Target budget: 1.5 ms latency, 99.9983% reliability, 1,806 devices/km2, users moving at 175 km/h.",ACCEPT,0,False,URLLC,URLLC,known
+"Deploy a slice for municipal network service with latency under 83 ms, at least 27 Mbps throughput and 98.2622% reliability for about 36,167 devices per square km.",ACCEPT,0,False,eMBB,mMTC,generic
+"Can you set up agricultural sensors? We require no more than 263 ms one-way latency, a minimum of 1.6 Mbps and 95.3075% service availability.",ACCEPT,0,False,mMTC,mMTC,known
+Please onboard enterprise application with a 621 ms delay bound and 99.6445% availability.,ACCEPT,0,False,mMTC,eMBB,generic
+"I need port crane synchronisation support: end-to-end delay must stay below 3.9 ms, sustained rate 2.3 Mbps, availability 99.9931%, device density around 1,877 per km2, mobility up to 29 km/h.",ESCALATE,0,True,URLLC,URLLC,unseen
+"Can you set up research testbed service? We require no more than 133 ms one-way latency, a minimum of 108 Mbps and 99.0165% service availability.",ACCEPT,0,False,eMBB,eMBB,generic
+"I need rail interlocking signalling support: end-to-end delay must stay below 21 ms, sustained rate 0.770 Mbps, availability 97.1153%, device density around 18,570 per km2, mobility up to 174 km/h.",ACCEPT,0,False,URLLC,URLLC,unseen
+"Can you set up municipal network service? We require no more than 241 ms one-way latency, a minimum of 37 Mbps and 99.251% service availability.",ACCEPT,0,False,eMBB,eMBB,generic
+"Provision connectivity for smart water meters. Target budget: 7,717 ms latency, 96.2231% reliability, 83,034 devices/km2, users moving at 20 km/h.",ACCEPT,0,False,mMTC,mMTC,known
+Please onboard surgical imaging feedback with a 0.605 ms delay bound and 99.9927% availability.,ACCEPT,0,False,URLLC,URLLC,unseen
+"Deploy a slice for port crane synchronisation with latency under 4.1 ms, at least 25 Mbps throughput and 99.9952% reliability for about 563 devices per square km.",ACCEPT,0,False,URLLC,URLLC,unseen

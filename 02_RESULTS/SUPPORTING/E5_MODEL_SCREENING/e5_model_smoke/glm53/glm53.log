@@ -1,0 +1,573 @@
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+[run_all] generating shared corpus (n=1200, seed=42) ...
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/corpus.csv
+========================================================================
+EXPERIMENT 1 -- Post-hoc explanation (SHAP)
+========================================================================
+[S2] Intent Agent: slot filling + binary lexicon ...
+     mean slot recall 0.956 | false-positive 0.000 | 0.146 ms/intent
+[S4] training Logistic Regression ...
+[S4] training Decision Tree ...
+[S4] training MLP (64,32) ...
+[S4] training Gradient Boosting ...
+[S4] training Random Forest ...
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/e1_models.csv
+               model      acc       f1  cv_mean   cv_std    valid   lat_ms
+ Rule-based playbook 0.722222 0.722744      NaN      NaN 0.963889 0.049426
+Rule-based + lexicon 0.833333 0.833685      NaN      NaN 0.944444 0.072310
+ Logistic Regression 0.913889 0.913828 0.886879 0.026906 0.891667 0.008351
+       Decision Tree 0.897222 0.896947 0.893593 0.014187 0.891667 0.004793
+         MLP (64,32) 0.908333 0.908268 0.898669 0.012721 0.877778 0.008566
+   Gradient Boosting 0.933333 0.933523 0.924919 0.010277 0.888889 0.013478
+       Random Forest 0.916667 0.916959 0.914350 0.007990 0.891667 0.249630
+[S4] best = Gradient Boosting (selected on 5-fold CV macro F1, train split)
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/e1_escalation_oof.csv
+[S4b] tau = 0.90 selected on out-of-fold train predictions
+ tau  escalated  precision   recall  autonomous_acc
+ 0.5   0.139286   0.145299 0.269841        0.936376
+ 0.6   0.158333   0.187970 0.396825        0.946252
+ 0.7   0.184524   0.193548 0.476190        0.951825
+ 0.8   0.236905   0.216080 0.682540        0.968799
+ 0.9   0.292857   0.195122 0.761905        0.974747
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/e1_per_class.csv
+[S6] computing SHAP attributions ...
+     TreeExplainer unavailable (InvalidModelError); falling back to PermutationExplainer
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/e1_shap_global.csv
+            feature  importance
+    reliability (%)    0.274724
+          lex:URLLC    0.123036
+           lex:eMBB    0.107028
+    mobility (km/h)    0.102058
+     log throughput    0.078168
+           lex:mMTC    0.070932
+  throughput (Mbps)    0.066674
+        log density    0.045920
+        log latency    0.038550
+       latency (ms)    0.034013
+  density (dev/km2)    0.028101
+throughput unstated    0.021761
+   latency unstated    0.007691
+   density unstated    0.001345
+[S6] fidelity: {
+  "top1": 0.18333333333333332,
+  "rand1": 0.019444444444444445,
+  "low1": 0.0,
+  "ratio1": 9.428571428571427,
+  "ratiolow1": 183333333.3333333,
+  "top2": 0.3333333333333333,
+  "rand2": 0.03611111111111111,
+  "low2": 0.0,
+  "ratio2": 9.230769230769232,
+  "ratiolow2": 333333333.3333333,
+  "top3": 0.5083333333333333,
+  "rand3": 0.058333333333333334,
+  "low3": 0.0,
+  "ratio3": 8.714285714285714,
+  "ratiolow3": 508333333.33333325,
+  "explanation_latency_ms": 236.56639345833304,
+  "inference_latency_ms": 0.013478219443641137,
+  "latency_ratio": 17551.754105765227,
+  "backend": "PermutationExplainer"
+}
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/e1_escalation.csv
+ tau  escalated  precision   recall  autonomous_acc
+ 0.5   0.130556   0.170213 0.333333        0.948882
+ 0.6   0.150000   0.222222 0.500000        0.960784
+ 0.7   0.194444   0.200000 0.583333        0.965517
+ 0.8   0.236111   0.176471 0.625000        0.967273
+ 0.9   0.291667   0.180952 0.791667        0.980392
+[S5] tau=0.90  OOF(selection) esc 29.3% rec 76.2% auto 97.5%  |  TEST esc 29.2% rec 79.2% auto 98.0%
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/e1_escalation_signals.csv
+[S5b] escalation signal ablation at matched budget:
+                             signal   budget  escalated  precision   recall  autonomous_acc
+                    Confidence only 0.211111   0.211111   0.236842 0.750000        0.978873
+     Attribution concentration only 0.211111   0.211111   0.105263 0.333333        0.943662
+              Confidence + contract 0.211111   0.211111   0.197368 0.625000        0.968310
+Confidence + contract + attribution 0.211111   0.211111   0.184211 0.583333        0.964789
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/e1_local_explanations.json
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/e1_summary.json
+[E1] accuracy 0.9333 | macro F1 0.9335 | OOV gap 9.8 pts | explanation 236.57 ms/intent
+========================================================================
+EXPERIMENT 2 -- In-hoc vs post-hoc explanation
+========================================================================
+[E2] in-hoc: Linear-Attribution (logistic regression) ...
+  Linear-Attribution       acc=0.9139 expl=   0.0070 ms  fidelity(top1/rand1)=7.5x
+[E2] in-hoc: Decision-Path (depth-8 tree) ...
+  Decision-Path            acc=0.8972 expl=   0.0115 ms  fidelity(top1/rand1)=9.2x
+[E2] in-hoc: SENN (self-explaining network) ...
+  SENN                     acc=0.9000 expl=   0.0019 ms  fidelity(top1/rand1)=6.2x
+[E2] post-hoc: SHAP on gradient boosting ...
+  SHAP                     acc=0.9333 expl= 215.3070 ms  fidelity(top1/rand1)=9.4x
+[E2] post-hoc: LIME on 150 instances (subsampled; slow) ...
+  LIME                     expl=  80.9463 ms  fidelity(top1/rand1)=1.3x
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/e2_explainers.csv
+
+         explainer     kind               model      acc       f1  infer_ms    expl_ms        ratio     top1    rand1     fid1     top3    rand3     fid3
+Linear-Attribution   in-hoc Logistic Regression 0.913889 0.913828  0.005676   0.007022     1.237112 0.227778 0.030556 7.454545 0.577778 0.075000 7.703704
+     Decision-Path   in-hoc Decision Tree (d=8) 0.897222 0.896947  0.004573   0.011532     2.521974 0.461111 0.050000 9.222222 0.491667 0.116667 4.214286
+              SENN   in-hoc    SENN (32 hidden) 0.900000 0.900383  0.005853   0.001929     0.329499 0.222222 0.036111 6.153846 0.497222 0.133333 3.729167
+              SHAP post-hoc   Gradient Boosting 0.933333 0.933523  0.013641 215.306997 15784.073606 0.183333 0.019444 9.428571 0.508333 0.058333 8.714286
+              LIME post-hoc   Gradient Boosting 0.920000 0.919832  0.013641  80.946273  5934.140305 0.026667 0.020000 1.333333 0.200000 0.053333 3.750000
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/e2_summary.json
+
+[E2] best in-hoc = Linear-Attribution: 30663x cheaper than SHAP, accuracy cost 1.9 pts, fidelity 7.5x vs SHAP 9.4x
+========================================================================
+EXPERIMENT 3 -- Semantic Intent Agent vs design-time lexicon
+========================================================================
+[E3] 35 distinct use-case phrases in the corpus
+[E3] building TF-IDF char n-gram scorer ...
+[E3] building Together API LLM scorer ...
+     model = meta-llama/Llama-3.3-70B-Instruct-Turbo
+[E3] evaluating A. Lexicon (E1) ...
+  acc=0.9333 known=0.9929 unseen=0.9035 generic=0.8857 OOV gap=9.8 pts
+[E3] evaluating B. TF-IDF n-gram ...
+  acc=0.9472 known=0.9858 unseen=0.9474 generic=0.8952 OOV gap=6.5 pts
+[E3] evaluating D. LLM zero-shot ...
+  acc=0.9389 known=0.9574 unseen=0.9737 generic=0.8762 OOV gap=3.3 pts
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/e3_variants.csv
+
+         variant      acc       f1  acc_known  acc_unseen  acc_generic  oov_gap  acc_ambiguous  intent_ms  escalated80  autonomous80
+ A. Lexicon (E1) 0.933333 0.933523   0.992908    0.903509     0.885714 0.098296       0.773196   0.156863     0.236111      0.967273
+B. TF-IDF n-gram 0.947222 0.947408   0.985816    0.947368     0.895238 0.064512       0.824742   0.145661     0.200000      0.968750
+D. LLM zero-shot 0.938889 0.938911   0.957447    0.973684     0.876190 0.032509       0.814433   0.149947     0.188889      0.979452
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/e3_summary.json
+
+[E3] D. LLM zero-shot closes the open-vocabulary gap by 6.6 pts (9.8 -> 3.3) and lifts accuracy by 0.6 pts
+========================================================================/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+
+EXPERIMENT 4 -- Combined configuration (E2 x E3 factorial)
+========================================================================
+[E4] 35 distinct use-case phrases; 4 cells to evaluate
+[E4] E1  exact + SHAP ...
+     acc=0.9333  expl=  22.6821 ms  fid1=9.6x  oov_gap=9.8 pts
+[E4] E2  exact + Decision-Path ...
+     acc=0.8972  expl=   0.0114 ms  fid1=9.2x  oov_gap=9.9 pts
+[E4] E3  TF-IDF + SHAP ...
+     acc=0.9472  expl=  25.3442 ms  fid1=4.9x  oov_gap=6.5 pts
+[E4] E4  TF-IDF + Decision-Path ...
+     acc=0.8861  expl=   0.0116 ms  fid1=10.9x  oov_gap=14.4 pts
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/e4_factorial.csv
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/e4_summary.json
+
+------------------------------------------------------------------------
+                      cell      acc   expl_ms      fid1  oov_gap
+          E1  exact + SHAP 0.933333 22.682071  9.571429 0.098296
+ E2  exact + Decision-Path 0.897222  0.011371  9.222222 0.099051
+         E3  TF-IDF + SHAP 0.947222 25.344248  4.916667 0.064512
+E4  TF-IDF + Decision-Path 0.886111  0.011594 10.947368 0.143686
+------------------------------------------------------------------------
+[E4] accuracy effect  explainer only : -3.6 pts
+[E4] accuracy effect  prior only     : +1.4 pts
+[E4] accuracy effect  both combined  : -4.7 pts
+[E4] interaction (combined - sum)    : -2.5 pts
+[E4] OOV gap  9.8 -> 14.4 pts
+[E4] explanation cost speedup        : 1956x
+
+[run_all] running E5 (agentic Intent Agent) ...
+[E5] Selection Agent = Gradient Boosting (5-fold CV macro F1 = 0.925, train split only)
+  [E5] 10/10  calls=49 cached=0  $0.059
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/e5_agentic.csv
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/e5_decisions.csv
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/e5_summary.json
+
+========================================================================
+E5 AGENTIC INTENT AGENT  (n=10, model=zai-org/GLM-5.3)
+========================================================================
+experiment                intent_agent  acc  acc_known  acc_unseen  acc_generic  oov_gap     lat_s     usd
+        E1 Lexicon (regex + substring)  0.9   1.000000         1.0     0.666667 0.166667       NaN 0.00000
+        E5  LLM agent (tools + critic)  0.6   0.666667         0.0     0.666667 0.333333 16.548126 0.00585
+
+  accuracy      60.0%  (-30.0 pts vs E1 on the same intents)
+  Delta_OOV     33.3 pts  (-16.7 pts closed vs E1)
+  retry rate    0.0%   tool calls/intent 4.10
+  escalation    agent 100.0% vs confidence 100.0% error recall at a 100.0% budget
+  cost          $5.850 / 1000 intents-equivalent unit; $0.06 total
+  tools         {'convert_units': 7, 'query_lexicon': 9, 'get_kpi_envelope': 17, 'check_feasibility': 8}
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/comparison.csv
+
+========================================================================
+CROSS-EXPERIMENT COMPARISON
+========================================================================
+experiment                   focus               intent_agent                   explainer      acc       f1    expl_ms  fidelity  oov_gap
+        E1    Post-hoc explanation                    Lexicon             SHAP (post-hoc) 0.933333 0.933523 236.566393  9.428571 0.098296
+        E2      In-hoc explanation                    Lexicon Linear-Attribution (in-hoc) 0.913889 0.913828   0.007022  7.454545 0.141604
+        E3 Semantic intent parsing              LLM zero-shot             SHAP (post-hoc) 0.938889 0.938911 236.566393  9.428571 0.032509
+        E4      Combined (E2 + E3)              TF-IDF n-gram      Decision-Path (in-hoc) 0.886111 0.885437   0.011594 10.947368 0.143686
+        E5  Agentic intent parsing LLM agent (tools + critic)             SHAP (post-hoc) 0.600000 0.444444 236.566393  9.428571 0.333333
+
+[run_all] writing LaTeX macros ...
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/results_macros.tex  (95 macros)
+[run_all] rendering figures ...
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/fig_shap_global.pdf
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/fig_escalation.pdf
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/fig_e2_latency.pdf
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/fig_e3_oov.pdf
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/fig_e4_combined.pdf
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/fig_e5_agentic.pdf
+  -> /content/xagentic_work/xagentic-slicing/experiment/results/all_summary.json
+
+[run_all] done. Copy these back into the paper directory:
+  OK /content/xagentic_work/xagentic-slicing/experiment/results/results_macros.tex
+  OK /content/xagentic_work/xagentic-slicing/experiment/results/fig_shap_global.pdf
+  OK /content/xagentic_work/xagentic-slicing/experiment/results/fig_escalation.pdf
+  OK /content/xagentic_work/xagentic-slicing/experiment/results/fig_e2_latency.pdf
+  OK /content/xagentic_work/xagentic-slicing/experiment/results/fig_e3_oov.pdf
+  OK /content/xagentic_work/xagentic-slicing/experiment/results/fig_e4_combined.pdf
+  OK /content/xagentic_work/xagentic-slicing/experiment/results/fig_e5_agentic.pdf
+  OK /content/xagentic_work/xagentic-slicing/experiment/results/comparison.csv
+  OK /content/xagentic_work/xagentic-slicing/experiment/results/e4_factorial.csv
+  OK /content/xagentic_work/xagentic-slicing/experiment/results/e5_agentic.csv
+  OK /content/xagentic_work/xagentic-slicing/experiment/results/e5_summary.json
+  OK /content/xagentic_work/xagentic-slicing/experiment/results/llm_cache.json
+  OK /content/xagentic_work/xagentic-slicing/experiment/results/all_summary.json
+
+[run_all] tip: zip the whole results folder and download it:
+  shutil.make_archive('xagentic_results', 'zip', '/content/xagentic_work/xagentic-slicing/experiment/results')

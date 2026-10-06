@@ -1,0 +1,75 @@
+{
+  "n_intents": 10,
+  "selection_model": "Gradient Boosting",
+  "acc_overall": 0.7,
+  "macro_f1": 0.6868686868686869,
+  "contract_valid": 1.0,
+  "oov_gap": 0.16666666666666663,
+  "acc_known": 0.6666666666666666,
+  "acc_unseen": 0.0,
+  "acc_generic": 1.0,
+  "acc_ambiguous": 0.6666666666666666,
+  "e1_acc_overall": 0.9,
+  "e1_oov_gap": 0.16666666666666674,
+  "e1_acc_generic": 0.6666666666666666,
+  "e1_acc_unseen": 1.0,
+  "e1_acc_known": 1.0,
+  "e1_acc_full_split": 0.9333333333333333,
+  "e1_oov_full_split": 0.09829627259638463,
+  "acc_gain_pts": -20.000000000000007,
+  "oov_closed_pts": 1.1102230246251565e-14,
+  "slot_recall": 0.35238095238095235,
+  "slot_false_positive": 0.0,
+  "slot_detail": {
+    "recall": {
+      "latency_ms": 0.42857142857142855,
+      "throughput_mbps": 0.3,
+      "reliability_pct": 0.3,
+      "density_per_km2": 0.3333333333333333,
+      "mobility_kmh": 0.4
+    },
+    "false_positive": {
+      "latency_ms": 0.0,
+      "throughput_mbps": 0.0,
+      "reliability_pct": 0.0,
+      "density_per_km2": 0.0,
+      "mobility_kmh": 0.0
+    },
+    "mean_slot_accuracy": 0.35238095238095235,
+    "mean_false_positive": 0.0
+  },
+  "retry_rate": 0.7,
+  "n_retried": 7,
+  "acc_retried": 0.5714285714285714,
+  "acc_not_retried": 1.0,
+  "verdicts": {
+    "RETRY": 7,
+    "ACCEPT": 3
+  },
+  "tool_calls": {
+    "query_lexicon": 8,
+    "convert_units": 40,
+    "get_kpi_envelope": 7,
+    "check_feasibility": 4
+  },
+  "tool_calls_per_intent": 5.9,
+  "escalation": {
+    "budget": 0,
+    "escalated_pct": 0.0,
+    "recall_agent": 0.0,
+    "recall_confidence": 0.0,
+    "autonomous_acc_agent": 0.7,
+    "delta_pts": 0.0
+  },
+  "llm_calls_per_intent": 7.9,
+  "latency_s_per_intent": 4.988424420099955,
+  "tokens_in": 32668,
+  "tokens_out": 1937,
+  "cost_usd_total": 0.030452400000000004,
+  "cost_usd_per_intent": 0.0030452400000000003,
+  "parse_failures": 0,
+  "api_errors": 0,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "cache_hit_rate": 0.3924050632911392,
+  "wall_clock_s": 49.88424420099955
+}

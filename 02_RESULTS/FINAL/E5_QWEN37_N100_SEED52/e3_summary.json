@@ -1,0 +1,230 @@
+{
+  "experiment": "E3",
+  "label": "Semantic Intent Agent",
+  "table": [
+    {
+      "variant": "A. Lexicon (E1)",
+      "acc": 0.9444444444444444,
+      "f1": 0.9444657531062216,
+      "acc_known": 1.0,
+      "acc_unseen": 0.9375,
+      "acc_generic": 0.8818181818181818,
+      "oov_gap": 0.09034090909090908,
+      "acc_ambiguous": 0.8217821782178217,
+      "intent_ms": 0.10404571833229663,
+      "escalated80": 0.18611111111111112,
+      "autonomous80": 0.9829351535836177
+    },
+    {
+      "variant": "B. TF-IDF n-gram",
+      "acc": 0.9527777777777777,
+      "f1": 0.9527993770122157,
+      "acc_known": 0.9927536231884058,
+      "acc_unseen": 0.9910714285714286,
+      "acc_generic": 0.8636363636363636,
+      "oov_gap": 0.0653997270845097,
+      "acc_ambiguous": 0.8514851485148515,
+      "intent_ms": 0.1053125674995196,
+      "escalated80": 0.17222222222222222,
+      "autonomous80": 0.9932885906040269
+    },
+    {
+      "variant": "D. LLM zero-shot",
+      "acc": 0.95,
+      "f1": 0.9499725829794733,
+      "acc_known": 0.9782608695652174,
+      "acc_unseen": 0.9821428571428571,
+      "acc_generic": 0.8818181818181818,
+      "oov_gap": 0.046280350084697885,
+      "acc_ambiguous": 0.8613861386138614,
+      "intent_ms": 0.10401561916751234,
+      "escalated80": 0.1638888888888889,
+      "autonomous80": 0.9867109634551495
+    }
+  ],
+  "details": {
+    "A. Lexicon (E1)": {
+      "subgroup": {
+        "acc_overall": 0.9444444444444444,
+        "acc_clear": 0.9922779922779923,
+        "acc_ambiguous": 0.8217821782178217,
+        "n_clear": 259,
+        "n_ambiguous": 101,
+        "err_total": 20,
+        "err_from_ambiguous": 18,
+        "acc_known": 1.0,
+        "n_known": 138,
+        "err_known": 0,
+        "acc_unseen": 0.9375,
+        "n_unseen": 112,
+        "err_unseen": 7,
+        "acc_generic": 0.8818181818181818,
+        "n_generic": 110,
+        "err_generic": 13,
+        "oov_gap": 0.09034090909090908
+      },
+      "escalation": [
+        {
+          "tau": 0.5,
+          "escalated": 0.10277777777777777,
+          "precision": 0.13513513513513514,
+          "recall": 0.25,
+          "autonomous_acc": 0.9535603715170279
+        },
+        {
+          "tau": 0.6,
+          "escalated": 0.12777777777777777,
+          "precision": 0.1956521739130435,
+          "recall": 0.45,
+          "autonomous_acc": 0.964968152866242
+        },
+        {
+          "tau": 0.7,
+          "escalated": 0.16111111111111112,
+          "precision": 0.20689655172413793,
+          "recall": 0.6,
+          "autonomous_acc": 0.9735099337748344
+        },
+        {
+          "tau": 0.8,
+          "escalated": 0.18611111111111112,
+          "precision": 0.22388059701492538,
+          "recall": 0.75,
+          "autonomous_acc": 0.9829351535836177
+        },
+        {
+          "tau": 0.9,
+          "escalated": 0.24444444444444444,
+          "precision": 0.20454545454545456,
+          "recall": 0.9,
+          "autonomous_acc": 0.9926470588235294
+        }
+      ]
+    },
+    "B. TF-IDF n-gram": {
+      "subgroup": {
+        "acc_overall": 0.9527777777777777,
+        "acc_clear": 0.9922779922779923,
+        "acc_ambiguous": 0.8514851485148515,
+        "n_clear": 259,
+        "n_ambiguous": 101,
+        "err_total": 17,
+        "err_from_ambiguous": 15,
+        "acc_known": 0.9927536231884058,
+        "n_known": 138,
+        "err_known": 1,
+        "acc_unseen": 0.9910714285714286,
+        "n_unseen": 112,
+        "err_unseen": 1,
+        "acc_generic": 0.8636363636363636,
+        "n_generic": 110,
+        "err_generic": 15,
+        "oov_gap": 0.0653997270845097
+      },
+      "escalation": [
+        {
+          "tau": 0.5,
+          "escalated": 0.10277777777777777,
+          "precision": 0.10810810810810811,
+          "recall": 0.23529411764705882,
+          "autonomous_acc": 0.9597523219814241
+        },
+        {
+          "tau": 0.6,
+          "escalated": 0.11388888888888889,
+          "precision": 0.14634146341463414,
+          "recall": 0.35294117647058826,
+          "autonomous_acc": 0.9655172413793104
+        },
+        {
+          "tau": 0.7,
+          "escalated": 0.14444444444444443,
+          "precision": 0.2692307692307692,
+          "recall": 0.8235294117647058,
+          "autonomous_acc": 0.9902597402597403
+        },
+        {
+          "tau": 0.8,
+          "escalated": 0.17222222222222222,
+          "precision": 0.24193548387096775,
+          "recall": 0.8823529411764706,
+          "autonomous_acc": 0.9932885906040269
+        },
+        {
+          "tau": 0.9,
+          "escalated": 0.21666666666666667,
+          "precision": 0.20512820512820512,
+          "recall": 0.9411764705882353,
+          "autonomous_acc": 0.9964539007092199
+        }
+      ]
+    },
+    "D. LLM zero-shot": {
+      "subgroup": {
+        "acc_overall": 0.95,
+        "acc_clear": 0.9845559845559846,
+        "acc_ambiguous": 0.8613861386138614,
+        "n_clear": 259,
+        "n_ambiguous": 101,
+        "err_total": 18,
+        "err_from_ambiguous": 14,
+        "acc_known": 0.9782608695652174,
+        "n_known": 138,
+        "err_known": 3,
+        "acc_unseen": 0.9821428571428571,
+        "n_unseen": 112,
+        "err_unseen": 2,
+        "acc_generic": 0.8818181818181818,
+        "n_generic": 110,
+        "err_generic": 13,
+        "oov_gap": 0.046280350084697885
+      },
+      "escalation": [
+        {
+          "tau": 0.5,
+          "escalated": 0.09722222222222222,
+          "precision": 0.08571428571428572,
+          "recall": 0.16666666666666666,
+          "autonomous_acc": 0.9538461538461538
+        },
+        {
+          "tau": 0.6,
+          "escalated": 0.1111111111111111,
+          "precision": 0.175,
+          "recall": 0.3888888888888889,
+          "autonomous_acc": 0.965625
+        },
+        {
+          "tau": 0.7,
+          "escalated": 0.15,
+          "precision": 0.2037037037037037,
+          "recall": 0.6111111111111112,
+          "autonomous_acc": 0.9771241830065359
+        },
+        {
+          "tau": 0.8,
+          "escalated": 0.1638888888888889,
+          "precision": 0.23728813559322035,
+          "recall": 0.7777777777777778,
+          "autonomous_acc": 0.9867109634551495
+        },
+        {
+          "tau": 0.9,
+          "escalated": 0.19166666666666668,
+          "precision": 0.2318840579710145,
+          "recall": 0.8888888888888888,
+          "autonomous_acc": 0.993127147766323
+        }
+      ]
+    }
+  },
+  "n_phrases": 35,
+  "baseline_variant": "A. Lexicon (E1)",
+  "baseline_acc": 0.9444444444444444,
+  "baseline_oov_gap": 0.09034090909090908,
+  "best_variant": "D. LLM zero-shot",
+  "best_acc": 0.95,
+  "best_oov_gap": 0.046280350084697885,
+  "gap_closed_pts": 4.406055900621119,
+  "acc_gain_pts": 0.5555555555555536
+}
