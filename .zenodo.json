@@ -1,0 +1,31 @@
+{
+  "title": "Deterministic Intent Translation: Implementation, Benchmarks and Reproducibility Artifacts",
+  "description": "Reference implementation, frozen benchmarks, experiment runners and per-case evidence supporting the article 'Deterministic Failure Containment for Hallucination-Resistant LLM-Based Intent Translation in Network Slicing'. Includes the five-predicate validation cascade, the 120-case held-out benchmark, the multi-model robustness sweep (Study A), the constrained-decoding comparison (Study B), and the confirmatory rerun artifacts.",
+  "upload_type": "software",
+  "license": "mit",
+  "version": "1.0.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Chandrasekaran, R.",
+      "affiliation": "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology"
+    },
+    {
+      "name": "Navaz, K.",
+      "affiliation": "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology"
+    },
+    {
+      "name": "David Neels Ponkumar, D.",
+      "affiliation": "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology"
+    }
+  ],
+  "keywords": [
+    "intent-based networking",
+    "network slicing",
+    "large language models",
+    "hallucination containment",
+    "deterministic validation",
+    "explainable rejection",
+    "reproducibility artifact"
+  ]
+}

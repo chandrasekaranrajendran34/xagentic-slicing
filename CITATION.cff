@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software or its benchmarks, please cite both the software and the accompanying article."
+title: "From Intent to Slice: Explainable and Agentic AI for Trustworthy Network Slice Selection"
+abstract: >-
+  Reference implementation, frozen benchmarks, experiment runners and
+  We evaluate an explainable slice selector on 3,000 synthetic network intents, 
+  finding 91.7% mean accuracy across five seeds and an increase from 90.3% to 91.9% with a 
+  TF-IDF prior on the seed-46 test split. In a separate 100-intent trial, the tool-using 
+  LLM agent achieved 100% contract validity but 87.0% accuracy and 35.65 seconds per intent, 
+  highlighting trade-offs among validation, accuracy, and latency.
+  
+type: software
+authors:
+  - family-names: Chandrasekaran
+    given-names: R.
+    affiliation: "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology"
+  - family-names: Navaz
+    given-names: K.
+    affiliation: "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology"
+  - family-names: "David Neels Ponkumar"
+    given-names: D.
+    affiliation: "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology"
+version: 1.0.0
+date-released: "2026-10-06"
+license: MIT
+repository-code: "https://github.com/chandrasekaranrajendran34/xagentic-slicing"
+keywords:
+  - intent-based networking
+  - network slicing
+  - explainable 
+  - artificial intelligence
+  - agentic AI
+  - slice selection
+  - natural language processing
