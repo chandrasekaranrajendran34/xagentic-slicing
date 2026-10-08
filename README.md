@@ -1,6 +1,6 @@
 # XAgentic-Slicing
 
-**Explainable and Trustworthy Agentic AI for 5G/6G Network-Slicing Intent Interpretation**
+**From Intent to Slice: Explainable and Agentic AI for Trustworthy Network Slice Selection**
 
 A reproducible research project evaluating three-class network-slicing service recommendations (**eMBB**, **URLLC**, **mMTC**), explainability, lexical generalization, KPI feasibility, and selective autonomy.
 
