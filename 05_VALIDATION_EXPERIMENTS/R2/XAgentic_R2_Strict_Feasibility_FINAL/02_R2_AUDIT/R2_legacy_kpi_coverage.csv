@@ -1,0 +1,6 @@
+kpi,represented_by_intent_model,checked_by_legacy_feasible_set,audit_status
+latency_ms,True,True,COVERED
+throughput_mbps,True,True,COVERED
+reliability_pct,True,True,COVERED
+density_per_km2,True,True,COVERED
+mobility_kmh,True,False,MISSING_FROM_LEGACY_FEASIBILITY

@@ -1,0 +1,21 @@
+{
+  "calibration_folds": 5,
+  "calibration_method": "5-fold stratified out-of-fold calibration on the frozen 840-row training split",
+  "calibration_nonempty_rows": 830,
+  "calibration_seed": 42,
+  "calibration_strict_empty_rows": 10,
+  "calibration_total_rows": 840,
+  "comparison_operator": "feasible_probability_mass < threshold",
+  "experiment": "R3 Candidate Masking",
+  "frozen_feasible_mass_threshold": 0.5486315987262682,
+  "policy": {
+    "empty_feasible_set": "ESCALATE_EMPTY",
+    "nonempty_feasible_set_below_threshold": "ESCALATE_LOW_FEASIBLE_MASS",
+    "otherwise": "STRICT_MASKED_ARGMAX"
+  },
+  "policy_name": "strict_v2_mask_plus_oof_feasible_mass_escalation",
+  "status": "FROZEN_BEFORE_FINAL_HELDOUT_EVALUATION",
+  "target_low_mass_quantile": 0.05,
+  "threshold_selection_uses_test_labels": false,
+  "threshold_selection_uses_test_metrics": false
+}

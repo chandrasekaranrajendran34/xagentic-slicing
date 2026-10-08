@@ -1,0 +1,19 @@
+{
+  "autonomous_accuracy": 0.9648093841642229,
+  "autonomous_macro_f1": 0.9648195677002419,
+  "autonomous_n": 341,
+  "autonomous_strict_validity": 1.0,
+  "correct_autonomous_n": 329,
+  "correct_autonomous_over_total": 0.9138888888888889,
+  "coverage": 0.9472222222222222,
+  "empty_escalations": 4,
+  "escalated_n": 19,
+  "escalation_rate": 0.05277777777777778,
+  "frozen_tau": 0.5486315987262682,
+  "low_mass_escalations": 15,
+  "n_total": 360,
+  "policy_sha256": "9ebab1f743c71ee4fb3202976a6d9846b03391e256fbc095bd561c5adf831774",
+  "remaining_correct_to_wrong": 0,
+  "truth_feasible_escalated": 2,
+  "truth_infeasible_escalated": 17
+}

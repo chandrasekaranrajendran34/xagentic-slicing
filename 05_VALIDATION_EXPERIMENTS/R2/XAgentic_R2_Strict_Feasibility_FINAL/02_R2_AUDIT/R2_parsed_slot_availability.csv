@@ -1,0 +1,6 @@
+kpi,present,missing,present_pct
+latency_ms,846,354,70.5
+throughput_mbps,875,325,72.91666666666667
+reliability_pct,1049,151,87.41666666666667
+density_per_km2,674,526,56.166666666666664
+mobility_kmh,554,646,46.166666666666664

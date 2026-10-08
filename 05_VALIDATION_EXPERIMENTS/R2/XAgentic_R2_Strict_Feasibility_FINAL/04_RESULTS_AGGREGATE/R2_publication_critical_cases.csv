@@ -1,0 +1,4 @@
+id,pred,truth,verdict,escalated,latency_ms,throughput_mbps,reliability_pct,density_per_km2,mobility_kmh,classification_correct,extra_violation_kpis
+27,mMTC,eMBB,ESCALATE,True,,0.04,96.434,98237.0,142.0,False,density_per_km2|mobility_kmh
+178,URLLC,URLLC,ACCEPT,False,,3.9,99.876,12741.0,443.0,True,density_per_km2|mobility_kmh
+1160,mMTC,mMTC,ACCEPT,False,51.0,5.2,98.8025,125782.0,,True,density_per_km2|throughput_mbps

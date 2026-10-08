@@ -1,0 +1,105 @@
+R5 EXPERIMENT - RESTART INSTRUCTIONS
+====================================
+
+CHECKPOINT
+----------
+R5-10B is COMPLETE.
+
+The first valid frozen held-out evaluation has already been performed.
+
+DO NOT rerun or retune:
+R5-00 through R5-10B.
+
+FROZEN POLICY
+-------------
+R3 feasible-mass threshold:
+0.5486315987262682
+
+R4 margin threshold:
+0.7097637192002952
+
+R5 semantic support threshold:
+-0.0275677986595984
+
+R5 frozen policy SHA256:
+b8e5ef13e6895fcfb3656f7257c94727e3cea17d38f08563436d55b6cf0ba243
+
+FIRST VALID FROZEN HELD-OUT RESULT
+---------------------------------
+Total held-out observations: 360
+
+Frozen R4:
+Autonomous = 306
+Escalated = 54
+Autonomous correct = 301
+Autonomous errors = 5
+Coverage = 0.850000
+Autonomous accuracy = 0.983660
+Selective risk = 0.016340
+
+Frozen R4 + R5:
+Additional R5 escalations = 26
+R4 errors captured = 3
+Correct cases escalated = 23
+Error detection recall = 0.600000
+Verification precision = 0.115385
+Correct autonomous preservation = 0.923588
+
+Final autonomous = 280
+Final escalated = 80
+Final autonomous correct = 278
+Final autonomous errors = 2
+Coverage = 0.777778
+Autonomous accuracy = 0.992857
+Selective risk = 0.007143
+Wrong autonomous / total = 0.005556
+
+Captured residual error IDs:
+1197
+240
+769
+
+Remaining residual error IDs:
+658
+810
+
+IMPORTANT
+---------
+The held-out evaluation has already occurred.
+
+The R5 threshold is immutable.
+
+DO NOT:
+- change the threshold
+- tune using the five residual held-out errors
+- modify TF-IDF parameters
+- modify semantic prototypes
+- rerun policy selection
+- optimize based on held-out results
+
+NEXT STAGE
+----------
+Start with R5-11.
+
+R5-11 should perform:
+1. R3 vs R4 vs R5 comparison.
+2. Risk reduction analysis.
+3. Coverage trade-off analysis.
+4. Error-capture analysis.
+5. UC-kind analysis.
+6. Frozen-policy ablation/robustness analysis without retuning.
+7. Interpretation of the two remaining residual errors.
+
+After R5-11:
+R5-12 final findings/write-up.
+R5-13 final audit, manifest, evidence ZIP.
+
+RESTART PROCEDURE
+-----------------
+1. Open a new Google Colab runtime.
+2. Upload the saved R5 checkpoint ZIP.
+3. Extract it to /content/R5_work.
+4. Verify R5_END_OF_DAY_CHECKPOINT.json.
+5. Verify the frozen policy SHA256.
+6. Verify frozen R5 evidence hashes.
+7. Continue directly with R5-11.

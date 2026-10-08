@@ -1,0 +1,3 @@
+configuration,autonomous,errors,correct,coverage,selective_risk
+R4 without R5 verifier,306,5,301,0.85,0.016339869281045753
+R4 with frozen R5 verifier,280,2,278,0.7777777777777778,0.007142857142857143

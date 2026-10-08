@@ -1,0 +1,21 @@
+{
+  "experiment": "R3 strict-V2 probability-level candidate masking",
+  "n_total": 360,
+  "baseline_accuracy": 0.9583333333333334,
+  "baseline_strict_validity": 0.9472222222222222,
+  "baseline_infeasible_selection_rate": 0.05277777777777781,
+  "autonomous_n": 356,
+  "autonomous_coverage": 0.9888888888888889,
+  "escalated_n": 4,
+  "escalation_rate": 0.011111111111111112,
+  "masked_autonomous_strict_validity": 1.0,
+  "masked_autonomous_accuracy": 0.9269662921348315,
+  "masked_autonomous_macro_f1": 0.927061719711623,
+  "correct_autonomous_over_total": 0.9166666666666666,
+  "mask_changed_predictions": 15,
+  "beneficial_wrong_to_correct": 1,
+  "harmful_correct_to_wrong": 13,
+  "correct_to_escalate": 3,
+  "wrong_to_escalate": 1,
+  "strict_empty": 4
+}

@@ -1,0 +1,901 @@
+id,condition,true_id,pred_id,true_slice,pred_slice,ambiguous,uc_kind,use_case,correct
+1254,L3_generic_kpi,0,2,eMBB,mMTC,1,known,stadium hotspot,0
+2697,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,smart city service,1
+714,L3_generic_kpi,0,2,eMBB,mMTC,1,generic,campus connectivity,0
+1348,L3_generic_kpi,1,2,URLLC,mMTC,1,generic,municipal network service,0
+1396,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+332,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+76,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2269,L3_generic_kpi,1,1,URLLC,URLLC,0,known,factory robot control,1
+2761,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,municipal network service,1
+2710,L3_generic_kpi,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+193,L3_generic_kpi,1,1,URLLC,URLLC,0,known,factory robot control,1
+263,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,enterprise application,1
+1506,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+590,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,smart city service,1
+474,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2966,L3_generic_kpi,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1167,L3_generic_kpi,0,2,eMBB,mMTC,1,known,live broadcast,0
+2100,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,enterprise application,1
+215,L3_generic_kpi,2,2,mMTC,mMTC,0,known,asset trackers,1
+181,L3_generic_kpi,1,1,URLLC,URLLC,0,known,factory robot control,1
+97,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2395,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+2632,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+176,L3_generic_kpi,2,2,mMTC,mMTC,1,known,environmental monitoring,1
+1037,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,enterprise application,1
+1828,L3_generic_kpi,1,1,URLLC,URLLC,0,known,factory robot control,1
+562,L3_generic_kpi,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+683,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1896,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2694,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,event coverage service,1
+2226,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2394,L3_generic_kpi,0,1,eMBB,URLLC,1,unseen,digital signage uplink,0
+744,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,retail branch connectivity,1
+1936,L3_generic_kpi,1,1,URLLC,URLLC,1,unseen,rail interlocking signalling,1
+1013,L3_generic_kpi,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+1010,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,enterprise application,1
+2635,L3_generic_kpi,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+777,L3_generic_kpi,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+1443,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,public safety communications,1
+69,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,enterprise application,1
+2515,L3_generic_kpi,1,2,URLLC,mMTC,1,generic,research testbed service,0
+2446,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,municipal network service,1
+247,L3_generic_kpi,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+443,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,public safety communications,1
+2235,L3_generic_kpi,0,0,eMBB,eMBB,1,known,4K video streaming,1
+1902,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+965,L3_generic_kpi,2,0,mMTC,eMBB,1,unseen,cold-chain condition reporting,0
+1503,L3_generic_kpi,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2762,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,public safety communications,1
+1116,L3_generic_kpi,0,0,eMBB,eMBB,0,known,live broadcast,1
+457,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1209,L3_generic_kpi,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+1381,L3_generic_kpi,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+953,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+174,L3_generic_kpi,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+130,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,event coverage service,1
+889,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+591,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+1238,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1149,L3_generic_kpi,0,0,eMBB,eMBB,1,known,4K video streaming,1
+2474,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+841,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,smart city service,1
+2256,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1947,L3_generic_kpi,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2713,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,public safety communications,1
+2533,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,smart city service,1
+1634,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2555,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,municipal network service,1
+2541,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,enterprise application,1
+1716,L3_generic_kpi,0,1,eMBB,URLLC,1,known,stadium hotspot,0
+2397,L3_generic_kpi,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1961,L3_generic_kpi,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+1687,L3_generic_kpi,1,1,URLLC,URLLC,0,known,factory robot control,1
+1119,L3_generic_kpi,0,0,eMBB,eMBB,0,known,live broadcast,1
+740,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+782,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+603,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,research testbed service,1
+84,L3_generic_kpi,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+59,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,smart city service,1
+1990,L3_generic_kpi,1,0,URLLC,eMBB,1,unseen,substation differential tripping,0
+2604,L3_generic_kpi,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2038,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+2315,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+331,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,smart city service,1
+1513,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+369,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+574,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,enterprise application,1
+477,L3_generic_kpi,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1028,L3_generic_kpi,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1775,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,municipal network service,1
+2212,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,smart city service,1
+967,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1177,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+910,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2024,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1282,L3_generic_kpi,1,1,URLLC,URLLC,1,generic,campus connectivity,1
+2364,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+959,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,smart city service,1
+1581,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,event coverage service,1
+2804,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,public safety communications,1
+1419,L3_generic_kpi,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2513,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+287,L3_generic_kpi,2,2,mMTC,mMTC,1,known,environmental monitoring,1
+538,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,research testbed service,1
+2928,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,retail branch connectivity,1
+1333,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2728,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,public safety communications,1
+2066,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,event coverage service,1
+2,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+771,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+1656,L3_generic_kpi,0,2,eMBB,mMTC,1,known,fixed wireless access,0
+2379,L3_generic_kpi,0,0,eMBB,eMBB,1,unseen,in-flight entertainment uplink,1
+2637,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,research testbed service,1
+229,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2657,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2854,L3_generic_kpi,1,2,URLLC,mMTC,1,generic,campus connectivity,0
+2028,L3_generic_kpi,0,0,eMBB,eMBB,0,known,live broadcast,1
+1912,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+1435,L3_generic_kpi,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+881,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+29,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+697,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1206,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,municipal network service,1
+1719,L3_generic_kpi,0,0,eMBB,eMBB,0,known,live broadcast,1
+1074,L3_generic_kpi,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+14,L3_generic_kpi,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+727,L3_generic_kpi,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1608,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1919,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1530,L3_generic_kpi,0,1,eMBB,URLLC,1,known,4K video streaming,0
+743,L3_generic_kpi,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+1155,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1813,L3_generic_kpi,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1683,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,public safety communications,1
+1459,L3_generic_kpi,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+451,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2291,L3_generic_kpi,2,2,mMTC,mMTC,1,known,environmental monitoring,1
+2842,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+276,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+164,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+1136,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1909,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1782,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2636,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2062,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+866,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+172,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,research testbed service,1
+1095,L3_generic_kpi,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1362,L3_generic_kpi,0,0,eMBB,eMBB,1,known,4K video streaming,1
+2498,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,enterprise application,1
+1372,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1651,L3_generic_kpi,1,1,URLLC,URLLC,1,known,factory robot control,1
+2258,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2341,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+2542,L3_generic_kpi,1,0,URLLC,eMBB,1,generic,research testbed service,0
+1576,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1918,L3_generic_kpi,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2440,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,municipal network service,1
+155,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,smart city service,1
+877,L3_generic_kpi,1,1,URLLC,URLLC,0,known,factory robot control,1
+1017,L3_generic_kpi,0,1,eMBB,URLLC,1,unseen,high-definition conferencing,0
+2483,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+2931,L3_generic_kpi,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1554,L3_generic_kpi,0,0,eMBB,eMBB,1,known,live broadcast,1
+1368,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1632,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1329,L3_generic_kpi,0,2,eMBB,mMTC,0,unseen,newsroom contribution feed,0
+469,L3_generic_kpi,1,1,URLLC,URLLC,1,generic,retail branch connectivity,1
+466,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+254,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2980,L3_generic_kpi,1,1,URLLC,URLLC,1,known,factory robot control,1
+647,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+1176,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,enterprise application,1
+2671,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,municipal network service,1
+341,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1338,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+622,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1974,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,municipal network service,1
+2896,L3_generic_kpi,1,0,URLLC,eMBB,1,known,factory robot control,0
+860,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,research testbed service,1
+1830,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+1696,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2553,L3_generic_kpi,0,1,eMBB,URLLC,1,generic,enterprise application,0
+2356,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,event coverage service,1
+1957,L3_generic_kpi,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+1586,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+842,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+913,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,research testbed service,1
+1706,L3_generic_kpi,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+1620,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+354,L3_generic_kpi,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+935,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2354,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1888,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+2502,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1982,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+2151,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+873,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+512,L3_generic_kpi,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2314,L3_generic_kpi,1,1,URLLC,URLLC,1,generic,public safety communications,1
+1327,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1024,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,public safety communications,1
+2016,L3_generic_kpi,0,0,eMBB,eMBB,1,known,live broadcast,1
+1462,L3_generic_kpi,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+736,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+884,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1082,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,enterprise application,1
+949,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,research testbed service,1
+509,L3_generic_kpi,2,2,mMTC,mMTC,0,known,asset trackers,1
+2393,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,public safety communications,1
+1076,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,event coverage service,1
+1302,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,smart city service,1
+10,L3_generic_kpi,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1135,L3_generic_kpi,1,0,URLLC,eMBB,0,known,remote surgery,0
+2732,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+1069,L3_generic_kpi,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2763,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,enterprise application,1
+2930,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,smart city service,1
+2224,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,public safety communications,1
+2019,L3_generic_kpi,0,0,eMBB,eMBB,0,known,live broadcast,1
+988,L3_generic_kpi,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+239,L3_generic_kpi,2,2,mMTC,mMTC,0,known,asset trackers,1
+2628,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,retail branch connectivity,1
+2500,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,municipal network service,1
+966,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,enterprise application,1
+784,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+664,L3_generic_kpi,1,1,URLLC,URLLC,1,unseen,substation differential tripping,1
+2958,L3_generic_kpi,0,0,eMBB,eMBB,1,unseen,in-flight entertainment uplink,1
+160,L3_generic_kpi,1,2,URLLC,mMTC,1,known,remote surgery,0
+2564,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+183,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1096,L3_generic_kpi,1,1,URLLC,URLLC,1,generic,campus connectivity,1
+378,L3_generic_kpi,0,0,eMBB,eMBB,0,known,live broadcast,1
+1277,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,smart city service,1
+1403,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,campus connectivity,1
+2261,L3_generic_kpi,2,1,mMTC,URLLC,1,generic,campus connectivity,0
+269,L3_generic_kpi,2,2,mMTC,mMTC,0,known,asset trackers,1
+989,L3_generic_kpi,2,0,mMTC,eMBB,1,known,agricultural sensors,0
+1105,L3_generic_kpi,1,1,URLLC,URLLC,1,known,factory robot control,1
+22,L3_generic_kpi,1,2,URLLC,mMTC,1,generic,retail branch connectivity,0
+203,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,retail branch connectivity,1
+871,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,public safety communications,1
+2736,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+608,L3_generic_kpi,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+917,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+641,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+2654,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1414,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1062,L3_generic_kpi,0,2,eMBB,mMTC,1,unseen,digital signage uplink,0
+1318,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2905,L3_generic_kpi,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2084,L3_generic_kpi,2,1,mMTC,URLLC,1,unseen,soil-moisture reporting nodes,0
+1544,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,retail branch connectivity,1
+1441,L3_generic_kpi,1,0,URLLC,eMBB,1,unseen,substation differential tripping,0
+1952,L3_generic_kpi,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+300,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1289,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,retail branch connectivity,1
+2787,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1268,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,enterprise application,1
+1468,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2944,L3_generic_kpi,1,1,URLLC,URLLC,1,generic,research testbed service,1
+2830,L3_generic_kpi,1,2,URLLC,mMTC,1,known,factory robot control,0
+1084,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1869,L3_generic_kpi,0,1,eMBB,URLLC,1,generic,campus connectivity,0
+551,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+761,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+1407,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1427,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,research testbed service,1
+1546,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,retail branch connectivity,1
+2241,L3_generic_kpi,0,0,eMBB,eMBB,1,known,live broadcast,1
+1914,L3_generic_kpi,0,2,eMBB,mMTC,1,unseen,newsroom contribution feed,0
+987,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,smart city service,1
+240,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1798,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1865,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+480,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1088,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,research testbed service,1
+2055,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2904,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2951,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1889,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2560,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2221,L3_generic_kpi,1,1,URLLC,URLLC,1,unseen,rail interlocking signalling,1
+1693,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1725,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+2489,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2444,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,retail branch connectivity,1
+2730,L3_generic_kpi,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2463,L3_generic_kpi,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1346,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+576,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,smart city service,1
+1358,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+717,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,enterprise application,1
+816,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,retail branch connectivity,1
+1777,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2707,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+1805,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,retail branch connectivity,1
+1920,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2414,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+340,L3_generic_kpi,1,1,URLLC,URLLC,1,generic,event coverage service,1
+799,L3_generic_kpi,1,1,URLLC,URLLC,1,generic,campus connectivity,1
+524,L3_generic_kpi,2,0,mMTC,eMBB,1,unseen,street luminaire telemetry,0
+1002,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2205,L3_generic_kpi,0,1,eMBB,URLLC,1,unseen,newsroom contribution feed,0
+646,L3_generic_kpi,1,2,URLLC,mMTC,1,unseen,surgical imaging feedback,0
+2093,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+291,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,event coverage service,1
+701,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,research testbed service,1
+627,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+2442,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2030,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,research testbed service,1
+2282,L3_generic_kpi,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2453,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,enterprise application,1
+1832,L3_generic_kpi,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2923,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+732,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2848,L3_generic_kpi,1,0,URLLC,eMBB,1,known,remote surgery,0
+2856,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1812,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2625,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,retail branch connectivity,1
+488,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+1147,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1903,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1723,L3_generic_kpi,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+619,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+482,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+484,L3_generic_kpi,1,1,URLLC,URLLC,1,unseen,substation differential tripping,1
+2524,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,public safety communications,1
+2734,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2164,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2115,L3_generic_kpi,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+813,L3_generic_kpi,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1249,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+2995,L3_generic_kpi,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+238,L3_generic_kpi,1,1,URLLC,URLLC,1,generic,event coverage service,1
+2582,L3_generic_kpi,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1986,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1266,L3_generic_kpi,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+232,L3_generic_kpi,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2443,L3_generic_kpi,1,0,URLLC,eMBB,0,generic,enterprise application,0
+2884,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,campus connectivity,1
+2603,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,research testbed service,1
+655,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+826,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+890,L3_generic_kpi,2,2,mMTC,mMTC,0,known,asset trackers,1
+1618,L3_generic_kpi,1,0,URLLC,eMBB,1,unseen,rail interlocking signalling,0
+89,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,public safety communications,1
+1676,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,campus connectivity,1
+650,L3_generic_kpi,2,1,mMTC,URLLC,1,known,smart water meters,0
+460,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,public safety communications,1
+1520,L3_generic_kpi,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+2503,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,retail branch connectivity,1
+874,L3_generic_kpi,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+1430,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+707,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,smart city service,1
+1601,L3_generic_kpi,2,1,mMTC,URLLC,1,known,asset trackers,0
+415,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1286,L3_generic_kpi,2,2,mMTC,mMTC,0,known,asset trackers,1
+2263,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1490,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+449,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+63,L3_generic_kpi,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1000,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2447,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+1611,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+2425,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+534,L3_generic_kpi,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1067,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,smart city service,1
+1016,L3_generic_kpi,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2336,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+789,L3_generic_kpi,0,0,eMBB,eMBB,0,known,live broadcast,1
+2042,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1345,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1052,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,event coverage service,1
+2691,L3_generic_kpi,0,0,eMBB,eMBB,1,known,live broadcast,1
+882,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1357,L3_generic_kpi,1,1,URLLC,URLLC,0,known,factory robot control,1
+2475,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1260,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+902,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,enterprise application,1
+2370,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1326,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+438,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+376,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2320,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+2310,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+13,L3_generic_kpi,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+270,L3_generic_kpi,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2259,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,event coverage service,1
+2963,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+467,L3_generic_kpi,2,2,mMTC,mMTC,1,known,smart water meters,1
+2766,L3_generic_kpi,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2317,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+523,L3_generic_kpi,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+948,L3_generic_kpi,0,0,eMBB,eMBB,1,unseen,in-flight entertainment uplink,1
+1215,L3_generic_kpi,0,0,eMBB,eMBB,0,known,live broadcast,1
+812,L3_generic_kpi,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+2768,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1662,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1001,L3_generic_kpi,2,1,mMTC,URLLC,0,generic,campus connectivity,0
+2753,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2136,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,retail branch connectivity,1
+1287,L3_generic_kpi,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1796,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1864,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,smart city service,1
+2630,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+626,L3_generic_kpi,2,2,mMTC,mMTC,1,known,smart water meters,1
+611,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+182,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+567,L3_generic_kpi,0,2,eMBB,mMTC,0,generic,event coverage service,0
+2512,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1347,L3_generic_kpi,0,2,eMBB,mMTC,1,known,live broadcast,0
+706,L3_generic_kpi,1,0,URLLC,eMBB,1,known,factory robot control,0
+1417,L3_generic_kpi,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1949,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+1397,L3_generic_kpi,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+2305,L3_generic_kpi,1,1,URLLC,URLLC,1,known,factory robot control,1
+2229,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+624,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+674,L3_generic_kpi,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2532,L3_generic_kpi,0,2,eMBB,mMTC,1,known,stadium hotspot,0
+1497,L3_generic_kpi,0,2,eMBB,mMTC,1,known,4K video streaming,0
+2607,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,enterprise application,1
+2237,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+124,L3_generic_kpi,1,1,URLLC,URLLC,1,known,factory robot control,1
+1741,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,research testbed service,1
+1291,L3_generic_kpi,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1236,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+225,L3_generic_kpi,0,2,eMBB,mMTC,1,known,4K video streaming,0
+1814,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+1484,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+637,L3_generic_kpi,1,0,URLLC,eMBB,0,unseen,surgical imaging feedback,0
+1496,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,public safety communications,1
+2866,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,municipal network service,1
+1421,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,enterprise application,1
+2967,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,municipal network service,1
+2373,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2674,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+1926,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,smart city service,1
+297,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1293,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1780,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+894,L3_generic_kpi,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1280,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+361,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2477,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+2580,L3_generic_kpi,0,0,eMBB,eMBB,0,known,live broadcast,1
+2128,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+713,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+2853,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2799,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1748,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2064,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+201,L3_generic_kpi,0,0,eMBB,eMBB,1,known,4K video streaming,1
+122,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,smart city service,1
+600,L3_generic_kpi,0,0,eMBB,eMBB,1,known,4K video streaming,1
+2268,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,smart city service,1
+2792,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,event coverage service,1
+1857,L3_generic_kpi,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2145,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2010,L3_generic_kpi,0,1,eMBB,URLLC,0,known,fixed wireless access,0
+327,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2390,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1703,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+25,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+420,L3_generic_kpi,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2557,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,event coverage service,1
+1211,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2006,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+251,L3_generic_kpi,2,0,mMTC,eMBB,1,known,asset trackers,0
+221,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+2870,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2881,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1233,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+1408,L3_generic_kpi,1,1,URLLC,URLLC,1,generic,public safety communications,1
+1833,L3_generic_kpi,0,0,eMBB,eMBB,1,known,4K video streaming,1
+302,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,municipal network service,1
+418,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+2738,L3_generic_kpi,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+2223,L3_generic_kpi,0,0,eMBB,eMBB,0,known,4K video streaming,1
+4,L3_generic_kpi,1,0,URLLC,eMBB,1,known,haptic teleoperation,0
+313,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,smart city service,1
+1711,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,enterprise application,1
+2325,L3_generic_kpi,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+136,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,municipal network service,1
+216,L3_generic_kpi,0,1,eMBB,URLLC,1,unseen,newsroom contribution feed,0
+337,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2573,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+1330,L3_generic_kpi,1,2,URLLC,mMTC,1,known,haptic teleoperation,0
+640,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+550,L3_generic_kpi,1,2,URLLC,mMTC,1,unseen,port crane synchronisation,0
+2013,L3_generic_kpi,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1160,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,event coverage service,1
+1841,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,research testbed service,1
+1938,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,research testbed service,1
+2594,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,public safety communications,1
+2960,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+986,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,public safety communications,1
+2688,L3_generic_kpi,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2806,L3_generic_kpi,1,1,URLLC,URLLC,1,known,remote surgery,1
+2173,L3_generic_kpi,1,1,URLLC,URLLC,0,known,factory robot control,1
+2880,L3_generic_kpi,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2082,L3_generic_kpi,0,2,eMBB,mMTC,1,generic,research testbed service,0
+2847,L3_generic_kpi,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2236,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+189,L3_generic_kpi,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1306,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2709,L3_generic_kpi,0,0,eMBB,eMBB,0,known,4K video streaming,1
+731,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+2264,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2817,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+2970,L3_generic_kpi,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2127,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1014,L3_generic_kpi,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+82,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,enterprise application,1
+737,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,enterprise application,1
+218,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+566,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+649,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1925,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,municipal network service,1
+2957,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1653,L3_generic_kpi,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2687,L3_generic_kpi,2,2,mMTC,mMTC,0,known,asset trackers,1
+123,L3_generic_kpi,0,0,eMBB,eMBB,0,known,live broadcast,1
+2368,L3_generic_kpi,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2563,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1061,L3_generic_kpi,2,0,mMTC,eMBB,1,known,agricultural sensors,0
+609,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+120,L3_generic_kpi,0,2,eMBB,mMTC,1,unseen,newsroom contribution feed,0
+1686,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+984,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,smart city service,1
+266,L3_generic_kpi,2,2,mMTC,mMTC,0,known,asset trackers,1
+668,L3_generic_kpi,2,0,mMTC,eMBB,1,unseen,street luminaire telemetry,0
+1031,L3_generic_kpi,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1580,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+1721,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+1051,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+2535,L3_generic_kpi,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1047,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1921,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,campus connectivity,1
+751,L3_generic_kpi,1,1,URLLC,URLLC,1,known,factory robot control,1
+2897,L3_generic_kpi,2,1,mMTC,URLLC,1,known,environmental monitoring,0
+1640,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+2708,L3_generic_kpi,2,1,mMTC,URLLC,1,unseen,street luminaire telemetry,0
+1467,L3_generic_kpi,0,0,eMBB,eMBB,1,known,4K video streaming,1
+1131,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+1913,L3_generic_kpi,2,2,mMTC,mMTC,1,known,asset trackers,1
+710,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,campus connectivity,1
+1300,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,research testbed service,1
+2959,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+20,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+1746,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1590,L3_generic_kpi,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+140,L3_generic_kpi,2,2,mMTC,mMTC,0,known,asset trackers,1
+2407,L3_generic_kpi,1,1,URLLC,URLLC,0,known,factory robot control,1
+1707,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1661,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,research testbed service,1
+1065,L3_generic_kpi,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2504,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+264,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1102,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,smart city service,1
+547,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1807,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,research testbed service,1
+1041,L3_generic_kpi,0,0,eMBB,eMBB,1,known,4K video streaming,1
+2158,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,retail branch connectivity,1
+2538,L3_generic_kpi,0,0,eMBB,eMBB,0,known,live broadcast,1
+1822,L3_generic_kpi,1,1,URLLC,URLLC,1,known,remote surgery,1
+1499,L3_generic_kpi,2,2,mMTC,mMTC,0,known,asset trackers,1
+367,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2246,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,event coverage service,1
+1317,L3_generic_kpi,0,1,eMBB,URLLC,1,generic,public safety communications,0
+2036,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,municipal network service,1
+1273,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,retail branch connectivity,1
+939,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,smart city service,1
+278,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2575,L3_generic_kpi,1,0,URLLC,eMBB,0,known,smart-grid protection,0
+8,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+1158,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2405,L3_generic_kpi,2,2,mMTC,mMTC,1,known,asset trackers,1
+589,L3_generic_kpi,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+1677,L3_generic_kpi,0,1,eMBB,URLLC,1,known,fixed wireless access,0
+2287,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,enterprise application,1
+2203,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+510,L3_generic_kpi,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2267,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,research testbed service,1
+2330,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,smart city service,1
+960,L3_generic_kpi,0,2,eMBB,mMTC,1,unseen,digital signage uplink,0
+2327,L3_generic_kpi,2,2,mMTC,mMTC,1,known,smart water meters,1
+1432,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1501,L3_generic_kpi,1,2,URLLC,mMTC,1,unseen,rail interlocking signalling,0
+1446,L3_generic_kpi,0,2,eMBB,mMTC,1,known,AR/VR gaming,0
+1641,L3_generic_kpi,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1951,L3_generic_kpi,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+241,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+138,L3_generic_kpi,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+456,L3_generic_kpi,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2771,L3_generic_kpi,2,2,mMTC,mMTC,1,known,smart water meters,1
+2689,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2160,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1207,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2234,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+423,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,smart city service,1
+1170,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,smart city service,1
+2715,L3_generic_kpi,0,2,eMBB,mMTC,0,unseen,newsroom contribution feed,0
+1259,L3_generic_kpi,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+1271,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+1470,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,public safety communications,1
+2248,L3_generic_kpi,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+32,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1230,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+109,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,event coverage service,1
+2004,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1152,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,event coverage service,1
+1382,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+1878,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+211,L3_generic_kpi,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+2239,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1821,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,research testbed service,1
+2105,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2238,L3_generic_kpi,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+7,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2662,L3_generic_kpi,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+769,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+569,L3_generic_kpi,2,1,mMTC,URLLC,1,generic,research testbed service,0
+1630,L3_generic_kpi,1,0,URLLC,eMBB,1,known,haptic teleoperation,0
+1127,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,smart city service,1
+973,L3_generic_kpi,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1776,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1005,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+2583,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2658,L3_generic_kpi,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2863,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,smart city service,1
+2740,L3_generic_kpi,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+74,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1315,L3_generic_kpi,1,1,URLLC,URLLC,0,known,factory robot control,1
+2664,L3_generic_kpi,0,2,eMBB,mMTC,0,unseen,in-flight entertainment uplink,0
+2679,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,municipal network service,1
+612,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,event coverage service,1
+2318,L3_generic_kpi,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+61,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,event coverage service,1
+2795,L3_generic_kpi,2,1,mMTC,URLLC,1,unseen,utility submetering fleet,0
+977,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2349,L3_generic_kpi,0,0,eMBB,eMBB,0,known,4K video streaming,1
+112,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2288,L3_generic_kpi,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1542,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,retail branch connectivity,1
+543,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,enterprise application,1
+642,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,retail branch connectivity,1
+2302,L3_generic_kpi,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+2530,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,public safety communications,1
+1433,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+1019,L3_generic_kpi,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+62,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,campus connectivity,1
+1063,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2176,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1820,L3_generic_kpi,2,2,mMTC,mMTC,1,known,environmental monitoring,1
+2934,L3_generic_kpi,0,0,eMBB,eMBB,0,known,live broadcast,1
+2964,L3_generic_kpi,0,2,eMBB,mMTC,1,known,AR/VR gaming,0
+2197,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+922,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,retail branch connectivity,1
+2837,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+2293,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+1335,L3_generic_kpi,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2882,L3_generic_kpi,2,0,mMTC,eMBB,1,unseen,utility submetering fleet,0
+1730,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,research testbed service,1
+1007,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+90,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,retail branch connectivity,1
+1221,L3_generic_kpi,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1907,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+177,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+1213,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,event coverage service,1
+1541,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1882,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+941,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+492,L3_generic_kpi,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2009,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+472,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,campus connectivity,1
+936,L3_generic_kpi,0,1,eMBB,URLLC,1,unseen,digital signage uplink,0
+2611,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,research testbed service,1
+19,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+491,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+1700,L3_generic_kpi,2,2,mMTC,mMTC,1,known,asset trackers,1
+1195,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,research testbed service,1
+2776,L3_generic_kpi,1,2,URLLC,mMTC,1,known,remote surgery,0
+2791,L3_generic_kpi,1,1,URLLC,URLLC,0,known,factory robot control,1
+1474,L3_generic_kpi,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1672,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+586,L3_generic_kpi,1,1,URLLC,URLLC,1,generic,public safety communications,1
+2163,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,research testbed service,1
+353,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,smart city service,1
+351,L3_generic_kpi,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+2509,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+386,L3_generic_kpi,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+1406,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2912,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,event coverage service,1
+1695,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,public safety communications,1
+2426,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2152,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+1536,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+1560,L3_generic_kpi,0,2,eMBB,mMTC,1,unseen,high-definition conferencing,0
+1353,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,smart city service,1
+504,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,public safety communications,1
+151,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,retail branch connectivity,1
+2358,L3_generic_kpi,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+1602,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2347,L3_generic_kpi,1,1,URLLC,URLLC,1,generic,smart city service,1
+1675,L3_generic_kpi,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+720,L3_generic_kpi,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+489,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+1106,L3_generic_kpi,2,2,mMTC,mMTC,0,known,asset trackers,1
+261,L3_generic_kpi,0,2,eMBB,mMTC,1,unseen,newsroom contribution feed,0
+1617,L3_generic_kpi,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1064,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2846,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,retail branch connectivity,1
+2033,L3_generic_kpi,2,2,mMTC,mMTC,0,known,asset trackers,1
+2072,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,retail branch connectivity,1
+1803,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+169,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,municipal network service,1
+1285,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1197,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,campus connectivity,1
+1937,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,smart city service,1
+2479,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+556,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1708,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+760,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+1445,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+285,L3_generic_kpi,0,0,eMBB,eMBB,0,known,4K video streaming,1
+692,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1743,L3_generic_kpi,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1838,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,smart city service,1
+1525,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1756,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+2735,L3_generic_kpi,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2137,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+858,L3_generic_kpi,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+281,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,retail branch connectivity,1
+2605,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+1514,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+1761,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1605,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+2362,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+391,L3_generic_kpi,1,2,URLLC,mMTC,1,generic,enterprise application,0
+1491,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,public safety communications,1
+2252,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,campus connectivity,1
+2377,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2117,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,campus connectivity,1
+289,L3_generic_kpi,1,0,URLLC,eMBB,0,generic,municipal network service,0
+2391,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+381,L3_generic_kpi,0,0,eMBB,eMBB,1,unseen,in-flight entertainment uplink,1
+2851,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+194,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,event coverage service,1
+1307,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,campus connectivity,1
+260,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,retail branch connectivity,1
+1416,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1367,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,smart city service,1
+284,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,research testbed service,1
+1039,L3_generic_kpi,1,2,URLLC,mMTC,1,known,factory robot control,0
+793,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,public safety communications,1
+2781,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2003,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,public safety communications,1
+1861,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+81,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+778,L3_generic_kpi,1,0,URLLC,eMBB,1,unseen,surgical imaging feedback,0
+2112,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+199,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+73,L3_generic_kpi,1,1,URLLC,URLLC,0,known,drone fleet control,1
+920,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,public safety communications,1
+1463,L3_generic_kpi,2,2,mMTC,mMTC,1,known,smart water meters,1
+539,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2255,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2286,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,event coverage service,1
+2581,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2721,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,event coverage service,1
+2174,L3_generic_kpi,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1556,L3_generic_kpi,2,2,mMTC,mMTC,1,known,asset trackers,1
+1232,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2836,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1437,L3_generic_kpi,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1451,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+2126,L3_generic_kpi,2,2,mMTC,mMTC,0,known,asset trackers,1
+2606,L3_generic_kpi,2,0,mMTC,eMBB,1,known,smart water meters,0
+2525,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2954,L3_generic_kpi,2,2,mMTC,mMTC,0,known,asset trackers,1
+86,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+2404,L3_generic_kpi,1,0,URLLC,eMBB,1,known,drone fleet control,0
+304,L3_generic_kpi,1,1,URLLC,URLLC,1,generic,enterprise application,1
+1778,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+1547,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+2181,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,public safety communications,1
+1933,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+2430,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2723,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1241,L3_generic_kpi,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+827,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1839,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+1698,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,smart city service,1
+1216,L3_generic_kpi,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+1009,L3_generic_kpi,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+1217,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1269,L3_generic_kpi,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+776,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2183,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,enterprise application,1
+307,L3_generic_kpi,1,2,URLLC,mMTC,1,generic,municipal network service,0
+1200,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+985,L3_generic_kpi,1,0,URLLC,eMBB,0,unseen,rail interlocking signalling,0
+286,L3_generic_kpi,1,1,URLLC,URLLC,1,known,remote surgery,1
+869,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,public safety communications,1
+2469,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,enterprise application,1
+712,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+39,L3_generic_kpi,0,0,eMBB,eMBB,1,known,live broadcast,1
+660,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,research testbed service,1
+1863,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2748,L3_generic_kpi,0,0,eMBB,eMBB,1,known,live broadcast,1
+2450,L3_generic_kpi,2,2,mMTC,mMTC,0,known,asset trackers,1
+2104,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,smart city service,1
+2665,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,smart city service,1
+779,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2065,L3_generic_kpi,1,0,URLLC,eMBB,1,known,factory robot control,0
+2230,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2294,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+604,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1218,L3_generic_kpi,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+338,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,campus connectivity,1
+584,L3_generic_kpi,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+294,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,retail branch connectivity,1
+810,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+296,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1161,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,smart city service,1
+94,L3_generic_kpi,1,2,URLLC,mMTC,1,generic,municipal network service,0
+2285,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,enterprise application,1
+2166,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+249,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,retail branch connectivity,1
+2865,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,event coverage service,1
+1980,L3_generic_kpi,0,0,eMBB,eMBB,0,known,live broadcast,1
+2244,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,public safety communications,1
+2599,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1825,L3_generic_kpi,1,0,URLLC,eMBB,1,generic,smart city service,0
+2705,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,public safety communications,1
+1621,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,event coverage service,1
+2841,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2295,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+5,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1834,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+532,L3_generic_kpi,1,1,URLLC,URLLC,1,known,factory robot control,1
+1978,L3_generic_kpi,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+279,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,research testbed service,1
+2399,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2146,L3_generic_kpi,1,1,URLLC,URLLC,0,known,factory robot control,1
+277,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,municipal network service,1
+1879,L3_generic_kpi,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2298,L3_generic_kpi,0,1,eMBB,URLLC,1,generic,research testbed service,0
+137,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1773,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,municipal network service,1
+1126,L3_generic_kpi,1,0,URLLC,eMBB,1,unseen,rail interlocking signalling,0
+688,L3_generic_kpi,1,1,URLLC,URLLC,0,known,factory robot control,1
+1359,L3_generic_kpi,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2631,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,retail branch connectivity,1
+1973,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,public safety communications,1
+132,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2743,L3_generic_kpi,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+2676,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,municipal network service,1
+2455,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1424,L3_generic_kpi,2,0,mMTC,eMBB,0,generic,retail branch connectivity,0
+362,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2086,L3_generic_kpi,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1754,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+794,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+103,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1724,L3_generic_kpi,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2121,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+359,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,event coverage service,1
+1996,L3_generic_kpi,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+991,L3_generic_kpi,1,1,URLLC,URLLC,0,known,remote surgery,1
+1760,L3_generic_kpi,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+233,L3_generic_kpi,2,2,mMTC,mMTC,1,generic,event coverage service,1
+2279,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1252,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1561,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,research testbed service,1
+1060,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+48,L3_generic_kpi,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+476,L3_generic_kpi,2,2,mMTC,mMTC,0,generic,research testbed service,1
+2907,L3_generic_kpi,0,0,eMBB,eMBB,0,generic,event coverage service,1
+1489,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,research testbed service,1
+379,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2210,L3_generic_kpi,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2070,L3_generic_kpi,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+893,L3_generic_kpi,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2852,L3_generic_kpi,2,0,mMTC,eMBB,1,unseen,utility submetering fleet,0
+256,L3_generic_kpi,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+2511,L3_generic_kpi,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1187,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1532,L3_generic_kpi,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1619,L3_generic_kpi,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+614,L3_generic_kpi,2,2,mMTC,mMTC,0,known,smart water meters,1
+2139,L3_generic_kpi,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+142,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+325,L3_generic_kpi,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1183,L3_generic_kpi,1,1,URLLC,URLLC,0,generic,campus connectivity,1
+2097,L3_generic_kpi,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2508,L3_generic_kpi,0,0,eMBB,eMBB,1,generic,public safety communications,1

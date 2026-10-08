@@ -1,0 +1,665 @@
+id,condition,true_id,pred_id,true_slice,pred_slice,ambiguous,uc_kind,use_case,correct
+4,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+5,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+21,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+28,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+39,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+42,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+43,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+47,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+55,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+77,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+80,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+84,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+88,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+90,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+95,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+99,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+101,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+105,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+106,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+123,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+132,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+136,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+154,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+167,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+169,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,surgical imaging feedback,0
+180,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+189,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,high-definition conferencing,0
+190,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+203,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+206,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+207,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+209,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+213,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+217,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+218,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+219,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+228,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+230,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+239,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+240,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+248,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+252,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+255,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+257,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+263,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+264,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+266,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+286,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+289,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+291,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+293,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+294,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,high-definition conferencing,0
+297,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+301,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+303,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+305,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+306,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+307,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+310,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+311,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,cold-chain condition reporting,0
+315,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+317,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+321,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+324,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+331,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+347,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+348,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+349,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+352,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+354,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+361,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+367,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+379,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+381,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+388,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+392,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+393,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+395,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+396,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+400,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+402,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+404,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+408,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+413,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+424,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+433,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,surgical imaging feedback,0
+436,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+438,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+440,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+442,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+443,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+445,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+452,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+457,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+459,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+462,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+463,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+466,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+472,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+480,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,high-definition conferencing,0
+481,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+482,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+487,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+488,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+494,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+504,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+509,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+513,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+517,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+519,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+520,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+525,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+535,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+537,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+541,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,surgical imaging feedback,0
+543,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+547,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+558,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+563,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+567,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+568,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+569,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+570,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+571,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+573,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+575,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+580,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+582,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+591,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+593,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+595,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+599,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+600,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+605,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+607,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+611,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+612,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+616,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+617,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+625,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,surgical imaging feedback,0
+630,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+634,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+635,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+636,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+637,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+644,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+649,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+650,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+653,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+663,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+664,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+668,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+669,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+672,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+676,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+677,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+679,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+680,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+685,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+689,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+699,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+700,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+703,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+721,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+722,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+727,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+730,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+736,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+742,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+743,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+746,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+747,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+750,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+761,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+767,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+769,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+772,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+778,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+783,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+796,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+800,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+801,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+805,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+816,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+818,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+824,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+832,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+834,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+844,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+847,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,surgical imaging feedback,0
+849,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+851,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+853,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+854,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+859,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+866,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+869,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+870,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+871,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+873,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+881,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+887,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+888,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+892,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+893,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+897,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+898,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+900,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+901,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+915,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+916,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+924,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+925,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+926,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+931,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+932,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+935,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+940,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+943,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+947,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+948,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+951,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+961,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+966,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+969,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+970,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+971,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+972,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+973,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+974,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+975,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+977,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+980,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+981,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+988,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+994,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+998,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1005,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1011,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1015,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1017,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1026,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1030,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1033,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1040,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1045,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1053,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1055,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1063,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1071,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1073,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1089,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1090,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1097,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1099,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,surgical imaging feedback,0
+1101,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,high-definition conferencing,0
+1106,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1107,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1112,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1122,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1131,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1132,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1134,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1135,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1136,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+1137,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1143,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1147,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1153,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1155,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1163,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1169,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1172,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1189,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1195,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1201,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1205,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1206,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1215,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1219,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1221,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1222,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1228,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1231,L2_phrase_family_heldout,1,0,URLLC,eMBB,0,unseen,surgical imaging feedback,0
+1236,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1243,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1245,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1246,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1247,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1248,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1250,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1251,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1266,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1280,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+1286,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1290,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,high-definition conferencing,0
+1295,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1302,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1306,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,surgical imaging feedback,0
+1308,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1324,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1329,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1331,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1332,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+1333,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1346,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1351,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1355,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1368,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1376,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1387,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1389,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1392,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1396,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1399,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1400,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1402,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1403,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1404,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1411,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1417,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1418,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1419,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1424,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1426,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1427,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1435,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1442,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1449,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1465,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1471,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1472,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1500,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1501,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1504,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1512,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1514,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1529,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1534,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1545,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1546,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1548,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1551,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1552,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1557,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1561,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1566,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1567,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1584,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1585,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1592,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1596,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1597,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1599,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1600,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1609,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1612,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1621,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1623,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1624,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1626,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1633,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1637,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+1641,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1642,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1649,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1652,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1654,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1659,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1663,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1680,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1684,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1692,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1699,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1704,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1712,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1719,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1724,L2_phrase_family_heldout,2,0,mMTC,eMBB,0,unseen,cold-chain condition reporting,0
+1729,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1735,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1737,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1738,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1739,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1740,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+1743,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1746,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1756,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1758,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1759,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1763,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1766,L2_phrase_family_heldout,2,0,mMTC,eMBB,0,unseen,cold-chain condition reporting,0
+1771,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1773,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1776,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1784,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+1787,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1794,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1798,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1800,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1801,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1803,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1807,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1812,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,high-definition conferencing,0
+1815,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1817,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1818,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1822,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1825,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1826,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1828,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+1829,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1831,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1843,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1845,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1848,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1849,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1850,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1854,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,high-definition conferencing,0
+1855,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1863,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1865,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1868,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1875,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1877,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1880,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1884,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1893,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1894,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1895,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1897,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+1900,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+1904,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1913,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1921,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1923,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1924,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+1929,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1931,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1932,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1937,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1939,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1950,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1952,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1958,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1962,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1967,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1976,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1979,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1984,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1986,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,high-definition conferencing,0
+1998,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2004,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2005,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2016,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2023,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+2027,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2032,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2036,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2037,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2045,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2053,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+2060,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2061,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2070,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2071,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2073,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2077,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2078,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2080,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2090,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2093,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+2094,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2103,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2108,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2109,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2114,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2115,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2116,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2117,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2119,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2127,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2133,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2135,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2138,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2141,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2143,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2153,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2156,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2157,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2165,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2169,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2177,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2178,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2181,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2182,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2202,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2204,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2220,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2228,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2232,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2244,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2248,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2257,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2261,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2265,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+2268,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2269,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2271,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2276,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2280,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2306,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2307,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2308,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2314,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2317,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2318,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2326,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2329,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,surgical imaging feedback,0
+2335,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2345,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2353,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2360,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2374,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2375,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2376,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,high-definition conferencing,0
+2379,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2391,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2401,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2407,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2411,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2416,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2424,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2429,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2430,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2435,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+2438,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+2440,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2450,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2452,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2454,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2458,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2465,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2477,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2485,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2490,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2496,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2505,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+2510,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2512,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2514,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2516,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2519,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2523,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2524,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2536,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2542,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2548,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2562,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2563,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2564,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2566,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2567,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2569,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2570,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2571,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2576,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+2577,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2580,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2581,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2583,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2607,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2613,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2615,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2617,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2621,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2622,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2627,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2632,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2633,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2635,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2636,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,cold-chain condition reporting,0
+2637,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2639,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2640,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2649,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2657,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2669,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2673,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2674,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2679,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2683,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2695,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2696,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2703,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2708,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2710,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2718,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2724,L2_phrase_family_heldout,0,2,eMBB,mMTC,0,unseen,high-definition conferencing,0
+2730,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2733,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2734,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2741,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2742,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2744,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2745,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2749,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2753,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2754,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2756,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2757,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2760,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2763,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2767,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2768,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2771,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+2778,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2779,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+2786,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2787,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2788,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2793,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2822,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2823,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2824,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2827,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2828,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2830,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2834,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2836,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2841,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2844,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2846,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2849,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+2855,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+2856,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2864,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2870,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2873,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2884,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2888,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2890,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+2902,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2909,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2910,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2914,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2918,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2919,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2921,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2926,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2936,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2939,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2947,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2952,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2953,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2956,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2957,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2962,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,surgical imaging feedback,0
+2973,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2975,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2981,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2985,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2988,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2992,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2998,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1

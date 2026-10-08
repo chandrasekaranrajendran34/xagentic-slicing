@@ -1,0 +1,9 @@
+{
+  "experiment": "R5",
+  "title": "High-Confidence Error Detection / Semantic Verification",
+  "created_utc": "2026-10-07T16:42:37.886465+00:00",
+  "python_version": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "working_directory": "/content",
+  "r5_root": "/content/R5_work"
+}

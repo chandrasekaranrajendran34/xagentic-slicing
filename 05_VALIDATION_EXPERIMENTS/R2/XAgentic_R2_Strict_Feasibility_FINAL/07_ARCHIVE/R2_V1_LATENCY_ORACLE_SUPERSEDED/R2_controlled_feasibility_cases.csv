@@ -1,0 +1,18 @@
+case_id,category,description,latency_ms,throughput_mbps,reliability_pct,density_per_km2,mobility_kmh,expected_strict_set,strict_set,legacy_set,strict_test_pass,legacy_differs_from_strict,legacy_empty_fallback_exposed,mobility_difference
+F01,feasible,Moderate eMBB-like requirement,100.0,100.0,99.5,1000.0,100.0,eMBB,eMBB,eMBB|URLLC,True,True,False,True
+F02,feasible,Strict URLLC-like requirement,5.0,50.0,99.995,5000.0,300.0,URLLC,URLLC,URLLC,True,False,False,False
+F03,feasible,mMTC-like requirement,1000.0,1.0,98.0,500000.0,20.0,mMTC,mMTC,mMTC,True,False,False,False
+B01,boundary,eMBB exact upper capability boundaries,150.0,1000.0,99.9,50000.0,250.0,eMBB,eMBB,eMBB,True,False,False,False
+B02,boundary,URLLC exact upper capability boundaries,10.0,100.0,99.9999,10000.0,500.0,URLLC,URLLC,URLLC,True,False,False,False
+B03,boundary,mMTC exact upper capability boundaries,10000.0,2.0,99.9,1000000.0,30.0,mMTC,mMTC,mMTC,True,False,False,False
+M01,mobility_only,Mobility 20 km/h: all slices support,,,,,20.0,eMBB|URLLC|mMTC,eMBB|URLLC|mMTC,eMBB|URLLC|mMTC,True,False,False,False
+M02,mobility_only,Mobility 100 km/h excludes mMTC,,,,,100.0,eMBB|URLLC,eMBB|URLLC,eMBB|URLLC|mMTC,True,True,False,True
+M03,mobility_only,Mobility 300 km/h leaves only URLLC,,,,,300.0,URLLC,URLLC,eMBB|URLLC|mMTC,True,True,False,True
+M04,mobility_only,Mobility above every catalogue capability,,,,,600.0,,,eMBB|URLLC|mMTC,True,True,True,True
+I01,single_kpi_infeasible,Throughput exceeds every slice capability,,1500.0,,,,,,eMBB,True,True,False,False
+I02,single_kpi_infeasible,Reliability exceeds every slice capability,,,99.99999,,,,,eMBB|URLLC|mMTC,True,True,True,False
+I03,single_kpi_infeasible,Density exceeds every slice capability,,,,1500000.0,,,,mMTC,True,True,False,False
+X01,multi_kpi_infeasible,Extreme requirements violate several capabilities,1.0,5000.0,99.99999,2000000.0,1000.0,,,eMBB|URLLC|mMTC,True,True,True,True
+X02,cross_kpi_conflict,High throughput plus very high reliability has no matching slice,,500.0,99.99,,,,,eMBB|URLLC|mMTC,True,True,True,False
+N01,missing_kpis,No KPI stated: all slices remain possible,,,,,,eMBB|URLLC|mMTC,eMBB|URLLC|mMTC,eMBB|URLLC|mMTC,True,False,False,False
+N02,partial_kpis,Only throughput 50 Mbps stated,,50.0,,,,eMBB|URLLC,eMBB|URLLC,eMBB|URLLC,True,False,False,False

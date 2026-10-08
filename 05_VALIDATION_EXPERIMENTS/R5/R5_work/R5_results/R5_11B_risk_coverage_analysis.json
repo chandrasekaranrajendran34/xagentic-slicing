@@ -1,0 +1,11 @@
+{
+  "r3_to_r4_errors_removed": 7,
+  "r4_to_r5_errors_removed": 3,
+  "r3_to_r5_errors_removed": 10,
+  "r4_to_r5_relative_selective_risk_reduction": 0.562857142857143,
+  "r3_to_r5_relative_selective_risk_reduction": 0.7970238095238096,
+  "r4_to_r5_coverage_change_percentage_points": -7.222222222222219,
+  "r4_to_r5_accuracy_change_percentage_points": 0.9197012138188687,
+  "frozen_policy_sha256": "b8e5ef13e6895fcfb3656f7257c94727e3cea17d38f08563436d55b6cf0ba243",
+  "heldout_retuning": false
+}

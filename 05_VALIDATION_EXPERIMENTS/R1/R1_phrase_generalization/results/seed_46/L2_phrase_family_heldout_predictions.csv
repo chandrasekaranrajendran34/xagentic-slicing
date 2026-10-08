@@ -1,0 +1,693 @@
+id,condition,true_id,pred_id,true_slice,pred_slice,ambiguous,uc_kind,use_case,correct
+1,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+5,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+7,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+9,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+10,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+12,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+13,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+26,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+27,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+34,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+39,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+47,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+51,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+60,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+72,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+95,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+99,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+100,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+102,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+105,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+118,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+120,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,newsroom contribution feed,0
+123,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+124,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+125,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+129,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+134,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+135,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+140,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+141,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+150,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+157,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+159,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+173,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+180,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+181,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+188,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+193,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+197,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+200,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+204,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+209,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+212,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+213,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+215,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+216,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,newsroom contribution feed,0
+224,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+232,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+237,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+239,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+243,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+247,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+248,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+251,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+261,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,newsroom contribution feed,0
+266,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+269,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+273,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+288,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+295,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+297,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+303,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+310,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+311,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+314,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+318,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+321,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+332,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+334,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+336,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+337,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+339,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+348,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+351,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+358,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+361,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+362,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+363,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+365,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+373,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+377,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+378,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+379,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+383,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+390,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+396,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+406,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+414,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+427,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,rail interlocking signalling,1
+428,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+437,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+440,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+448,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,rail interlocking signalling,0
+450,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+453,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+454,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+455,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,soil-moisture reporting nodes,0
+471,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+473,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+479,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+481,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+496,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+501,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+508,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+509,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+513,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+514,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+526,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+530,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+532,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+534,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+540,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+542,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+544,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+546,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+547,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+553,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+555,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+565,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+568,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+570,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+575,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+585,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+592,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+597,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+608,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+610,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+616,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+624,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+625,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+628,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+634,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+639,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+647,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+649,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+651,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+658,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+659,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+661,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+663,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+665,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+669,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+680,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+685,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+688,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+697,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+698,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+702,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+703,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,rail interlocking signalling,0
+704,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+706,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+712,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+716,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+718,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+720,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+724,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+728,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+732,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+748,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+751,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+753,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+762,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+763,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,rail interlocking signalling,0
+772,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+777,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+779,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+780,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+789,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+800,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+801,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+822,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+823,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+825,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+827,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+832,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+835,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+838,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+840,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+845,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+846,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+851,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+852,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+858,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+863,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+864,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+866,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+872,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+877,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+884,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+887,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+890,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+892,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+896,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+897,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+900,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+909,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+910,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+933,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+937,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,rail interlocking signalling,0
+941,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+947,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+953,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+956,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+962,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+963,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+967,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+969,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+973,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+975,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+976,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+979,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+980,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+985,L2_phrase_family_heldout,1,0,URLLC,eMBB,0,unseen,rail interlocking signalling,0
+989,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+994,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+996,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+998,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1016,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1022,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1023,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1029,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1031,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1038,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1039,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1044,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1045,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1050,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1056,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,newsroom contribution feed,0
+1059,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1061,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1069,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1071,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1077,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1079,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1090,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1105,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1106,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1114,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1115,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1116,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1118,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1119,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1121,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1126,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,rail interlocking signalling,0
+1128,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1129,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1130,L2_phrase_family_heldout,2,0,mMTC,eMBB,1,unseen,soil-moisture reporting nodes,0
+1146,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1151,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+1154,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1156,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1159,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1163,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1164,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1167,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1169,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1172,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+1175,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+1178,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1180,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1182,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1186,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1190,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1193,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1196,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1200,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1201,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1203,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1205,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1215,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1217,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1221,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1222,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1228,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1236,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1237,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1241,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+1257,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1260,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1279,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1286,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1287,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1290,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1291,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1298,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1301,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1305,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1309,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1315,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1319,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1323,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1327,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1329,L2_phrase_family_heldout,0,2,eMBB,mMTC,0,unseen,newsroom contribution feed,0
+1332,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+1335,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1341,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1342,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1346,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1347,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1350,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1351,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1357,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1361,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1370,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1379,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1383,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1385,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1386,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1387,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1388,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1395,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1399,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1404,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1407,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1410,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1415,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1416,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1417,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1420,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1426,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1435,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1436,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1446,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1448,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1455,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1457,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1459,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1460,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1462,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1472,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1473,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1477,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1478,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1479,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1480,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1483,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1484,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+1486,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,rail interlocking signalling,0
+1499,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1501,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,rail interlocking signalling,0
+1505,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1506,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1508,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1521,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1529,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1534,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1535,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+1541,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1543,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,rail interlocking signalling,0
+1549,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1551,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1554,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1556,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1564,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,rail interlocking signalling,0
+1567,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1569,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,newsroom contribution feed,0
+1571,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1574,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1577,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1578,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1582,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1586,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1590,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1594,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1596,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1597,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1601,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1603,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1604,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1606,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1609,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1612,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1613,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1616,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1618,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,rail interlocking signalling,0
+1619,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1622,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1623,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1628,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1644,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1646,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1648,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1651,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1665,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1670,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1671,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1678,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1680,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1687,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1700,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1710,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1712,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1713,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1717,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1719,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1724,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1729,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1733,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1740,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,newsroom contribution feed,0
+1743,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1746,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1752,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1753,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1754,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1761,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1768,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1771,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1777,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1781,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1786,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1790,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1794,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1799,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1800,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1803,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1804,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1808,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1818,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1823,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1826,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1828,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1834,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1837,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1846,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1851,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1855,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1861,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1865,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+1872,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1878,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1886,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1891,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1894,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,rail interlocking signalling,0
+1899,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1902,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1904,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1906,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1913,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1914,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,newsroom contribution feed,0
+1927,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1929,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1930,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1931,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1935,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1936,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,rail interlocking signalling,0
+1942,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,rail interlocking signalling,0
+1947,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1951,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1954,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,rail interlocking signalling,1
+1956,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1959,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1967,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1969,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1970,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1977,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1978,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1980,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1981,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1982,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+1983,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1987,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1988,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2000,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2001,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2016,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2019,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2020,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+2023,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2025,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2027,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2028,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2033,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2035,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2039,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+2052,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2055,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2058,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2061,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2063,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2064,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2065,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+2069,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2070,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2076,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2078,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2081,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2084,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,soil-moisture reporting nodes,0
+2086,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2093,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2095,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,rail interlocking signalling,1
+2096,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+2098,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2105,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2106,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2111,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2112,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2115,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,newsroom contribution feed,0
+2116,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,rail interlocking signalling,0
+2120,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2126,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2131,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2133,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2139,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2140,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2146,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2148,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2162,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2164,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2173,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2174,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2175,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2176,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2177,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2182,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2190,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2191,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2201,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2205,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,newsroom contribution feed,0
+2211,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2214,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2216,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2217,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2220,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2221,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,rail interlocking signalling,1
+2222,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+2228,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2238,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2241,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2248,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2249,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2250,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2260,L2_phrase_family_heldout,1,0,URLLC,eMBB,0,unseen,rail interlocking signalling,0
+2264,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2269,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2272,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2275,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2276,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2278,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2282,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2284,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2290,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2296,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+2297,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2303,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2305,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+2306,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2313,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2315,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2318,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2322,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,newsroom contribution feed,0
+2325,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2328,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2329,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+2333,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2338,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2361,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2368,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2375,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2384,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2388,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2405,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2407,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2408,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2409,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2410,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2415,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2417,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2419,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,rail interlocking signalling,0
+2427,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2428,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2433,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2450,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2451,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2454,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2463,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2470,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+2471,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2479,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2480,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2483,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+2485,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2489,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2491,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+2492,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+2505,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2513,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+2520,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2527,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2538,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2543,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2556,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2561,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2567,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2575,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2576,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2577,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2580,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2582,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2604,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2609,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2610,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2612,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2616,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2618,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2620,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+2624,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2626,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2627,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2638,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2640,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2648,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2655,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2658,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2662,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2670,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2673,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,newsroom contribution feed,0
+2675,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2677,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,rail interlocking signalling,0
+2680,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2681,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2684,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2685,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,newsroom contribution feed,0
+2686,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,rail interlocking signalling,1
+2687,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2691,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2699,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2700,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2701,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2702,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2715,L2_phrase_family_heldout,0,2,eMBB,mMTC,0,unseen,newsroom contribution feed,0
+2717,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2719,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2724,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2730,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2731,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2732,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+2733,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2735,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2740,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2748,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2754,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2757,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2764,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2765,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2770,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+2774,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2777,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2787,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2791,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2793,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2798,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2802,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2805,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+2811,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2830,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+2832,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2833,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,rail interlocking signalling,0
+2838,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2843,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2862,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2869,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2871,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2880,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2885,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2887,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2890,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2893,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2894,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2896,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+2902,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2903,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2904,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2905,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2916,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2918,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2934,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2937,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,newsroom contribution feed,0
+2938,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2951,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2954,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2956,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2957,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2961,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2964,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2966,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2972,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2977,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2980,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+2984,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2985,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2988,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2994,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1

@@ -1,0 +1,28 @@
+slice,uc_kind,use_case,partition,seed
+URLLC,known,remote surgery,train,42
+URLLC,known,factory robot control,train,42
+URLLC,known,drone fleet control,train,42
+URLLC,unseen,rail interlocking signalling,train,42
+URLLC,unseen,substation differential tripping,train,42
+URLLC,unseen,port crane synchronisation,train,42
+eMBB,known,4K video streaming,train,42
+eMBB,known,AR/VR gaming,train,42
+eMBB,known,live broadcast,train,42
+eMBB,unseen,newsroom contribution feed,train,42
+eMBB,unseen,digital signage uplink,train,42
+eMBB,unseen,high-definition conferencing,train,42
+mMTC,known,smart water meters,train,42
+mMTC,known,environmental monitoring,train,42
+mMTC,known,pipeline telemetry,train,42
+mMTC,unseen,cold-chain condition reporting,train,42
+mMTC,unseen,street luminaire telemetry,train,42
+mMTC,unseen,soil-moisture reporting nodes,train,42
+URLLC,known,smart-grid protection,test,42
+URLLC,known,haptic teleoperation,test,42
+URLLC,unseen,surgical imaging feedback,test,42
+eMBB,known,fixed wireless access,test,42
+eMBB,known,stadium hotspot,test,42
+eMBB,unseen,in-flight entertainment uplink,test,42
+mMTC,known,agricultural sensors,test,42
+mMTC,known,asset trackers,test,42
+mMTC,unseen,utility submetering fleet,test,42

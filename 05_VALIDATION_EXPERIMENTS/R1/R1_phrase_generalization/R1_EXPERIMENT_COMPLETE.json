@@ -1,0 +1,28 @@
+{
+  "experiment": "R1_phrase_generalization",
+  "status": "PASS_CLOSED_FROZEN_ARCHIVED",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "conditions": [
+    "L1_original",
+    "L2_phrase_family_heldout",
+    "L3_generic_kpi",
+    "L4_kpi_only"
+  ],
+  "total_condition_runs": 20,
+  "macro_f1": {
+    "L1_original": 0.9311,
+    "L2_phrase_family_heldout": 0.9548,
+    "L3_generic_kpi": 0.892,
+    "L4_kpi_only": 0.892
+  },
+  "lexical_ablation_macro_f1_drop": 0.0392,
+  "next_experiment": "R2_strict_feasibility_validity",
+  "instruction": "Do not modify R1. Start subsequent experiments in separate directories.",
+  "archive_created_utc": "2026-10-07T06:18:01.570742+00:00"
+}

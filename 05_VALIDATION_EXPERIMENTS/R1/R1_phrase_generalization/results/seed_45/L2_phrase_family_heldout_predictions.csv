@@ -1,0 +1,701 @@
+id,condition,true_id,pred_id,true_slice,pred_slice,ambiguous,uc_kind,use_case,correct
+5,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+6,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+17,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+23,L2_phrase_family_heldout,2,0,mMTC,eMBB,0,unseen,utility submetering fleet,0
+25,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+31,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+34,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+35,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+39,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+41,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+42,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+57,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+62,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+65,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+67,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+68,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+69,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+73,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+74,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+77,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+79,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+83,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+87,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+90,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+93,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+100,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+108,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+123,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+125,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+128,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+135,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+136,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+137,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+143,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+148,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+149,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+150,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+151,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+158,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+160,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+163,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+165,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+173,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+176,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+178,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+180,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+182,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+183,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+184,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+189,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+197,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+201,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+204,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+209,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+213,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+214,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+216,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+218,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+219,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+220,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+224,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+226,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,substation differential tripping,1
+227,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+228,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+230,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+234,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+236,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+240,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+244,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+245,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+249,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+253,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+254,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+256,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+259,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+265,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+280,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+282,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+283,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+287,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+290,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+293,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+295,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+297,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+299,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+308,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+310,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+311,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+314,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+316,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+318,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+321,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+324,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,digital signage uplink,0
+326,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+334,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+336,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+337,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+340,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+342,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+345,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+346,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+353,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+358,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+363,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+369,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+373,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+376,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+394,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+404,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+406,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+409,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,substation differential tripping,0
+421,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+424,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+426,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+428,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+430,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+441,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+445,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+446,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+448,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+452,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+457,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+462,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+476,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+479,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+481,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+485,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+509,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+510,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+512,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+513,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+514,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,substation differential tripping,1
+518,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+519,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+521,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+532,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+537,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+541,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+542,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+556,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+559,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+565,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,substation differential tripping,1
+587,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+590,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+608,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+610,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+611,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+615,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+618,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+636,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+639,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+641,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+648,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+654,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+656,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+664,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,substation differential tripping,0
+666,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+668,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+674,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+677,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+681,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+685,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+688,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+689,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+691,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+693,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+695,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+697,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+700,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+701,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+702,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+704,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+707,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+715,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+717,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+718,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+719,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+720,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+721,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+728,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+731,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+753,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+764,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+768,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+770,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+773,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+778,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+780,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+781,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+783,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,digital signage uplink,0
+788,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+794,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+796,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+798,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+801,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+804,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+810,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+819,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+823,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+825,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+826,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+829,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+835,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+858,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+866,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+872,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+878,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+884,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+887,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+894,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+895,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+903,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+904,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+906,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+912,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+918,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+921,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+927,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+929,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+931,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+942,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+952,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+956,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+959,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+965,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+966,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+976,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+982,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+989,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+997,L2_phrase_family_heldout,1,2,URLLC,mMTC,0,unseen,substation differential tripping,0
+1007,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1009,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1020,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1026,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1028,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1029,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1030,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1035,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1047,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+1053,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1055,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1062,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1065,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1070,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1074,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1079,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1081,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1083,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1088,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1096,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,substation differential tripping,0
+1099,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1105,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1108,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1111,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1113,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1115,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1123,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+1124,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1125,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1126,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1133,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1137,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+1139,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1142,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1150,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+1162,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+1167,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1179,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1182,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1194,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1204,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+1210,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1211,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1214,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1217,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1218,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1221,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1225,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1232,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1241,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1251,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1255,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1261,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,substation differential tripping,1
+1262,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1263,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1264,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,substation differential tripping,1
+1279,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1281,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1289,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1292,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1300,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1301,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1303,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,substation differential tripping,1
+1315,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1316,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1324,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1327,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,substation differential tripping,1
+1336,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,substation differential tripping,1
+1338,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1344,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1346,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1351,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,substation differential tripping,0
+1353,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1360,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1363,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1374,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1376,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1377,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1383,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1387,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1395,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,digital signage uplink,0
+1397,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1398,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1402,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+1404,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1408,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+1411,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1414,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1420,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1427,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1437,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1445,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+1447,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1453,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1455,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1461,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1472,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1473,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1474,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1475,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1478,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1484,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1486,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1490,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+1493,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1496,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1497,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1508,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1509,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1520,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1523,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1525,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1528,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1530,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1536,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,digital signage uplink,0
+1538,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1544,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1545,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1546,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1548,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1551,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1554,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1558,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,substation differential tripping,0
+1559,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1562,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1565,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,utility submetering fleet,0
+1567,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1568,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1572,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1584,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1585,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1588,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1595,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+1598,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1603,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1612,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+1618,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,substation differential tripping,0
+1619,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1622,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1626,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1633,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1644,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1645,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1647,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1648,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1649,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1667,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1669,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+1670,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1672,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1674,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+1679,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1680,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1681,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1684,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1695,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1697,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1714,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1727,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1728,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1731,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1734,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1735,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1736,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1738,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1749,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1752,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1757,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1761,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1762,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1763,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1765,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1771,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1772,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1778,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1796,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1799,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1800,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1801,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1806,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1814,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1815,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1822,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+1824,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,digital signage uplink,0
+1833,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1834,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1842,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1850,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1855,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1867,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1869,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+1871,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+1873,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1905,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1906,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1910,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1913,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1917,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1919,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1928,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1934,L2_phrase_family_heldout,2,0,mMTC,eMBB,1,unseen,utility submetering fleet,0
+1940,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+1941,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1942,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1955,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1961,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1964,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1974,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1977,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+1980,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+1981,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+1984,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1988,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1990,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1991,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1996,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2005,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2009,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2011,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2014,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+2015,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2019,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2033,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2037,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2040,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2044,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2045,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2055,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2057,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2059,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2063,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2064,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+2077,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2078,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2079,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2081,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+2085,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2092,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2104,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2108,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2110,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2111,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2113,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,substation differential tripping,0
+2120,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+2123,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2131,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+2134,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2139,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2143,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2148,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2151,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2152,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2153,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2154,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,digital signage uplink,0
+2159,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2165,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2170,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2178,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2180,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2182,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2186,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2191,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2192,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2194,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2196,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2208,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2212,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2215,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,substation differential tripping,0
+2221,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2222,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2223,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+2225,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2232,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2238,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2240,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2243,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2244,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2254,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,substation differential tripping,0
+2255,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2256,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2260,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2263,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+2264,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+2269,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2270,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+2288,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2289,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2293,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2296,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+2304,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2308,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+2312,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2313,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2314,L2_phrase_family_heldout,1,0,URLLC,eMBB,0,unseen,substation differential tripping,0
+2319,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2321,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2324,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2329,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2333,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2335,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+2336,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2342,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2345,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2348,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2349,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2351,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2358,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2363,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2365,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2376,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2379,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2381,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2382,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2391,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2394,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2399,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2402,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2406,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2407,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2411,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2415,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2417,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2419,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2420,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2421,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+2426,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+2429,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2432,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2433,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2435,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2441,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2446,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2453,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+2465,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2469,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,digital signage uplink,0
+2479,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2486,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2489,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2490,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2497,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2504,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2509,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2511,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2513,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2518,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2520,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2524,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,substation differential tripping,1
+2527,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2530,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2536,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+2545,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2546,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2550,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2552,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2557,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,substation differential tripping,0
+2563,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2565,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2569,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2570,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2578,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2580,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2583,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2588,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2591,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2592,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2593,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2600,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2603,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2604,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2605,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2613,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2614,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2618,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2627,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2628,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2633,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2635,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+2636,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2639,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2643,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2648,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2651,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2669,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2672,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2676,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2690,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2693,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2696,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2698,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2701,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2708,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+2711,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2719,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2720,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2721,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2722,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,substation differential tripping,1
+2726,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2727,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2728,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2730,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+2731,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2734,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2739,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2740,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2742,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2749,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,substation differential tripping,0
+2756,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2760,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2763,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2765,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2768,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2770,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2772,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,digital signage uplink,0
+2774,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2780,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2781,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2782,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2783,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2786,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2787,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2788,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2789,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2793,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2794,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+2799,L2_phrase_family_heldout,0,1,eMBB,URLLC,0,unseen,digital signage uplink,0
+2808,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2812,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,substation differential tripping,1
+2818,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+2823,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+2826,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2828,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2829,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+2835,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2836,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+2845,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2849,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2854,L2_phrase_family_heldout,1,0,URLLC,eMBB,0,unseen,substation differential tripping,0
+2855,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2857,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2872,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2873,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2875,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2882,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2885,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2898,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2902,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2910,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2920,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2924,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2926,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,substation differential tripping,1
+2927,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2931,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2934,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2940,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2941,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2956,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2958,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2963,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2965,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2967,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2976,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2977,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2978,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2979,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2984,L2_phrase_family_heldout,2,0,mMTC,eMBB,1,unseen,utility submetering fleet,0
+2986,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2989,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+2994,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+2996,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2999,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,pipeline telemetry,1

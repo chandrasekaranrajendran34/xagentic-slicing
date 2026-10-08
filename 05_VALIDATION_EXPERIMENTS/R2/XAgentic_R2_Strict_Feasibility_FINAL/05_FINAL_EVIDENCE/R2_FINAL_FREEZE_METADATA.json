@@ -1,0 +1,32 @@
+{
+  "experiment": "R2 Strict Feasibility and Validity Audit",
+  "status": "FINAL_FROZEN",
+  "authoritative_oracle": "02_R2_AUDIT/R2_strict_feasibility_oracle_v2.py",
+  "integrity_checks": "35/35 PASS",
+  "request_level_results": {
+    "n": 1200,
+    "legacy_strict_disagreement": 229,
+    "legacy_strict_disagreement_pct": 19.083,
+    "strict_empty": 14,
+    "strict_empty_pct": 1.167,
+    "mobility_contributed": 61,
+    "mobility_only": 37
+  },
+  "e5_prediction_results": {
+    "n": 100,
+    "legacy_valid": 100,
+    "strict_valid": 97,
+    "false_feasible": 3,
+    "false_feasible_accept": 2,
+    "false_feasible_escalate": 1
+  },
+  "v1": {
+    "status": "SUPERSEDED_RETAINED_FOR_PROVENANCE",
+    "archive": "07_ARCHIVE/R2_V1_LATENCY_ORACLE_SUPERSEDED"
+  },
+  "source_modified": false,
+  "corpus_modified": false,
+  "predictions_regenerated": false,
+  "models_retrained": false,
+  "ready_for_publication_use": true
+}

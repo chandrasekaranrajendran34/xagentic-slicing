@@ -1,0 +1,449 @@
+file,line,terms,code
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,2,valid,"LLM-backed Intent and Validation agents (Together API, OpenAI-compatible)."
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,6,candidate,"re-do its work; every other stage (candidate screening, Selection Agent,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,7,feasib,"Explanation Agent, feasibility contract) is byte-identical to E1. E5 is"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,17,valid,negotiation / critique   validation_agent() -- may return RETRY
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,18,"valid,escalat",autonomy with deferral   validation_agent() -- may return ESCALATE
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,47,"feasib,slice","CATALOGUE, LEXICON, SLICES, OUT, SEED, feasible_set,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,79,latency,"""latency_s"": 0.0, ""api_errors"": 0, ""parse_failures"": 0,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,226,latency,"STATS[""latency_s""] += time.perf_counter() - t0"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,249,fallback,"# if the completion was empty, while a synthesised failure fallback never"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,273,latency,"s[""mean_api_latency_s""] = s[""latency_s""] / max(s[""calls""], 1)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,282,latency,"STATS[""latency_s""] = 0.0"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,291,kpi,"""name"": ""get_kpi_envelope"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,293,"slice,kpi","""Return the 3GPP-informed KPI envelope for a standardised slice """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,294,"latency,reliability,throughput","""type: (min,max) for latency ms, throughput Mbps, reliability %, """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,295,"mobility,density","""device density per km2 and mobility km/h.""),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,297,slice,"""slice_type"": {""type"": ""string"", ""enum"": SLICES}},"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,298,slice,"""required"": [""slice_type""]}}},"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,302,"latency,kpi","""Normalise a KPI value to the canonical unit: latency->ms, """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,303,"throughput,mobility,density","""throughput->Mbps, density->devices/km2, mobility->km/h.""),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,309,kpi,"""kpi"": {""type"": ""string"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,310,"latency,throughput,mobility,density","""enum"": [""latency"", ""throughput"", ""density"", ""mobility""]}},"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,311,kpi,"""required"": [""value"", ""unit"", ""kpi""]}}},"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,316,slice,"""Returns the matched slice or null. Use this to TEST a hypothesis, """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,322,feasib,"""name"": ""check_feasibility"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,324,"slice,kpi","""Given the KPI slots extracted so far, return the slices that are """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,326,kpi,"""KPI the request did not state.""),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,328,latency,"""latency_ms"": {""type"": ""number""},"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,329,throughput,"""throughput_mbps"": {""type"": ""number""},"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,330,reliability,"""reliability_pct"": {""type"": ""number""},"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,331,density,"""density_per_km2"": {""type"": ""number""},"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,332,mobility,"""mobility_kmh"": {""type"": ""number""}},"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,337,latency,"(""latency"", ""s""): 1000.0, (""latency"", ""sec""): 1000.0,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,338,latency,"(""latency"", ""ms""): 1.0, (""latency"", ""us""): 0.001, (""latency"", ""µs""): 0.001,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,339,throughput,"(""throughput"", ""gbps""): 1000.0, (""throughput"", ""mbps""): 1.0,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,340,throughput,"(""throughput"", ""kbps""): 0.001, (""throughput"", ""bps""): 1e-6,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,341,density,"(""density"", ""per_km2""): 1.0, (""density"", ""per_m2""): 1e6,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,342,density,"(""density"", ""per_km^2""): 1.0, (""density"", ""km2""): 1.0,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,343,mobility,"(""mobility"", ""kmh""): 1.0, (""mobility"", ""km_h""): 1.0,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,344,mobility,"(""mobility"", ""mph""): 1.609, (""mobility"", ""m_s""): 3.6, (""mobility"", ""ms""): 3.6,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,350,"latency,throughput","return {""latency_ms"": list(c[""lat""]), ""throughput_mbps"": list(c[""thr""]),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,351,"reliability,density","""reliability_pct"": list(c[""rel""]), ""density_per_km2"": list(c[""den""]),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,352,mobility,"""mobility_kmh"": list(c[""mob""]), ""sst"": c[""sst""]}"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,357,kpi,"if name == ""get_kpi_envelope"":"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,358,slice,"s = str(args.get(""slice_type"", """"))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,360,slice,"return {""error"": f""unknown slice {s!r}; expected one of {SLICES}""}"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,364,kpi,"kpi = str(args.get(""kpi"", """")).lower()"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,366,kpi,"f = _FACTOR.get((kpi, unit))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,369,kpi,"""note"": f""unit {unit!r} not recognised for {kpi!r}; """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,375,slice,hits = [s for s in SLICES
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,379,feasib,"if name == ""check_feasibility"":"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,382,"latency,reliability,throughput","for k in (""latency_ms"", ""throughput_mbps"", ""reliability_pct"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,383,"mobility,density","""density_per_km2"", ""mobility_kmh"")}"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,384,feasib,"return {""feasible"": feasible_set(row)}"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,402,slice,"INTENT_SYS = """"""You are the Intent Agent in a 5G network-slice selection system."
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,407,kpi,1. Extract every KPI the request actually states. Normalise with convert_units.
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,408,kpi,"2. If a KPI is NOT stated, leave it null. Never invent a value."
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,412,"slice,kpi",compare the stated KPIs against get_kpi_envelope for each slice.
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,413,"feasib,slice",5. Optionally call check_feasibility to see which slices remain admissible.
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,414,slice,"6. Emit slice_hint and an honest confidence in [0,1]."
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,416,slice,Slice semantics:
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,417,throughput,"eMBB  = enhanced mobile broadband: high throughput, video, media, human users."
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,418,latency,"URLLC = ultra-reliable low-latency: control, safety, automation, tight deadlines."
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,422,"latency,reliability,throughput","{""latency_ms"":float|null,""throughput_mbps"":float|null,""reliability_pct"":float|null,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,423,"mobility,density","""density_per_km2"":float|null,""mobility_kmh"":float|null,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,424,slice,"""use_case_phrase"":string,""slice_hint"":""eMBB""|""URLLC""|""mMTC""|null,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,427,"latency,reliability,throughput","_FRAME_KEYS = (""latency_ms"", ""throughput_mbps"", ""reliability_pct"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,428,"mobility,density","""density_per_km2"", ""mobility_kmh"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,433,slice,"f.update(use_case_phrase="""", slice_hint=None, confidence=0.0,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,446,slice,"hint = d.get(""slice_hint"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,447,slice,"out[""slice_hint""] = hint if hint in SLICES else None"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,464,valid,"""The Validation Agent REJECTED your previous frame with """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,509,valid,# Validation Agent
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,512,"valid,slice","VALID_SYS = """"""You are the Validation Agent. You audit a slice decision before execution."
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,514,slice,"You receive the original request, the extracted slot frame, the slice the"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,515,feasib,"Selection Agent chose, the feasibility-contract result, and the top-3 feature"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,520,slice,the chosen slice.
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,521,kpi,"RETRY    - the slot frame misreads the request: a KPI is wrong, missing, or"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,523,escalat,ESCALATE - the frame is right but the evidence is genuinely weak or
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,524,valid,"self-contradictory: the contract is invalid, or the dominant"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,529,escalat,"{""verdict"":""ACCEPT""|""RETRY""|""ESCALATE"",""reason"":string,""confidence"":float}"""""""
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,532,"valid,slice","def validation_agent(text, frame, slice_sel, contract_ok, top_attr):"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,536,slice,"""slice_hint"", ""confidence""]},"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,537,slice,"""selected_slice"": slice_sel,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,538,valid,"""contract_valid"": bool(contract_ok),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,540,valid,"m = _chat([{""role"": ""system"", ""content"": VALID_SYS},"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,546,escalat,"if v not in (""ACCEPT"", ""RETRY"", ""ESCALATE""):"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,556,escalat,"return {""verdict"": ""ESCALATE"", ""reason"": ""unparseable verdict"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,567,slice,"`select_fn(frame) -> (slice_label, proba_vector)`"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,575,slice,frame = slice_sel = proba = top_attr = None
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,577,escalat,"verdict = {""verdict"": ""ESCALATE"", ""reason"": ""not run"", ""confidence"": 0.0}"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,584,slice,"slice_sel, proba = select_fn(frame)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,586,slice,"ok = _contract(slice_sel, frame)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,587,"valid,slice","verdict = validation_agent(text, frame, slice_sel, ok, top_attr)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,595,slice,"bb.update(decision=slice_sel, proba=proba, attribution=top_attr,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,596,valid,"contract_valid=ok, verdict=verdict,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,597,escalat,"escalate=(verdict[""verdict""] == ""ESCALATE""))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,601,slice,"def _contract(slice_sel, frame):"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/agents.py,605,"feasib,slice",return slice_sel in feasible_set(row)
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,2,slice,Experiment 1 -- Post-hoc explanation (SHAP) for agentic slice selection.
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,4,candidate,"This is the baseline experiment: a four-agent pipeline (Intent, Candidate,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,5,valid,"Selection, Validation) plus a cross-cutting Explanation Agent that attributes"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,9,slice,"Can a composed agentic pipeline select 3GPP slice types accurately, and are"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,10,"policy,escalat",post-hoc SHAP attributions faithful enough to drive an escalation policy?
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,13,escalat,"e1_models.csv, e1_per_class.csv, e1_confusion.csv, e1_escalation.csv,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,40,slice,"SEED, SLICES, SLICE_ID, FEATURES, PRETTY, OUT,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,42,"valid,escalat","contract_valid, rule_based, rule_based_lex, ablation_fidelity, escalation_table,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,44,escalat,"escalation_signal_ablation,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,78,slice,"y = df[""slice""].map(SLICE_ID).values"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,81,latency,"f""| {slots['parse_latency_ms']:.3f} ms/intent"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,88,slice,"rb = np.array([SLICE_ID[rule_based(r)] for _, r in Xte.iterrows()])"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,93,"valid,slice","valid=float(np.mean([contract_valid(SLICES[p], r)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,100,slice,"rbl = np.array([SLICE_ID[rule_based_lex(r)] for _, r in Xte.iterrows()])"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,105,"valid,slice","valid=float(np.mean([contract_valid(SLICES[p], r)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,123,"valid,slice","valid=float(np.mean([contract_valid(SLICES[pi], r)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,131,valid,# Model selection uses ONLY the cross-validated score computed on the
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,140,escalat,# ---- S4b: escalation threshold selected on out-of-fold TRAIN predictions --
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,146,escalat,"oof_esc, _, _ = escalation_table(oof_proba, oof_pred, ytr, Xtr)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,147,escalat,"save_csv(oof_esc, ""e1_escalation_oof.csv"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,153,slice,"save_csv(dict(slice=SLICES, precision=pr, recall=rc, f1=f1c, support=sup),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,191,latency,"fid[""explanation_latency_ms""] = shap_ms"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,192,latency,"fid[""inference_latency_ms""] = infer_lat_ms"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,193,latency,"fid[""latency_ratio""] = shap_ms / max(infer_lat_ms, 1e-12)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,197,"policy,escalat",# ---- S5: escalation policy ---------------------------------------------
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,200,escalat,"esc, conf, wrong = escalation_table(proba, ypred, yte, Xte)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,201,escalat,"save_csv(esc, ""e1_escalation.csv"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,205,escalat,"print(f""[S5] tau={TAU:.2f}  OOF(selection) esc {100*_o['escalated']:.1f}% """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,207,escalat,"f""TEST esc {100*_t['escalated']:.1f}% rec {100*_t['recall']:.1f}% """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,210,escalat,# ---- S5b: is the ESCALATION signal explanation-derived? (review item M7) --
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,212,escalat,# recall are attributable to the ranking signal and not to escalating more.
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,213,escalat,"sig = escalation_signal_ablation(proba, ypred, yte, Xte, attr_pred, TAU)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,214,escalat,"save_csv(sig, ""e1_escalation_signals.csv"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,215,escalat,"print(""[S5b] escalation signal ablation at matched budget:"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,224,escalat,"escalation_oof=oof_esc.to_dict(orient=""records""),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,225,escalat,"escalation_signals=sig.to_dict(orient=""records""),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,229,latency,"parse_latency_ms=slots[""parse_latency_ms""],"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,237,"valid,slice","baseline_rulelex_valid=float(np.mean([contract_valid(SLICES[p], r)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,240,escalat,"escalation=esc.to_dict(orient=""records""),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp1_posthoc.py,251,slice,"local.append(dict(slice=SLICES[c], intent=dte.iloc[idx][""text""],"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp2_inhoc.py,6,admission,tolerable for an admission-time decision on a human timescale but rules out
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp2_inhoc.py,9,latency,removing the latency penalty.
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp2_inhoc.py,28,latency,"accuracy, macro F1, explanation latency, inference latency, latency ratio,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp2_inhoc.py,50,slice,"SEED, SLICES, SLICE_ID, FEATURES, OUT,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp2_inhoc.py,174,fallback,if W.shape[0] == 1:  # binary fallback
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp2_inhoc.py,216,slice,"y = df[""slice""].map(SLICE_ID).values"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp2_inhoc.py,308,slice,"class_names=SLICES, discretize_continuous=True,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,12,candidate,"Only the lexical prior changes. Slot filling, the feature set, the Candidate"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,13,valid,"and Validation Agents, the Selection Agent, the corpus, the split and the"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,18,slice,B  TF-IDF char n-gram    : cosine similarity to per-slice prototypes
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,20,slice,D  LLM zero-shot         : Together API slice-affinity scoring (optional)
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,48,slice,"SEED, SLICES, SLICE_ID, OUT,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,50,escalat,"lexicon_scores, escalation_table, subgroup_report, save_json, save_csv,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,57,kpi,# already does for KPI values -- and lets every semantic variant be cached
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,60,"latency,slice","r""Deploy a slice for (.+?) with latency"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,64,slice,"r""Create a network slice supporting (.+?) with"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,108,slice,protos = {s: USE_CASES_KNOWN[s] for s in SLICES}
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,109,slice,corpus = [p for s in SLICES for p in protos[s]]
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,111,slice,mats = {s: vec.transform(protos[s]) for s in SLICES}
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,117,slice,"return _norm([float(cosine_similarity(q, mats[s]).max()) for s in SLICES])"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,130,slice,protos = {s: USE_CASES_KNOWN[s] for s in SLICES}
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,131,slice,"emb = {s: model.encode(protos[s], normalize_embeddings=True) for s in SLICES}"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,137,slice,return _norm([float(np.max(emb[s] @ q)) for s in SLICES])
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,143,slice,# Variant D -- Together API zero-shot slice affinity
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,151,slice,"""well it matches each standardised slice/service type.\n"""
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,152,throughput,"""eMBB  = enhanced mobile broadband (high throughput, video, media)\n"""
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,153,latency,"""URLLC = ultra-reliable low-latency communication (control, safety, automation)\n"""
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,187,slice,"return _norm([float(d.get(s, 0.0)) for s in SLICES])"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,234,slice,"y = df[""slice""].map(SLICE_ID).values"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,284,escalat,"esc, conf, wrong = escalation_table(proba, pred, yte, Xte)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,295,escalat,"escalated80=float(at80[""escalated""]),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp3_semantic.py,298,escalat,"details[name] = dict(subgroup=rep, escalation=esc.to_dict(orient=""records""))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp4_combined.py,41,slice,"SEED, SLICE_ID, FEATURES, synth_corpus, lexicon_scores, build_features,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp4_combined.py,42,escalat,"ablation_fidelity, escalation_table, subgroup_report, split,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp4_combined.py,63,fallback,"""""""Post-hoc SHAP attributions, matching exp2_inhoc's backend fallback."""""""
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp4_combined.py,90,slice,"y = df[""slice""].map(SLICE_ID).values"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp4_combined.py,117,escalat,"esc, _, _ = escalation_table(proba, pred, yte, Xte)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp4_combined.py,129,escalat,"escalated80=float(at80[""escalated""]),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp4_combined.py,197,escalat,"escalated80_combined=cell(PRIOR_BEST, EXPL_BEST, ""escalated80""),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,6,valid,"LLM agent that plans, calls typed tools, and is audited by a Validation Agent"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,7,candidate,"that can reject its frame and send it back. Candidate screening, the Selection"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,8,feasib,"Agent (gradient boosting), the Explanation Agent and the feasibility contract"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,32,latency,"latency, tokens, USD per intent   the honest price"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,33,escalat,ESCALATE error recall vs conf.    closes gap G3 (reviewer item M7)
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,59,slice,"FEATURES, OUT, PRETTY, SEED, SLICES, SLICE_ID, SLOT_MAP, SLOT_TOL,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,60,valid,"build_features, contract_valid, save_csv, save_json, split,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,75,kpi,the five KPI slots and the three lexical-prior features differs. Missing
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,84,slice,"hint = frame.get(""slice_hint"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,95,latency,"row[""log_latency""] = np.log10(np.clip(row[""latency_ms""], 1e-3, None))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,96,throughput,"row[""log_throughput""] = np.log10(np.clip(row[""throughput_mbps""], 1e-4, None))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,97,density,"row[""log_density""] = np.log10(np.clip(row[""density_per_km2""], 1.0, None))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,130,escalat,"def _escalation_recall(mask, errs):"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,131,escalat,"""""""Share of the pipeline's errors captured by an escalation mask."""""""
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,149,slice,"y = df[""slice""].map(SLICE_ID).values"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,174,valid,# whose only job is to give the Validation Agent something to audit.
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,185,slice,"return SLICES[int(p.argmax())], p.tolist()"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,205,valid,"frames, preds, probas, escal, retries, verdicts, valid = [], [], [], [], [], [], []"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,215,slice,"preds.append(SLICE_ID[bb[""decision""]])"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,217,escalat,"escal.append(bool(bb[""escalate""]))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,220,valid,"valid.append(bool(bb[""contract_valid""]))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,249,escalat,"escalated_pct=float(budget / max(len(preds), 1)),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,250,escalat,"recall_agent=_escalation_recall(escal, errs),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,251,escalat,"recall_confidence=_escalation_recall(conf_mask, errs),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,268,valid,"contract_valid=float(np.mean(valid)),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,292,escalat,"escalation=esc,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,294,latency,"latency_s_per_intent=float(wall / max(n, 1)),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,312,latency,"oov_gap=rep[""oov_gap""], lat_s=e5[""latency_s_per_intent""],"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,318,escalat,"dict(intent=t, verdict=v, retries=int(rt), escalated=bool(e),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,319,slice,"pred=SLICES[p], truth=SLICES[g], uc_kind=k)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,336,escalat,"print(f""  escalation    agent {esc['recall_agent']*100:.1f}% vs """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,338,escalat,"f""at a {esc['escalated_pct']*100:.1f}% budget"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py,351,valid,"help=""bound on Validation Agent RETRY edges (default 1)"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,17,latency,fig_e2_latency.pdf      explanation latency vs faithfulness
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,20,escalat,"fig_e5_agentic.pdf      agent vs lexicon, and escalation quality"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,81,valid,"m[""EOneRuleLexValid""] = _fmt(e1[""baseline_rulelex_valid""], 1, pct=True)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,88,latency,"m[""EOneExplMs""] = _fmt(e1[""fidelity""][""explanation_latency_ms""], 1)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,89,latency,"m[""EOneInferMs""] = _fmt(e1[""fidelity""][""inference_latency_ms""] * 1000.0, 1)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,90,latency,"m[""EOneRatio""] = _fmt(e1[""fidelity""][""latency_ratio""], 0)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,105,escalat,"esc80 = next(r for r in e1[""escalation""] if abs(r[""tau""] - _tau) < 1e-9)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,107,escalat,"m[""EOneEscPct""] = _fmt(esc80[""escalated""], 1, pct=True)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,110,escalat,"if e1.get(""escalation_oof""):"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,111,escalat,"_o = next(r for r in e1[""escalation_oof""] if abs(r[""tau""] - _tau) < 1e-9)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,112,escalat,"m[""EOneEscPctOOF""] = _fmt(_o[""escalated""], 1, pct=True)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,115,escalat,"if e1.get(""escalation_signals""):"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,116,escalat,"_s = {r[""signal""]: r for r in e1[""escalation_signals""]}"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,119,escalat,"m[""EOneSigBudget""] = _fmt(_cc[""escalated""], 1, pct=True)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,189,escalat,"m[""EFourEscPct""] = _fmt(e4[""escalated80_combined""], 1, pct=True)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,220,latency,"m[""EFiveLatency""] = _fmt(e5[""latency_s_per_intent""], 2)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,222,escalat,"m[""EFiveEscPct""] = _fmt(e5[""escalation""][""escalated_pct""], 1, pct=True)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,223,escalat,"m[""EFiveEscRecall""] = _fmt(e5[""escalation""][""recall_agent""], 1, pct=True)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,225,escalat,"e5[""escalation""][""recall_confidence""], 1, pct=True)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,226,escalat,"m[""EFiveEscDelta""] = f""{e5['escalation']['delta_pts']:+.1f}"""
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,228,escalat,"""adds"" if e5[""escalation""][""delta_pts""] > 0.5 else ""does not add"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,233,latency,"e5[""latency_s_per_intent""] * 1000.0"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,234,latency,"/ max(e1[""fidelity""][""inference_latency_ms""], 1e-9), 0)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,253,escalat,# --- E1: global attribution + escalation sweep -----------------------
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,272,escalat,"esc = pd.read_csv(os.path.join(OUT, ""e1_escalation.csv""))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,274,escalat,"ax.plot(esc[""escalated""] * 100, esc[""autonomous_acc""] * 100,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,278,escalat,"(r[""escalated""] * 100, r[""autonomous_acc""] * 100),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,280,escalat,"ax.set_xlabel(""intents escalated to operator (%)"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,284,escalat,"fig.savefig(os.path.join(OUT, ""fig_escalation.pdf""))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,286,escalat,"print(f""  -> {OUT}/fig_escalation.pdf"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,288,escalat,"print(f""  !! fig_escalation.pdf skipped ({type(e).__name__}: {e})"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,290,latency,# --- E2: explanation latency vs faithfulness -------------------------
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,303,latency,"ax.set_xlabel(""explanation latency per intent (ms, log scale)"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,308,latency,"fig.savefig(os.path.join(OUT, ""fig_e2_latency.pdf""))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,310,latency,"print(f""  -> {OUT}/fig_e2_latency.pdf"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,395,escalat,"esc = e5[""escalation""]"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,402,escalat,"ax.set_title(f""(b) escalation quality """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,403,escalat,"f""({esc['escalated_pct']*100:.0f}% budget)"", fontsize=7)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,468,latency,"expl_ms=e1[""fidelity""][""explanation_latency_ms""],"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,479,latency,"expl_ms=e1[""fidelity""][""explanation_latency_ms""],"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,495,latency,"expl_ms=e1[""fidelity""][""explanation_latency_ms""],"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,517,escalat,"for f in (""results_macros.tex"", ""fig_shap_global.pdf"", ""fig_escalation.pdf"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_all.py,518,latency,"""fig_e2_latency.pdf"", ""fig_e3_oov.pdf"", ""fig_e4_combined.pdf"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/run_seeds.py,96,latency,"expl_ms=e1[""fidelity""][""explanation_latency_ms""],"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,2,slice,Shared components for the Explainable Agentic AI slice-selection experiments.
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,6,slice,"seed, identical train/test split, identical slice catalogue and safety contract."
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,13,kpi,S1  Synthetic intent + KPI corpus grounded in 3GPP TS 22.261 / TS 23.501
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,15,"feasib,candidate,slice",S3  Candidate Agent   : SST/feasibility screening against a slice catalogue
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,16,slice,S4  Selection Agent   : supervised slice classifier
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,17,"valid,kpi",S5  Validation Agent  : safety-contract check (3GPP KPI envelopes)
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,41,slice,"SLICES = [""eMBB"", ""URLLC"", ""mMTC""]"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,42,slice,"SLICE_ID = {s: i for i, s in enumerate(SLICES)}"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,48,"slice,kpi",# S1. Slice catalogue + synthetic intent/KPI corpus
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,51,"slice,kpi",# 3GPP-informed KPI envelopes per standardised slice/service type (SST).
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,72,kpi,"# exact keyword signal, so a lexicon-based agent must fall back to KPI slots."
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,89,kpi,# Templates differ in which KPI slots the operator actually states.
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,91,"latency,slice","""Deploy a slice for {uc} with latency under {lat} ms, at least {thr} Mbps """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,92,"reliability,throughput","""throughput and {rel}% reliability for about {den} devices per square km."","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,94,density,"""{thr} Mbps, availability {rel}%, device density around {den} per km2, """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,95,mobility,"""mobility up to {mob} km/h."","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,96,latency,"""Provision connectivity for {uc}. Target budget: {lat} ms latency, {rel}% """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,97,reliability,"""reliability, {den} devices/km2, users moving at {mob} km/h."","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,98,latency,"""Can you set up {uc}? We require no more than {lat} ms one-way latency, a """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,100,slice,"""Create a network slice supporting {uc} with {thr} Mbps guaranteed bitrate, """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,101,"reliability,mobility","""{rel} percent reliability, {den} terminals per km2 and {mob} km/h mobility."","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,122,slice,"""""""Generate NL intents with latent ground-truth slice labels."
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,125,kpi,* KPI ambiguity   -- a fraction `p_amb` of requests have KPI targets
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,126,slice,blended towards a neighbouring slice envelope;
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,130,slice,The ground-truth label is the *pre-blending* latent slice type.
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,135,slice,label = SLICES[i % 3]
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,145,slice,"other = SLICES[int(rng.integers(0, 3))]"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,175,slice,"slice=label, ambiguous=int(ambiguous),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,192,latency,"""latency_ms"": ["
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,193,latency,"rf""(?:latency|delay)[^.;]*?(?:under|below|of|budget:?|bound)?\s*{NUM}\s*ms"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,194,latency,"rf""{NUM}\s*ms\s*(?:one-way\s*)?(?:latency|delay|budget)"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,197,throughput,"""throughput_mbps"": ["
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,200,reliability,"""reliability_pct"": ["
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,202,reliability,"rf""(?:reliability|availability)[^.;]*?{NUM}"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,204,density,"""density_per_km2"": ["
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,206,capacity,"rf""(?:capacity for|about|around)\s*{NUM}\s*(?:devices|terminals)"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,208,mobility,"""mobility_kmh"": ["
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,227,latency,latency_ms: float = np.nan
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,228,throughput,throughput_mbps: float = np.nan
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,229,reliability,reliability_pct: float = np.nan
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,230,density,density_per_km2: float = np.nan
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,231,mobility,mobility_kmh: float = np.nan
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,269,"latency,reliability,throughput","FEATURES = [""latency_ms"", ""throughput_mbps"", ""reliability_pct"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,270,"mobility,density","""density_per_km2"", ""mobility_kmh"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,271,"latency,throughput,density","""log_latency"", ""log_throughput"", ""log_density"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,272,"latency,throughput,density","""miss_latency"", ""miss_throughput"", ""miss_density"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,276,"latency,throughput","""latency_ms"": ""latency (ms)"", ""throughput_mbps"": ""throughput (Mbps)"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,277,"reliability,density","""reliability_pct"": ""reliability (%)"", ""density_per_km2"": ""density (dev/km2)"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,278,"latency,mobility","""mobility_kmh"": ""mobility (km/h)"", ""log_latency"": ""log latency"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,279,"throughput,density","""log_throughput"": ""log throughput"", ""log_density"": ""log density"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,280,"latency,throughput","""miss_latency"": ""latency unstated"", ""miss_throughput"": ""throughput unstated"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,281,density,"""miss_density"": ""density unstated"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,285,"latency,throughput","SLOT_MAP = {""latency_ms"": ""lat_true"", ""throughput_mbps"": ""thr_true"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,286,"reliability,density","""reliability_pct"": ""rel_true"", ""density_per_km2"": ""den_true"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,287,mobility,"""mobility_kmh"": ""mob_true""}"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,288,"latency,reliability,throughput","SLOT_TOL = {""latency_ms"": 0.5, ""throughput_mbps"": 0.05, ""reliability_pct"": 0.0,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,289,"mobility,density","""density_per_km2"": 0.5, ""mobility_kmh"": 0.5}"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,322,latency,"parse_latency_ms=parse_ms,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,345,latency,"X[""log_latency""] = np.log10(X[""latency_ms""].astype(float).clip(lower=1e-3))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,346,throughput,"X[""log_throughput""] = np.log10(X[""throughput_mbps""].astype(float).clip(lower=1e-4))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,347,density,"X[""log_density""] = np.log10(X[""density_per_km2""].astype(float).clip(lower=1.0))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,356,candidate,# S3/S5. Candidate screening + safety contract
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,359,feasib,def feasible_set(row):
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,360,slice,"""""""One-sided, tolerant screening: exclude a slice only when a *stated*"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,365,latency,"if np.isfinite(row[""latency_ms""]) and row[""latency_ms""] < c[""lat""][0] * 0.5:"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,367,throughput,"if np.isfinite(row[""throughput_mbps""]) and row[""throughput_mbps""] > c[""thr""][1] * 1.5:"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,369,reliability,"if np.isfinite(row[""reliability_pct""]) and row[""reliability_pct""] > c[""rel""][1] + 1e-6:"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,371,density,"if np.isfinite(row[""density_per_km2""]) and row[""density_per_km2""] > c[""den""][1] * 2.0:"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,378,valid,"def contract_valid(pred_label, row):"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,379,feasib,return pred_label in feasible_set(row)
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,387,"latency,reliability","lat, rel = row[""latency_ms""], row[""reliability_pct""]"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,388,"throughput,density","den, thr = row[""density_per_km2""], row[""throughput_mbps""]"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,403,kpi,"`rule_based` sees only the five raw KPI slots, while every learned model also"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,407,kpi,"whenever it fires with a unique winner, and falls back to the KPI playbook"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,415,slice,return SLICES[int(lex.argmax())]
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,471,escalat,"def escalation_table(proba, ypred, yte, Xte, taus=(0.50, 0.60, 0.70, 0.80, 0.90)):"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,472,"policy,escalat","""""""Confidence + safety-contract escalation policy."""""""
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,474,"feasib,valid,slice","infeasible = np.array([not contract_valid(SLICES[p], r)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,479,feasib,flag = infeasible | (conf < tau)
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,482,escalat,"escalated=float(flag.mean()),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,494,candidate,i.e. the model had no single dominant reason -- a candidate error signal
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,509,escalat,"def _rank_escalate(score, budget, force=None):"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,510,escalat,"""""""Escalate the `budget` fraction with the LOWEST score."
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,512,escalat,"`force` entries are always escalated and consume part of the budget, so"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,513,policy,every policy in the comparison spends the same number of operator reviews.
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,529,escalat,"def escalation_signal_ablation(proba, ypred, yte, Xte, attr, tau):"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,534,escalat,budget fixed: a signal that escalates more intents will trivially recall
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,535,"policy,escalat",more errors. Every policy below therefore escalates the SAME number of
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,536,policy,intents -- the number the confidence-only policy spends at `tau` -- and the
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,541,"feasib,valid,slice","infeasible = np.array([not contract_valid(SLICES[p], r)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,550,escalat,"escalated=float(flag.mean()),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,558,escalat,"stats(_rank_escalate(conf, budget), ""Confidence only""),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,559,escalat,"stats(_rank_escalate(mass, budget), ""Attribution concentration only""),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,560,"feasib,escalat","stats(_rank_escalate(conf, budget, force=infeasible),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,562,"feasib,escalat","stats(_rank_escalate(combined, budget, force=infeasible),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,573,escalat,"Choose the smallest tau (i.e. the least escalation, hence the most autonomy)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py,587,kpi,"""""""Accuracy decomposition by KPI ambiguity and use-case vocabulary kind."""""""
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,2,slice,Explainable Agentic AI for Intent-Based Network Slice Selection
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,6,"slice,kpi",S1  Synthetic intent + KPI corpus grounded in 3GPP TS 22.261 / TS 23.501 slice KPIs
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,8,"feasib,candidate,slice",S3  Candidate Agent     : SST/feasibility screening against a slice catalogue
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,9,slice,S4  Selection Agent     : supervised slice classifier (5 models + rule baseline)
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,10,"valid,kpi",S5  Validation Agent    : safety-contract check (3GPP KPI envelopes)
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,11,latency,"S6  Explanation Agent   : SHAP global + local attributions, fidelity + latency"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,54,slice,"SLICES = [""eMBB"", ""URLLC"", ""mMTC""]"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,55,slice,"SLICE_ID = {s: i for i, s in enumerate(SLICES)}"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,58,"slice,kpi",# S1. Slice catalogue + synthetic intent/KPI corpus
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,61,"slice,kpi",# 3GPP-informed KPI envelopes per standardised slice/service type (SST).
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,82,kpi,"# keyword signal, so the Selection Agent must rely on the KPI slots alone."
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,99,kpi,# Templates differ in which KPI slots the operator actually states. Missing slots
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,103,"latency,slice","""Deploy a slice for {uc} with latency under {lat} ms, at least {thr} Mbps """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,104,"reliability,throughput","""throughput and {rel}% reliability for about {den} devices per square km."","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,106,density,"""{thr} Mbps, availability {rel}%, device density around {den} per km2, """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,107,mobility,"""mobility up to {mob} km/h."","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,108,throughput,# throughput omitted
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,109,latency,"""Provision connectivity for {uc}. Target budget: {lat} ms latency, {rel}% """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,110,reliability,"""reliability, {den} devices/km2, users moving at {mob} km/h."","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,111,density,# density omitted
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,112,latency,"""Can you set up {uc}? We require no more than {lat} ms one-way latency, a """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,114,latency,# latency omitted
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,115,slice,"""Create a network slice supporting {uc} with {thr} Mbps guaranteed bitrate, """
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,116,"reliability,mobility","""{rel} percent reliability, {den} terminals per km2 and {mob} km/h mobility."","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,138,slice,"""""""Generate NL intents with latent ground-truth slice labels."
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,141,kpi,* KPI ambiguity  -- a fraction `p_amb` of requests have KPI targets blended
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,142,slice,towards a neighbouring slice envelope (under-specified or over-cautious
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,150,slice,label = SLICES[i % 3]
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,160,slice,"other = SLICES[int(rng.integers(0, 3))]"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,190,slice,"slice=label, ambiguous=int(ambiguous),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,207,latency,"""latency_ms"": ["
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,208,latency,"rf""(?:latency|delay)[^.;]*?(?:under|below|of|budget:?|bound)?\s*{NUM}\s*ms"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,209,latency,"rf""{NUM}\s*ms\s*(?:one-way\s*)?(?:latency|delay|budget)"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,212,throughput,"""throughput_mbps"": ["
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,215,reliability,"""reliability_pct"": ["
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,217,reliability,"rf""(?:reliability|availability)[^.;]*?{NUM}"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,219,density,"""density_per_km2"": ["
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,221,capacity,"rf""(?:capacity for|about|around)\s*{NUM}\s*(?:devices|terminals)"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,223,mobility,"""mobility_kmh"": ["
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,240,latency,latency_ms: float = np.nan
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,241,throughput,throughput_mbps: float = np.nan
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,242,reliability,reliability_pct: float = np.nan
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,243,density,density_per_km2: float = np.nan
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,244,mobility,mobility_kmh: float = np.nan
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,268,"latency,reliability,throughput","FEATURES = [""latency_ms"", ""throughput_mbps"", ""reliability_pct"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,269,"mobility,density","""density_per_km2"", ""mobility_kmh"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,270,"latency,throughput,density","""log_latency"", ""log_throughput"", ""log_density"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,271,"latency,throughput,density","""miss_latency"", ""miss_throughput"", ""miss_density"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,275,"latency,throughput","""latency_ms"": ""latency (ms)"", ""throughput_mbps"": ""throughput (Mbps)"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,276,"reliability,density","""reliability_pct"": ""reliability (%)"", ""density_per_km2"": ""density (dev/km2)"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,277,"latency,mobility","""mobility_kmh"": ""mobility (km/h)"", ""log_latency"": ""log latency"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,278,"throughput,density","""log_throughput"": ""log throughput"", ""log_density"": ""log density"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,279,"latency,throughput","""miss_latency"": ""latency unstated"", ""miss_throughput"": ""throughput unstated"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,280,density,"""miss_density"": ""density unstated"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,285,"latency,throughput","SLOT_MAP = {""latency_ms"": ""lat_true"", ""throughput_mbps"": ""thr_true"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,286,"reliability,density","""reliability_pct"": ""rel_true"", ""density_per_km2"": ""den_true"","
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,287,mobility,"""mobility_kmh"": ""mob_true""}"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,288,"latency,reliability,throughput","SLOT_TOL = {""latency_ms"": 0.5, ""throughput_mbps"": 0.05, ""reliability_pct"": 0.0,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,289,"mobility,density","""density_per_km2"": 0.5, ""mobility_kmh"": 0.5}"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,326,latency,"X[""log_latency""] = np.log10(X[""latency_ms""].astype(float).clip(lower=1e-3))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,327,throughput,"X[""log_throughput""] = np.log10(X[""throughput_mbps""].astype(float).clip(lower=1e-4))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,328,density,"X[""log_density""] = np.log10(X[""density_per_km2""].astype(float).clip(lower=1.0))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,339,latency,"parse_latency_ms=parse_ms,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,345,candidate,# S3/S5. Candidate screening + safety contract
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,348,feasib,def feasible_set(row):
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,352,latency,"if np.isfinite(row[""latency_ms""]) and row[""latency_ms""] < c[""lat""][0] * 0.5:"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,354,throughput,"if np.isfinite(row[""throughput_mbps""]) and row[""throughput_mbps""] > c[""thr""][1] * 1.5:"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,356,reliability,"if np.isfinite(row[""reliability_pct""]) and row[""reliability_pct""] > c[""rel""][1] + 1e-6:"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,358,density,"if np.isfinite(row[""density_per_km2""]) and row[""density_per_km2""] > c[""den""][1] * 2.0:"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,365,valid,"def contract_valid(pred_label, row):"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,366,feasib,return pred_label in feasible_set(row)
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,374,"latency,reliability","lat, rel = row[""latency_ms""], row[""reliability_pct""]"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,375,"throughput,density","den, thr = row[""density_per_km2""], row[""throughput_mbps""]"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,398,slice,"y = df[""slice""].map(SLICE_ID).values"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,417,slice,"rb = np.array([SLICE_ID[rule_based(r)] for _, r in Xte.iterrows()])"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,423,"valid,slice","valid=float(np.mean([contract_valid(SLICES[p], r)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,440,"valid,slice","valid=float(np.mean([contract_valid(SLICES[pi], r)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,454,slice,"per_class = pd.DataFrame(dict(slice=SLICES, precision=pr, recall=rc, f1=f1c, support=sup))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,475,"valid,slice","if not contract_valid(SLICES[pi], r))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,477,"valid,slice","if not contract_valid(SLICES[pi], r) and pi != yi)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,483,"policy,escalat",# Escalation policy: hand the intent to the operator when either the safety
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,487,"feasib,valid,slice","infeasible = np.array([not contract_valid(SLICES[pi], r)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,492,feasib,flag = infeasible | (conf < tau)
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,493,escalat,"esc.append(dict(tau=tau, escalated=float(flag.mean()),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,497,escalat,"fail[""escalation""] = esc"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,501,escalat,"pd.DataFrame(esc).to_csv(os.path.join(OUT, ""escalation.csv""), index=False)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,546,latency,"fid[""shap_latency_ms""] = shap_ms"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,555,slice,"local.append(dict(slice=SLICES[c],"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,561,slice,"print(f""  {l['slice']}: "" + "", "".join(f""{a}={b:+.3f}"" for a, b in l[""top""]))"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,568,slice,ax.set_xticks(range(3)); ax.set_xticklabels(SLICES)
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,569,slice,ax.set_yticks(range(3)); ax.set_yticklabels(SLICES)
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,600,escalat,"ax.plot(e[""escalated""] * 100, e[""autonomous_acc""] * 100, ""o-"", color=""#2b6cb0"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,602,escalat,"ax.annotate(f""$\\tau$={r['tau']:.1f}"", (r[""escalated""] * 100, r[""autonomous_acc""] * 100),"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,604,escalat,"ax.set_xlabel(""intents escalated to operator (%)"")"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,607,escalat,"fig.tight_layout(); fig.savefig(os.path.join(OUT, ""fig_escalation.pdf"")); plt.close(fig)"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,614,escalat,"escalation=esc,"
+XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py,616,slice,"report=classification_report(yte, ypred, target_names=SLICES))"

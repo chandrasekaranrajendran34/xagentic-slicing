@@ -1,0 +1,41 @@
+R3 CANDIDATE MASKING — RESUME CHECKPOINT
+
+STATUS
+------
+R3-06  : completed — conservative post-prediction safety baseline
+R3-09  : completed but SUPERSEDED for final evidence due module contamination
+R3-10C : completed — exact R2-V2 oracle reconstructed and validated 1200/1200
+R3-10D : completed — exact packaged seed-42 Selection Agent reproduced
+R3-10E : completed diagnostic — canonical KPI columns absent from raw corpus rows
+R3-10F : completed diagnostic — STOP with 5276 KPI mismatches
+R3-10G : completed — frozen R2 dataset provenance identified
+
+IMPORTANT R3-10G FINDING
+------------------------
+Frozen R2 used:
+02_E5_QWEN37_N100_SEED52/corpus.csv
+
+Corpus rows: 1200
+
+R2 parsed KPI slots from exact frozen intent text using the unchanged
+parse_intent() implementation.
+
+Therefore:
+- Do NOT join the regenerated 3000-row corpus to R2 by numeric ID.
+- Do NOT use the R3-10F raw *_true KPI mapping as R2 reproduction.
+- Do NOT perform candidate masking yet.
+- R3-09 remains diagnostic/superseded evidence.
+
+NEXT STEP
+---------
+R3-11A — EXACT FROZEN 1200-ROW E5 SELECTION-AGENT RECONSTRUCTION
+
+R3-11A must:
+1. load the frozen 1200-row corpus directly;
+2. verify SHA256;
+3. NOT call synth_corpus();
+4. reproduce the Selection Agent and genuine predict_proba vectors;
+5. identify the held-out split;
+6. compare the frozen 100 E5 decisions to the held-out rows by EXACT INTENT TEXT.
+
+Only after R3-11A passes should strict candidate masking proceed.

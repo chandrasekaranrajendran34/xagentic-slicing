@@ -1,0 +1,13 @@
+id,true_slice,uc_kind,template,ambiguous,latency_ms,throughput_mbps,reliability_pct,density_per_km2,mobility_kmh,legacy_feasible_set,strict_feasible_set,legacy_strict_disagreement,strict_empty,legacy_extra_candidates,legacy_missing_candidates,legacy_extra_count,legacy_missing_count,extra_violation_kpis,mobility_contributed,mobility_only_disagreement,violations_eMBB,violations_URLLC,violations_mMTC
+115,URLLC,known,4,1,,0.361,98.9638,3597.0,460.0,eMBB|URLLC|mMTC,URLLC,True,False,eMBB|mMTC,,2,0,mobility_kmh,True,True,mobility_kmh,,mobility_kmh
+202,URLLC,known,4,1,,0.582,96.6998,7794.0,62.0,eMBB|URLLC|mMTC,eMBB|URLLC,True,False,mMTC,,1,0,mobility_kmh,True,True,,,mobility_kmh
+345,eMBB,generic,2,1,73.0,,97.7921,118534.0,95.0,mMTC,,True,True,mMTC,,1,0,mobility_kmh,True,True,density_per_km2,latency_ms|density_per_km2,mobility_kmh
+433,URLLC,generic,4,1,,1.7,99.8212,1456.0,60.0,eMBB|URLLC|mMTC,eMBB|URLLC,True,False,mMTC,,1,0,mobility_kmh,True,True,,,mobility_kmh
+454,URLLC,known,4,1,,0.233,99.1616,38247.0,168.0,eMBB|mMTC,eMBB,True,False,mMTC,,1,0,mobility_kmh,True,True,,density_per_km2,mobility_kmh
+592,URLLC,unseen,4,1,,40.0,99.6314,291.0,448.0,eMBB|URLLC,URLLC,True,False,eMBB,,1,0,mobility_kmh,True,True,mobility_kmh,,throughput_mbps|mobility_kmh
+685,URLLC,known,4,1,,82.0,99.5399,4561.0,290.0,eMBB|URLLC,URLLC,True,False,eMBB,,1,0,mobility_kmh,True,True,mobility_kmh,,throughput_mbps|mobility_kmh
+696,eMBB,generic,4,1,,1.5,99.7677,8079.0,137.0,eMBB|URLLC|mMTC,eMBB|URLLC,True,False,mMTC,,1,0,mobility_kmh,True,True,,,mobility_kmh
+877,URLLC,known,1,1,10.0,3.3,99.8297,,346.0,eMBB|URLLC,URLLC,True,False,eMBB,,1,0,mobility_kmh,True,True,mobility_kmh,,throughput_mbps|mobility_kmh
+1063,URLLC,unseen,4,1,,0.235,96.756,30235.0,264.0,eMBB|mMTC,,True,True,eMBB|mMTC,,2,0,mobility_kmh,True,True,mobility_kmh,density_per_km2,mobility_kmh
+1110,eMBB,known,2,1,116.0,,97.0831,44795.0,162.0,eMBB|mMTC,eMBB,True,False,mMTC,,1,0,mobility_kmh,True,True,,latency_ms|density_per_km2,mobility_kmh
+1125,eMBB,generic,4,1,,0.432,99.5228,40629.0,185.0,eMBB|mMTC,eMBB,True,False,mMTC,,1,0,mobility_kmh,True,True,,density_per_km2,mobility_kmh

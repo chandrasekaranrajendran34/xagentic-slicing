@@ -1,0 +1,36 @@
+check,passed
+controlled V2 suite = 16 rows,True
+controlled V2 suite = 16/16 PASS,True
+request-level audit = 1200 rows,True
+legacy/strict disagreements = 229,True
+legacy over-acceptance rows = 229,True
+legacy missing candidate rows = 0,True
+strict-empty requests = 14,True
+strict-empty artifact = 14 rows,True
+legacy nonempty on all strict-empty requests,True
+mobility contribution = 61 rows,True
+mobility-only disagreements = 37,True
+mobility-only artifact = 37 rows,True
+E5 prediction audit = 100 rows,True
+E5 legacy-valid = 100,True
+E5 strict-valid = 97,True
+E5 false-feasible = 3,True
+false-feasible artifact = 3 rows,True
+E5 strict-empty = 3,True
+E5 strict-empty artifact = 3 rows,True
+false-feasible ACCEPT = 2,True
+false-feasible ESCALATE = 1,True
+critical publication table = 3 rows,True
+classification-correct false-feasible = 2,True
+frozen xagentic_slice.py unchanged,True
+frozen 1200-row corpus unchanged,True
+frozen E5 decisions unchanged,True
+V1 oracle retained,True
+V2 oracle retained,True
+V1 and V2 are distinct files,True
+"findings contain 229/1,200",True
+"findings contain 14/1,200",True
+findings contain 97/100,True
+findings contain 3/100,True
+findings contain 2/100,True
+methodology defines false-feasible,True

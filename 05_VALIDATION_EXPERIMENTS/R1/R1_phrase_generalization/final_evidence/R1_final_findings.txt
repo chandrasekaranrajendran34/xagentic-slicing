@@ -1,0 +1,105 @@
+R1 — Phrase Generalization and Lexical Ablation
+================================================
+
+Experimental design
+-------------------
+R1 was evaluated across five random seeds:
+42, 43, 44, 45, and 46.
+
+Four conditions were evaluated:
+
+L1 — Original:
+Original synthetic intent text using the frozen feature pipeline.
+
+L2 — Phrase-family-held-out:
+Strict class-specific phrase/use-case family holdout.
+Train and test phrase families are disjoint.
+Generic use cases are excluded from this condition.
+
+L3 — Generic + KPI:
+Use-case semantic phrases are replaced with a neutral
+"network service" expression while preserving observable KPI
+information.
+
+L4 — KPI-only:
+Only KPI information observable to the frozen parser is retained.
+
+Final five-seed results
+-----------------------
+L1 accuracy:
+0.9311 ± 0.0065
+
+L1 macro-F1:
+0.9311 ± 0.0065
+
+L2 accuracy:
+0.9549 ± 0.0081
+
+L2 macro-F1:
+0.9548 ± 0.0081
+
+L3 accuracy:
+0.8920 ± 0.0080
+
+L3 macro-F1:
+0.8920 ± 0.0078
+
+L4 accuracy:
+0.8920 ± 0.0080
+
+L4 macro-F1:
+0.8920 ± 0.0078
+
+Lexical-ablation effect
+-----------------------
+Mean L1 -> L3/L4 accuracy reduction:
+0.0391 ±
+0.0090
+
+Mean L1 -> L3/L4 macro-F1 reduction:
+0.0392 ±
+0.0089
+
+Interpretation
+--------------
+1. Performance remains strong under strict held-out
+   class-specific phrase families.
+
+2. Therefore, the classifier does not exhibit performance
+   collapse when evaluated on phrase families excluded from
+   training.
+
+3. Removing lexical/use-case information produces a consistent
+   performance reduction across all five seeds.
+
+4. Consequently, lexical intent cues provide useful predictive
+   information, but classification is not solely dependent on
+   lexical phrase memorization.
+
+5. L2 must NOT be described as an improvement over L1.
+   L2 uses a different evaluation population because generic
+   examples are excluded.
+
+6. L3 and L4 produce identical frozen feature representations
+   across all five evaluated corpora. Their identical results are
+   therefore an architectural/representation finding rather than
+   independent evidence from two distinct model representations.
+
+7. Ambiguous intents require separate interpretation because the
+   synthetic ground-truth label is defined before KPI blending.
+   KPI-only disagreement on such cases should not automatically be
+   interpreted as ordinary classification failure.
+
+Conclusion
+----------
+R1 provides evidence against the concern that the reported
+classifier performance is explained solely by memorization of
+class-specific intent phrases.
+
+The experiment also quantifies the contribution of lexical cues:
+removing those cues reduces macro-F1 by approximately
+3.92 percentage points on average.
+
+Claims should remain limited to the evaluated synthetic corpus,
+frozen parser, feature representation, model-selection procedure,
+and phrase families used in this experiment.

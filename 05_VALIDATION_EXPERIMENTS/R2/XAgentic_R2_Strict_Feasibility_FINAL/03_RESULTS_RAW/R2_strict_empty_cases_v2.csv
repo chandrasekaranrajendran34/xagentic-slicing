@@ -1,0 +1,15 @@
+id,true_slice,uc_kind,template,ambiguous,latency_ms,throughput_mbps,reliability_pct,density_per_km2,mobility_kmh,legacy_feasible_set,strict_v2_feasible_set,legacy_strict_v2_disagreement,strict_v2_empty,legacy_nonempty_strict_empty,legacy_extra_candidates,legacy_missing_candidates,legacy_extra_count,legacy_missing_count,extra_violation_kpis,mobility_contributed,mobility_only_disagreement,latency_contributed,latency_only_disagreement,violations_eMBB,violations_URLLC,violations_mMTC
+27,eMBB,generic,4,1,,0.04,96.434,98237.0,142.0,eMBB|mMTC,,True,True,True,eMBB|mMTC,,2,0,density_per_km2|mobility_kmh,True,False,False,False,density_per_km2,density_per_km2,mobility_kmh
+48,eMBB,generic,4,1,,2.3,98.0637,111463.0,150.0,mMTC,,True,True,True,mMTC,,1,0,mobility_kmh|throughput_mbps,True,False,False,False,density_per_km2,density_per_km2,throughput_mbps|mobility_kmh
+81,eMBB,known,1,1,5.8,112.0,99.8138,,87.0,eMBB|URLLC,,True,True,True,eMBB|URLLC,,2,0,latency_ms|throughput_mbps,False,False,True,False,latency_ms,throughput_mbps,latency_ms|throughput_mbps|mobility_kmh
+178,URLLC,unseen,4,1,,3.9,99.876,12741.0,443.0,eMBB|URLLC,,True,True,True,eMBB|URLLC,,2,0,density_per_km2|mobility_kmh,True,False,False,False,mobility_kmh,density_per_km2,throughput_mbps|mobility_kmh
+345,eMBB,generic,2,1,73.0,,97.7921,118534.0,95.0,mMTC,,True,True,True,mMTC,,1,0,mobility_kmh,True,True,False,False,density_per_km2,density_per_km2,mobility_kmh
+440,mMTC,unseen,2,1,49.0,,98.2152,65083.0,9.9,eMBB|mMTC,,True,True,True,eMBB|mMTC,,2,0,density_per_km2|latency_ms,False,False,True,False,density_per_km2,density_per_km2,latency_ms
+492,eMBB,generic,2,1,873.0,,98.2125,53871.0,72.0,eMBB|mMTC,,True,True,True,eMBB|mMTC,,2,0,density_per_km2|mobility_kmh,True,False,False,False,density_per_km2,density_per_km2,mobility_kmh
+530,mMTC,known,5,1,,12.0,,50053.0,,eMBB,,True,True,True,eMBB,,1,0,density_per_km2,False,False,False,False,density_per_km2,density_per_km2,throughput_mbps
+583,URLLC,known,2,1,47.0,,98.9922,54233.0,438.0,eMBB|mMTC,,True,True,True,eMBB|mMTC,,2,0,density_per_km2|latency_ms|mobility_kmh,True,False,True,False,density_per_km2|mobility_kmh,density_per_km2,latency_ms|mobility_kmh
+737,mMTC,known,0,1,217.0,12.0,98.0494,54103.0,,eMBB,,True,True,True,eMBB,,1,0,density_per_km2,False,False,False,False,density_per_km2,density_per_km2,throughput_mbps
+885,eMBB,generic,4,1,,0.126,96.998,59574.0,237.0,eMBB|mMTC,,True,True,True,eMBB|mMTC,,2,0,density_per_km2|mobility_kmh,True,False,False,False,density_per_km2,density_per_km2,mobility_kmh
+1063,URLLC,unseen,4,1,,0.235,96.756,30235.0,264.0,eMBB|mMTC,,True,True,True,eMBB|mMTC,,2,0,mobility_kmh,True,True,False,False,mobility_kmh,density_per_km2,mobility_kmh
+1144,URLLC,generic,1,1,13.0,106.0,99.9014,,21.0,URLLC,,True,True,True,URLLC,,1,0,throughput_mbps,False,False,False,False,reliability_pct,throughput_mbps,latency_ms|throughput_mbps|reliability_pct
+1160,mMTC,unseen,0,1,51.0,5.2,98.8025,125782.0,,eMBB|URLLC|mMTC,,True,True,True,eMBB|URLLC|mMTC,,3,0,density_per_km2|throughput_mbps,False,False,False,False,density_per_km2,density_per_km2,throughput_mbps

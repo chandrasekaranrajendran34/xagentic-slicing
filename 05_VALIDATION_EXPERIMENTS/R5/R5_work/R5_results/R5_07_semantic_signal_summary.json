@@ -1,0 +1,17 @@
+{
+  "stage": "R5-07B",
+  "status": "CORRECTED_RERUN_AFTER_NUMPY_MATRIX_COMPATIBILITY_ERROR",
+  "method": "development-only leave-one-out TF-IDF class semantic prototypes",
+  "source_sha256": "2c6f8bb8b3f3e45b9f5e5a0dfa91140e3bfb2dd27061e929f479cad2354eaa16",
+  "development_rows": 840,
+  "heldout_rows_used_for_training": 0,
+  "development_heldout_id_overlap": 0,
+  "tfidf_features": 1786,
+  "oof_errors": 62,
+  "semantic_prototype_accuracy": 0.7904761904761904,
+  "semantic_error_detection_auc": 0.823430632722448,
+  "high_confidence_oof_errors_ge_080": 26,
+  "high_confidence_errors_semantic_disagreement": 21,
+  "policy_frozen": false,
+  "heldout_evaluated": false
+}

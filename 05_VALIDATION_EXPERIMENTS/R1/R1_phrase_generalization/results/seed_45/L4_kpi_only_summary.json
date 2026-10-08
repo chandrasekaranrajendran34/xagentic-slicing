@@ -1,0 +1,14 @@
+{
+  "seed": 45,
+  "condition": "L4_kpi_only",
+  "train_n": 2100,
+  "test_n": 900,
+  "selected_model": "Gradient Boosting",
+  "selected_cv_mean": 0.8905977899609254,
+  "selected_cv_std": 0.012297671348453379,
+  "accuracy": 0.8844444444444445,
+  "macro_f1": 0.8843907774651912,
+  "test_nonambiguous_n": 614,
+  "test_ambiguous_n": 286,
+  "fit_plus_predict_seconds": 2.5583329880000747
+}

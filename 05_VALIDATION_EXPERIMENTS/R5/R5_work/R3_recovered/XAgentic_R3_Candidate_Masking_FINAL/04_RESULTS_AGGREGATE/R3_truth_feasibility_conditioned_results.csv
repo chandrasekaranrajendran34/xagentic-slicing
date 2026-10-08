@@ -1,0 +1,3 @@
+truth_strict_feasible,n,baseline_accuracy,baseline_strict_validity,masked_autonomous_n,masked_correct_autonomous,mask_changes,escalations
+True,340,0.9676470588235294,0.9941176470588236,340,330,2,0
+False,20,0.8,0.15,16,0,13,4

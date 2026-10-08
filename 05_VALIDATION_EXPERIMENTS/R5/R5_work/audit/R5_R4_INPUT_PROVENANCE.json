@@ -1,0 +1,39 @@
+{
+  "experiment": "R5",
+  "upstream_experiment": "R4",
+  "stage": "R5-01",
+  "timestamp_utc": "2026-10-07T16:44:19.853837+00:00",
+  "uploaded_filename": "XAgentic_R4_Uncertainty_Escalation_FINAL_2026-10-07 (1).zip",
+  "stored_input_path": "/content/R5_work/input/XAgentic_R4_Uncertainty_Escalation_FINAL_2026-10-07 (1).zip",
+  "size_bytes": 33949,
+  "sha256": "101d81ca812aec3af359c5d00074705d0b9785b3bfb3d87e02874695bd138677",
+  "zip_member_count": 11,
+  "zip_integrity_pass": true,
+  "expected_evidence": {
+    "R4_RECOVERED_completed_run_summary.json": [
+      "XAgentic_R4_Uncertainty_Escalation_FINAL/R4_RECOVERED_completed_run_summary.json"
+    ],
+    "R4_RECOVERED_error_capture_by_uc_kind.csv": [
+      "XAgentic_R4_Uncertainty_Escalation_FINAL/R4_RECOVERED_error_capture_by_uc_kind.csv"
+    ],
+    "R4_RECOVERED_final_system_comparison.csv": [
+      "XAgentic_R4_Uncertainty_Escalation_FINAL/R4_RECOVERED_final_system_comparison.csv"
+    ],
+    "R4_RECOVERED_frozen_policy_heldout_decisions.csv": [
+      "XAgentic_R4_Uncertainty_Escalation_FINAL/R4_RECOVERED_frozen_policy_heldout_decisions.csv"
+    ],
+    "R4_RECOVERY_PROVENANCE.json": [
+      "XAgentic_R4_Uncertainty_Escalation_FINAL/R4_RECOVERY_PROVENANCE.json"
+    ],
+    "R4_recovered_R3_manifest_audit.csv": [
+      "XAgentic_R4_Uncertainty_Escalation_FINAL/R4_recovered_R3_manifest_audit.csv"
+    ],
+    "R4_runtime_recovery_summary.csv": [
+      "XAgentic_R4_Uncertainty_Escalation_FINAL/R4_runtime_recovery_summary.csv"
+    ],
+    "R4_FINAL_FINDINGS_AND_INTERPRETATION.md": [
+      "XAgentic_R4_Uncertainty_Escalation_FINAL/R4_FINAL_FINDINGS_AND_INTERPRETATION.md"
+    ]
+  },
+  "extracted": false
+}

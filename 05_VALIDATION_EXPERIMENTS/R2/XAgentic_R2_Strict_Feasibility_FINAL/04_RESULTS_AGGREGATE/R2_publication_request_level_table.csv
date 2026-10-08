@@ -1,0 +1,9 @@
+Measure,Count,Percent
+Frozen intents audited,1200,100.0
+Legacy vs strict candidate-set disagreement,229,19.083
+Legacy retained >=1 strictly invalid candidate,229,19.083
+Legacy rejected a strictly valid candidate,0,0.0
+Strict empty feasible set,14,1.167
+Legacy non-empty when strict set empty,14,1.167
+Mobility contributed to over-acceptance,61,5.083
+Mobility-only disagreement,37,3.083

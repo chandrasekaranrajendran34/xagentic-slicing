@@ -1,0 +1,6 @@
+table,rows,columns,semantic_candidate_columns,semantic_candidate_count
+test_split,360,8,text,1
+selection_cv,5,3,,0
+oof_calibration,840,41,text|true_slice|latency_ms|throughput_mbps|reliability_pct|mobility_kmh|extra_violation_kpis|mobility_contributed|latency_contributed,9
+training_calibration,840,30,text|true_slice|latency_ms|throughput_mbps|reliability_pct|mobility_kmh|extra_violation_kpis|mobility_contributed|latency_contributed,9
+heldout_alignment,360,28,text|true_slice|latency_ms|throughput_mbps|reliability_pct|mobility_kmh|extra_violation_kpis|mobility_contributed|latency_contributed,9

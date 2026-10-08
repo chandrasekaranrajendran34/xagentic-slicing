@@ -1,0 +1,734 @@
+id,condition,true_id,pred_id,true_slice,pred_slice,ambiguous,uc_kind,use_case,correct
+0,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+8,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+9,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+10,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,port crane synchronisation,0
+13,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+19,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+26,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+35,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+37,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+39,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+43,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+44,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+45,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+47,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,street luminaire telemetry,0
+49,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+50,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+51,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+52,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+53,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+59,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+60,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+61,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+67,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+72,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+73,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+75,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+81,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+84,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+90,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+93,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+94,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+95,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+103,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+115,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+117,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+120,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+122,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+130,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+137,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+141,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+153,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+165,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+166,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+169,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+172,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+185,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+186,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+189,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+192,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+194,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+200,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+203,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+209,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+215,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+219,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+220,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+223,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+227,L2_phrase_family_heldout,2,0,mMTC,eMBB,1,unseen,street luminaire telemetry,0
+231,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+237,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+248,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+249,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+251,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+253,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,port crane synchronisation,0
+254,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+256,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+257,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+258,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+262,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+266,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+268,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+269,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+279,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+281,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+291,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+299,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+306,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+309,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+317,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+328,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+338,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+347,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+352,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+353,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+360,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,high-definition conferencing,0
+361,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+363,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+368,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,street luminaire telemetry,0
+371,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+372,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+375,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+376,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+377,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+381,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+396,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+399,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+405,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+407,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+410,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+412,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+416,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+417,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+419,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+422,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+425,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+428,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+430,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+437,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+438,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+440,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+442,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+443,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+447,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+449,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+450,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+458,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+459,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+460,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+470,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+472,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+479,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+483,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+488,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+491,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+499,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+503,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+504,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+505,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+512,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+514,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+518,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+528,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+529,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+531,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+535,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+536,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+545,L2_phrase_family_heldout,2,0,mMTC,eMBB,1,unseen,street luminaire telemetry,0
+547,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+553,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+556,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+561,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+568,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+570,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+571,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+580,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+583,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+587,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+589,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+591,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+595,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+600,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+606,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+607,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+617,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+621,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+633,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+638,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+644,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+648,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+651,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+664,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+665,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+669,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+671,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+681,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+682,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+686,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+688,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+697,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+698,L2_phrase_family_heldout,2,0,mMTC,eMBB,1,unseen,street luminaire telemetry,0
+699,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+701,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+703,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+706,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+715,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+718,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+730,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+733,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,port crane synchronisation,0
+739,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+742,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+744,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+746,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+749,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+753,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+767,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+774,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+778,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+779,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+780,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,high-definition conferencing,0
+783,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+788,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+792,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+793,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+797,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+798,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+800,L2_phrase_family_heldout,2,0,mMTC,eMBB,1,unseen,street luminaire telemetry,0
+805,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+812,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+814,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+818,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+824,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+827,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+831,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+835,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+841,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+846,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+854,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+856,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+858,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+860,L2_phrase_family_heldout,2,0,mMTC,eMBB,1,unseen,street luminaire telemetry,0
+861,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+862,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+863,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+865,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+867,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+871,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+877,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+880,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+884,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+889,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+890,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+895,L2_phrase_family_heldout,1,0,URLLC,eMBB,0,unseen,port crane synchronisation,0
+896,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+902,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+903,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+908,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+915,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+916,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+917,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+918,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+923,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+925,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+943,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+945,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+949,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+951,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+955,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+964,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+965,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+969,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+972,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+973,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+977,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+981,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+982,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+984,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+990,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+992,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+993,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1001,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1003,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1010,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1016,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1019,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1022,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1026,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1027,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1033,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,port crane synchronisation,0
+1037,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1038,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1039,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1043,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1046,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1048,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1058,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1060,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1067,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,street luminaire telemetry,0
+1068,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1073,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1079,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1083,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1084,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1086,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+1092,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1094,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1099,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1101,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+1102,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1108,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1113,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1115,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1126,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+1132,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1136,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1139,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1145,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1150,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1154,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1161,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,high-definition conferencing,0
+1162,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1169,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1173,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1174,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1175,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1178,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1181,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+1183,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1192,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+1193,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1200,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1208,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1214,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1215,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1233,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+1234,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1235,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1242,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1245,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1249,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1260,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1262,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1268,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1272,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+1278,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1284,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1298,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1303,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1307,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1318,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1324,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1328,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1331,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+1340,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1349,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1354,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+1355,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1356,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1358,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1366,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1369,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1370,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1372,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1373,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,street luminaire telemetry,0
+1377,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1380,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1384,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1393,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1394,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1395,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1398,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1400,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1405,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+1407,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1410,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1413,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1416,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1420,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1423,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1427,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1429,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1432,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1433,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1440,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1441,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1442,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1445,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1446,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1447,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1454,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1455,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1457,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1459,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1461,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1464,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1465,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+1466,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1471,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1474,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1475,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1476,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1478,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1482,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1483,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1484,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+1489,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1490,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+1492,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1495,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1500,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1508,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1512,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1517,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1523,L2_phrase_family_heldout,2,0,mMTC,eMBB,1,unseen,street luminaire telemetry,0
+1530,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1532,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1545,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+1547,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1553,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1556,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1557,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1561,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1564,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1567,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1570,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1576,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1577,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1578,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1585,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+1588,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1590,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1595,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1598,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1603,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1605,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1607,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1609,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1615,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1619,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1623,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1626,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1627,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1632,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1634,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1639,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1641,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1646,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1648,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1652,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1654,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1658,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1660,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1671,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+1674,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1677,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+1678,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1688,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1690,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1695,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1698,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1709,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1711,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1729,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1736,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1741,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1748,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1751,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1754,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+1757,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1758,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+1761,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+1762,L2_phrase_family_heldout,1,0,URLLC,eMBB,0,unseen,port crane synchronisation,0
+1764,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+1767,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,high-definition conferencing,0
+1771,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+1775,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1776,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1780,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1790,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1798,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1799,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1802,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1804,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1805,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1806,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1807,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1811,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1816,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1820,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1829,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1834,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1837,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1838,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1841,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1842,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+1848,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1855,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1858,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1860,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1864,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1867,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1868,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1883,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1888,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1894,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+1899,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1906,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1909,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1912,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1916,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+1925,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1926,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1928,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1932,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+1936,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+1938,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,high-definition conferencing,0
+1940,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1948,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+1949,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+1951,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+1960,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+1964,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+1972,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1974,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1977,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+1984,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1989,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+1992,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1995,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1997,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2000,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2002,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2003,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2004,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2006,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2007,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2013,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2027,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2028,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+2032,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+2034,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2042,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2044,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2052,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2054,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2055,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2060,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2063,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2064,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2065,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2069,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+2070,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+2071,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+2072,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2075,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2082,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2085,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2090,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2105,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2108,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2114,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2121,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2128,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2129,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2130,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2135,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2142,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+2144,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2145,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+2155,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2158,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2160,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2161,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+2165,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2166,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2169,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+2174,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2176,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2177,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2180,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2184,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2190,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2191,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2193,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2194,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2202,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2203,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,port crane synchronisation,0
+2208,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+2209,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+2214,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2215,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+2218,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2221,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+2230,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2231,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2239,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2243,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2244,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2256,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2258,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2262,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2263,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2272,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2273,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2274,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2280,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+2284,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2286,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2289,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+2290,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2294,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2295,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2296,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2312,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2313,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2317,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2321,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2322,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2328,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+2338,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+2344,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2349,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2354,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2356,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2361,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2362,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+2375,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+2383,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2386,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2390,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+2392,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2396,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2402,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+2404,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2408,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2414,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2415,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2420,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2425,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2427,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2433,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,high-definition conferencing,0
+2434,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2439,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2444,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2452,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+2453,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2455,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+2456,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+2457,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+2479,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+2480,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2485,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2486,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2487,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+2489,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2491,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+2493,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2501,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2502,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2503,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2508,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2509,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+2511,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2516,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2519,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2520,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2521,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+2528,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2536,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+2539,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,port crane synchronisation,0
+2541,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2543,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2560,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2563,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2566,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2567,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2578,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2587,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2591,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2602,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2607,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2612,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2613,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2617,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+2619,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2620,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2622,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2623,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+2644,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2646,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,high-definition conferencing,0
+2655,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+2656,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+2664,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2671,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2672,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2674,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2682,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,high-definition conferencing,0
+2691,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,high-definition conferencing,0
+2694,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2701,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2705,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2708,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2722,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,factory robot control,1
+2723,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2725,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2726,L2_phrase_family_heldout,2,0,mMTC,eMBB,1,unseen,street luminaire telemetry,0
+2733,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2734,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2738,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+2740,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+2750,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2753,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+2760,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2762,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2778,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2786,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2791,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2796,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+2797,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2799,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2803,L2_phrase_family_heldout,1,0,URLLC,eMBB,0,unseen,port crane synchronisation,0
+2804,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2811,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2813,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,street luminaire telemetry,0
+2815,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2823,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,4K video streaming,1
+2825,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2827,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2828,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+2835,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2837,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2847,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2849,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2859,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2868,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2870,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2871,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2875,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+2883,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2889,L2_phrase_family_heldout,0,2,eMBB,mMTC,0,unseen,high-definition conferencing,0
+2892,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2902,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+2904,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2917,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2922,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2923,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2937,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2939,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2940,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2942,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2945,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2958,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2960,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,asset trackers,1
+2961,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2964,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2966,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2967,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2969,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2972,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2974,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,factory robot control,1
+2975,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1
+2980,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2992,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2993,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,asset trackers,1

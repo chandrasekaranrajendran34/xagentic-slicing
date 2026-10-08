@@ -1,0 +1,30 @@
+{
+  "seed": 46,
+  "slices": [
+    "eMBB",
+    "URLLC",
+    "mMTC"
+  ],
+  "slice_id": {
+    "eMBB": 0,
+    "URLLC": 1,
+    "mMTC": 2
+  },
+  "n_total": 3000,
+  "n_train": 2100,
+  "n_test": 900,
+  "selected_model": "Gradient Boosting",
+  "best_cv_macro_f1": 0.9333076401565104,
+  "model_classes": [
+    0,
+    1,
+    2
+  ],
+  "probability_shape": [
+    900,
+    3
+  ],
+  "predict_vs_argmax_disagreements": 0,
+  "baseline_accuracy": 0.9344444444444444,
+  "baseline_macro_f1": 0.9343297757625959
+}

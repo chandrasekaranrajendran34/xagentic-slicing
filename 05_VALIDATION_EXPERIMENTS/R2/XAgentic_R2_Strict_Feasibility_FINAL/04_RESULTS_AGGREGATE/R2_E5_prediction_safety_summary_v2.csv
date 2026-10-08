@@ -1,0 +1,9 @@
+metric,count,pct
+e5_decisions_audited,100,100.0
+legacy_prediction_valid,100,100.0
+strict_v2_prediction_valid,97,97.0
+strict_v2_prediction_invalid,3,3.0
+false_feasible_decision,3,3.0
+strict_v2_empty_request,3,3.0
+false_feasible_and_ACCEPT,2,2.0
+false_feasible_and_ESCALATE,1,1.0

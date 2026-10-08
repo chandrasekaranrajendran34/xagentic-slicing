@@ -1,0 +1,112 @@
+{
+  "stage": "R5-04",
+  "purpose": "Determine availability and provenance of semantic evidence required for R5 verification.",
+  "r4_heldout_rows": 360,
+  "r4_heldout_columns": [
+    "position",
+    "id",
+    "truth",
+    "baseline_pred",
+    "baseline_correct",
+    "baseline_strict_valid",
+    "strict_v2_feasible_set",
+    "candidate_count",
+    "p_eMBB",
+    "p_URLLC",
+    "p_mMTC",
+    "feasible_probability_mass",
+    "masked_p_eMBB",
+    "masked_p_URLLC",
+    "masked_p_mMTC",
+    "masked_pred",
+    "masked_correct",
+    "autonomous",
+    "action",
+    "transition",
+    "uc_kind",
+    "final_action",
+    "final_pred",
+    "final_escalation_reason",
+    "truth_strict_feasible",
+    "truth_strict_feasible_final",
+    "final_transition",
+    "r4_top1_confidence",
+    "r4_top2_confidence",
+    "r4_margin",
+    "r4_r3_autonomous",
+    "r4_r3_wrong",
+    "r4_uncertainty_escalated",
+    "r4_final_escalated",
+    "r4_final_autonomous",
+    "r4_final_correct",
+    "r4_final_wrong"
+  ],
+  "semantic_columns_in_r4_table": [],
+  "r3_manifest_rows": 29,
+  "semantic_manifest_hits": [
+    {
+      "row": 1,
+      "matched_keywords": "split|test",
+      "manifest_text": "02_PROVENANCE/R3_frozen1200_test_split.csv | PASS | 4dda072c138b3ba8b374e5b2025c6411ee11bfec9eb32d2c9c8556f096428a8a | 4dda072c138b3ba8b374e5b2025c6411ee11bfec9eb32d2c9c8556f096428a8a"
+    },
+    {
+      "row": 3,
+      "matched_keywords": "feasible",
+      "manifest_text": "02_PROVENANCE/R3_oof_feasible_mass_quantiles.csv | PASS | d347d3f4350a59dca156f3ce63d921379f893d19924f96a717fa425c9c4df8c2 | d347d3f4350a59dca156f3ce63d921379f893d19924f96a717fa425c9c4df8c2"
+    },
+    {
+      "row": 4,
+      "matched_keywords": "train",
+      "manifest_text": "02_PROVENANCE/R3_oof_training_calibration_rows.csv | PASS | 2c6f8bb8b3f3e45b9f5e5a0dfa91140e3bfb2dd27061e929f479cad2354eaa16 | 2c6f8bb8b3f3e45b9f5e5a0dfa91140e3bfb2dd27061e929f479cad2354eaa16"
+    },
+    {
+      "row": 7,
+      "matched_keywords": "train",
+      "manifest_text": "02_PROVENANCE/R3_training_calibration_rows.csv | PASS | 6b73f6af8285dd47096d8e1723f83a5ac51dddf0e8b82d8a7df4e2d45f6428f1 | 6b73f6af8285dd47096d8e1723f83a5ac51dddf0e8b82d8a7df4e2d45f6428f1"
+    },
+    {
+      "row": 8,
+      "matched_keywords": "feasible|train",
+      "manifest_text": "02_PROVENANCE/R3_training_feasible_mass_quantiles.csv | PASS | bbddd251afbeb28c85f9a9086ee58ad708c5f68c4e45226ef072211ec4be60f7 | bbddd251afbeb28c85f9a9086ee58ad708c5f68c4e45226ef072211ec4be60f7"
+    },
+    {
+      "row": 9,
+      "matched_keywords": "decision",
+      "manifest_text": "03_RESULTS_RAW/R3_candidate_mask_decisions.csv | PASS | c4d017d8735d0736249be80e3b7892a289f6833216bbe9ece1108bc2e50d89f8 | c4d017d8735d0736249be80e3b7892a289f6833216bbe9ece1108bc2e50d89f8"
+    },
+    {
+      "row": 10,
+      "matched_keywords": "feasible",
+      "manifest_text": "03_RESULTS_RAW/R3_feasible_mass_threshold_policy_rows.csv | PASS | b95cac36d0ec048d8ba3e90b2b7bbeb2eda00dc45379426c6e39606934c863f1 | b95cac36d0ec048d8ba3e90b2b7bbeb2eda00dc45379426c6e39606934c863f1"
+    },
+    {
+      "row": 11,
+      "matched_keywords": "heldout|decision",
+      "manifest_text": "03_RESULTS_RAW/R3_final_frozen_policy_heldout_decisions.csv | PASS | ef90d7c74c024d5fe77c41e385032d0649046ec2768d4910477d04ff2b28ecd6 | ef90d7c74c024d5fe77c41e385032d0649046ec2768d4910477d04ff2b28ecd6"
+    },
+    {
+      "row": 12,
+      "matched_keywords": "heldout",
+      "manifest_text": "03_RESULTS_RAW/R3_heldout360_R2V2_alignment.csv | PASS | 60b8cd9121de394f541b122ff40e442a1c3540af9cf55db001c5d4e9b6cb9852 | 60b8cd9121de394f541b122ff40e442a1c3540af9cf55db001c5d4e9b6cb9852"
+    },
+    {
+      "row": 15,
+      "matched_keywords": "decision",
+      "manifest_text": "03_RESULTS_RAW/R3_strict_candidate_masking_decisions.csv | PASS | 15255628e5d3f5ae84eae979db1608eadb5795ce7d698f06838ad44afd27be77 | 15255628e5d3f5ae84eae979db1608eadb5795ce7d698f06838ad44afd27be77"
+    },
+    {
+      "row": 18,
+      "matched_keywords": "feasible",
+      "manifest_text": "04_RESULTS_AGGREGATE/R3_feasible_mass_threshold_sweep.csv | PASS | a06f3f79013c6ff4a83906442c4501b921f39af9f60a1cf645515f2f261d2390 | a06f3f79013c6ff4a83906442c4501b921f39af9f60a1cf645515f2f261d2390"
+    }
+  ],
+  "r5_residual_error_ids": [
+    240,
+    1197,
+    769,
+    658,
+    810
+  ],
+  "semantic_source_required": true,
+  "heldout_labels_must_not_be_used_for_tuning": true
+}

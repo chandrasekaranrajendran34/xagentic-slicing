@@ -1,0 +1,27 @@
+{
+  "stage": "R5-08",
+  "r3_tau": 0.5486315987262682,
+  "r4_margin_threshold": 0.7097637192002952,
+  "development_total": 840,
+  "r3_autonomous": 786,
+  "r3_escalated": 54,
+  "r4_autonomous": 704,
+  "r4_escalated": 136,
+  "r4_autonomous_correct": 691,
+  "r4_autonomous_errors": 13,
+  "semantic_disagreement_residual_errors": 9,
+  "semantic_disagreement_policy": {
+    "policy": "semantic_disagreement",
+    "verification_flagged": 135,
+    "errors_captured": 9,
+    "correct_escalated": 126,
+    "verification_precision": 0.06666666666666667,
+    "error_detection_recall": 0.6923076923076923,
+    "final_coverage_over_840": 0.6773809523809524,
+    "final_autonomous_accuracy": 0.9929701230228472,
+    "final_selective_risk": 0.007029876977152899,
+    "correct_autonomous_preservation": 0.8176555716353111
+  },
+  "policy_frozen": false,
+  "heldout_evaluated": false
+}

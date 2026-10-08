@@ -1,0 +1,22 @@
+{
+  "experiment": "R5 Semantic Verification",
+  "completed_through": "R5-10B",
+  "next_stage": "R5-11",
+  "r3_tau": 0.5486315987262682,
+  "r4_margin_threshold": 0.7097637192002952,
+  "r5_semantic_threshold": -0.0275677986595984,
+  "r5_policy_sha256": "b8e5ef13e6895fcfb3656f7257c94727e3cea17d38f08563436d55b6cf0ba243",
+  "heldout_evaluation_complete": true,
+  "heldout_retuning_allowed": false,
+  "r4_autonomous_errors": 5,
+  "r5_errors_captured": 3,
+  "r5_remaining_autonomous_errors": 2,
+  "r5_autonomous_accuracy": 0.992857,
+  "r5_selective_risk": 0.007143,
+  "r5_coverage": 0.777778,
+  "remaining_error_ids": [
+    658,
+    810
+  ],
+  "instruction": "Resume directly at R5-11. Do not rerun R5-00 through R5-10B."
+}

@@ -1,0 +1,66 @@
+{
+  "captured_r4_error_ids": [
+    1197,
+    240,
+    769
+  ],
+  "checkpoint_stage": "R5-10B_COMPLETE",
+  "do_not_rerun": [
+    "R5-00",
+    "R5-01",
+    "R5-02",
+    "R5-03",
+    "R5-04",
+    "R5-05",
+    "R5-06",
+    "R5-07B",
+    "R5-08",
+    "R5-09",
+    "R5-10B"
+  ],
+  "experiment": "R5 - High-Confidence Error Detection / Semantic Verification",
+  "frozen_heldout_result": {
+    "r4_autonomous": 306,
+    "r4_autonomous_accuracy": 0.98366,
+    "r4_autonomous_correct": 301,
+    "r4_autonomous_errors": 5,
+    "r4_coverage": 0.85,
+    "r4_escalated": 54,
+    "r4_selective_risk": 0.01634,
+    "r5_additional_escalations": 26,
+    "r5_autonomous": 280,
+    "r5_autonomous_accuracy": 0.992857,
+    "r5_autonomous_correct": 278,
+    "r5_autonomous_errors": 2,
+    "r5_correct_cases_escalated": 23,
+    "r5_correct_preservation": 0.923588,
+    "r5_coverage": 0.777778,
+    "r5_error_detection_recall": 0.6,
+    "r5_errors_captured": 3,
+    "r5_escalated": 80,
+    "r5_selective_risk": 0.007143,
+    "r5_verification_precision": 0.115385,
+    "r5_wrong_autonomous_over_total": 0.005556,
+    "total": 360
+  },
+  "frozen_policy": {
+    "r3_tau": 0.5486315987262682,
+    "r4_margin_threshold": 0.7097637192002952,
+    "r5_policy_sha256": "b8e5ef13e6895fcfb3656f7257c94727e3cea17d38f08563436d55b6cf0ba243",
+    "r5_semantic_support_threshold": -0.0275677986595984
+  },
+  "governance": {
+    "development_heldout_overlap": 0,
+    "development_rows": 840,
+    "heldout_retuning_performed": false,
+    "heldout_rows": 360,
+    "post_heldout_retuning_allowed": false
+  },
+  "next_activity": "Frozen R3 vs R4 vs R5 comparison, ablation, robustness, and interpretation",
+  "next_stage": "R5-11",
+  "remaining_residual_error_ids": [
+    658,
+    810
+  ],
+  "status": "SAFE_TO_STOP_AND_RESUME_FROM_CHECKPOINT"
+}

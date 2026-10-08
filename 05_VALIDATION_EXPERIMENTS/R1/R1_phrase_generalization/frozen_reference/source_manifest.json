@@ -1,0 +1,32 @@
+{
+  "experiment": "R1_phrase_generalization",
+  "purpose": "Reviewer-driven robustness evaluation for lexical leakage, phrase-family generalization, generic+KPI and KPI-only conditions.",
+  "frozen_evidence": "XAgentic_Final_Paper_Evidence_2026-10-06",
+  "original_source_modified": false,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "conditions": [
+    "L1_original",
+    "L2_phrase_family_heldout",
+    "L3_generic_kpi",
+    "L4_kpi_only"
+  ],
+  "source_sha256": {
+    "agents.py": "073a9281316ab7be44cbc65e73cf73efdef631400265eb11cee722795039928b",
+    "exp1_posthoc.py": "fc5acf7194e877a5656976043ea13c931a3198b65c0a574affad888a10422c4a",
+    "exp2_inhoc.py": "34b0bec18e401be6417827a1476e674fa625e10f18f12c806383d27b2a776827",
+    "exp3_semantic.py": "7a3366df283101259254c871df9035ed5333a06b80211d4a6d4f47d5bf95f294",
+    "exp4_combined.py": "33ce35f3e24530ee6a1c5903a541e429efc70ccc8ab5118fcee1c581bb848597",
+    "exp5_agentic.py": "58e9546d264353ad42399ceb219b472454b368227682e7c78c8c5f2d56a00953",
+    "run_all.py": "53347bcbed9a1c51e21b0af3d97377238fbdf222c08e8907c580049295b92074",
+    "run_seeds.py": "a615e45022b85ee0909bf98ba8e12cda7523e1f2c4d93b65aaa356c92503605a",
+    "xagentic_common.py": "1484f474ba7f40b451583115da9fc7c4fdebc79f9c6876d9a0d7447f649cfbb6",
+    "xagentic_slice.py": "7bf2f1190a2928f273578425f194fc3272385d4baaa9044bff771d0fd748ae05"
+  },
+  "created_utc": "2026-10-07T03:51:02.684929+00:00"
+}

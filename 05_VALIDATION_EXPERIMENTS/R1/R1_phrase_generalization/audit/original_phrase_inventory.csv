@@ -1,0 +1,52 @@
+slice,uc_kind,use_case,n
+URLLC,generic,campus connectivity,12
+URLLC,generic,enterprise application,12
+URLLC,generic,event coverage service,13
+URLLC,generic,municipal network service,27
+URLLC,generic,public safety communications,7
+URLLC,generic,research testbed service,17
+URLLC,generic,retail branch connectivity,10
+URLLC,generic,smart city service,11
+URLLC,known,drone fleet control,26
+URLLC,known,factory robot control,21
+URLLC,known,haptic teleoperation,36
+URLLC,known,remote surgery,43
+URLLC,known,smart-grid protection,38
+URLLC,unseen,port crane synchronisation,32
+URLLC,unseen,rail interlocking signalling,27
+URLLC,unseen,substation differential tripping,40
+URLLC,unseen,surgical imaging feedback,28
+eMBB,generic,campus connectivity,20
+eMBB,generic,enterprise application,18
+eMBB,generic,event coverage service,13
+eMBB,generic,municipal network service,15
+eMBB,generic,public safety communications,21
+eMBB,generic,research testbed service,18
+eMBB,generic,retail branch connectivity,11
+eMBB,generic,smart city service,16
+eMBB,known,4K video streaming,33
+eMBB,known,AR/VR gaming,29
+eMBB,known,fixed wireless access,29
+eMBB,known,live broadcast,34
+eMBB,known,stadium hotspot,22
+eMBB,unseen,digital signage uplink,28
+eMBB,unseen,high-definition conferencing,38
+eMBB,unseen,in-flight entertainment uplink,26
+eMBB,unseen,newsroom contribution feed,29
+mMTC,generic,campus connectivity,15
+mMTC,generic,enterprise application,19
+mMTC,generic,event coverage service,12
+mMTC,generic,municipal network service,16
+mMTC,generic,public safety communications,15
+mMTC,generic,research testbed service,13
+mMTC,generic,retail branch connectivity,14
+mMTC,generic,smart city service,18
+mMTC,known,agricultural sensors,27
+mMTC,known,asset trackers,25
+mMTC,known,environmental monitoring,31
+mMTC,known,pipeline telemetry,37
+mMTC,known,smart water meters,32
+mMTC,unseen,cold-chain condition reporting,35
+mMTC,unseen,soil-moisture reporting nodes,26
+mMTC,unseen,street luminaire telemetry,29
+mMTC,unseen,utility submetering fleet,36

@@ -1,0 +1,20 @@
+{
+  "stage": "R5-03",
+  "source_sha256": "b06490f8f12c4de85be9f785fd4ae4261676862fbeec447abcd51a323e8d00bb",
+  "total_heldout": 360,
+  "r4": {
+    "escalated": 54,
+    "autonomous": 306,
+    "autonomous_correct": 301,
+    "autonomous_wrong": 5
+  },
+  "residual_error_analysis": {
+    "count": 5,
+    "confidence_ge_080": 5,
+    "confidence_ge_090": 4,
+    "confidence_ge_095": 4,
+    "margin_ge_070": 5,
+    "truth_in_feasible_set": 4,
+    "pred_in_feasible_set": 5
+  }
+}

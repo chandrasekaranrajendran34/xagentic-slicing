@@ -1,0 +1,20 @@
+{
+  "autonomous_accuracy": 0.9648093841642229,
+  "autonomous_n": 341,
+  "autonomous_strict_validity": 1.0,
+  "autonomous_strict_violations": 0,
+  "correct_autonomous_n": 329,
+  "correct_autonomous_over_total": 0.9138888888888889,
+  "correct_to_wrong_autonomous": 0,
+  "coverage": 0.9472222222222222,
+  "escalated_n": 19,
+  "escalation_rate": 0.05277777777777778,
+  "experiment": "R3 Candidate Masking",
+  "frozen_tau": 0.5486315987262682,
+  "heldout_total": 360,
+  "interpretation": "Selective strict feasibility masking provides 100% autonomous strict validity while escalating low-feasible-mass safety conflicts.",
+  "low_mass_escalations": 15,
+  "policy_sha256": "9ebab1f743c71ee4fb3202976a6d9846b03391e256fbc095bd561c5adf831774",
+  "status": "FINAL_FROZEN",
+  "strict_empty_escalations": 4
+}

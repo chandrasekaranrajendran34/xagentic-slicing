@@ -1,0 +1,23 @@
+{
+  "e5_decisions_path": "/content/xagentic_r2_work/01_SOURCE/BASE_E1_E5_EXTRACTED/XAgentic_Final_Paper_Evidence_2026-10-06/02_E5_QWEN37_N100_SEED52/e5_decisions.csv",
+  "e5_decisions_sha256": "2ae03f26b2c58c3f2e319dcdaa3eb0b91a70d5441c85a41aff4f981270ec0de7",
+  "e5_rows": 100,
+  "e5_columns": [
+    "intent",
+    "verdict",
+    "retries",
+    "escalated",
+    "pred",
+    "truth",
+    "uc_kind"
+  ],
+  "possible_id_columns": [
+    "intent"
+  ],
+  "possible_text_columns": [
+    "intent"
+  ],
+  "e5_source_path": "/content/xagentic_r2_work/01_SOURCE/BASE_E1_E5_EXTRACTED/XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/exp5_agentic.py",
+  "e5_source_sha256": "58e9546d264353ad42399ceb219b472454b368227682e7c78c8c5f2d56a00953",
+  "mapping_status": "PENDING_SOURCE_INSPECTION"
+}

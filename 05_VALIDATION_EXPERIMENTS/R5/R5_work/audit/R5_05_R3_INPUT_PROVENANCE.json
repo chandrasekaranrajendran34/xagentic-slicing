@@ -1,0 +1,33 @@
+{
+  "stage": "R5-05",
+  "purpose": "Recover exact frozen R3 development/calibration and source evidence for R5 semantic verification.",
+  "expected_filename": "XAgentic_R3_Candidate_Masking_FINAL_2026-10-07.zip",
+  "uploaded_filename": "XAgentic_R3_Candidate_Masking_FINAL_2026-10-07 (1).zip",
+  "stored_path": "/content/R5_work/R3_input/XAgentic_R3_Candidate_Masking_FINAL_2026-10-07.zip",
+  "expected_sha256": "ba0f680c372ddda498eba2f8b84f5df9a599dc04810a679b53ce77af6fce0152",
+  "actual_sha256": "ba0f680c372ddda498eba2f8b84f5df9a599dc04810a679b53ce77af6fce0152",
+  "identity_verified": true,
+  "zip_member_count": 30,
+  "zip_integrity_pass": true,
+  "critical_artifacts": {
+    "R3_frozen1200_selection_agent_cv.csv": [
+      "XAgentic_R3_Candidate_Masking_FINAL/02_PROVENANCE/R3_frozen1200_selection_agent_cv.csv"
+    ],
+    "R3_frozen1200_test_split.csv": [
+      "XAgentic_R3_Candidate_Masking_FINAL/02_PROVENANCE/R3_frozen1200_test_split.csv"
+    ],
+    "R3_oof_training_calibration_rows.csv": [
+      "XAgentic_R3_Candidate_Masking_FINAL/02_PROVENANCE/R3_oof_training_calibration_rows.csv"
+    ],
+    "R3_training_calibration_rows.csv": [
+      "XAgentic_R3_Candidate_Masking_FINAL/02_PROVENANCE/R3_training_calibration_rows.csv"
+    ],
+    "R3_final_frozen_policy_heldout_decisions.csv": [
+      "XAgentic_R3_Candidate_Masking_FINAL/03_RESULTS_RAW/R3_final_frozen_policy_heldout_decisions.csv"
+    ],
+    "R3_heldout360_R2V2_alignment.csv": [
+      "XAgentic_R3_Candidate_Masking_FINAL/03_RESULTS_RAW/R3_heldout360_R2V2_alignment.csv"
+    ]
+  },
+  "heldout_policy": "R5 verifier must be designed/calibrated without using frozen held-out labels."
+}

@@ -1,0 +1,6 @@
+kpi,rows_with_legacy_overacceptance_due_to_kpi,pct_of_all_rows
+latency_ms,63,5.25
+throughput_mbps,37,3.0833333333333335
+reliability_pct,0,0.0
+density_per_km2,103,8.583333333333334
+mobility_kmh,61,5.083333333333333

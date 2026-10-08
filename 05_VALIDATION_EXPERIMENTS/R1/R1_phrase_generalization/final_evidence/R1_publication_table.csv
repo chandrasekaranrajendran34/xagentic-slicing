@@ -1,0 +1,5 @@
+Condition,Seeds,Accuracy (mean ± SD),Macro-F1 (mean ± SD)
+L1 — Original,5,0.9311 ± 0.0065,0.9311 ± 0.0065
+L2 — Phrase-family-held-out,5,0.9549 ± 0.0081,0.9548 ± 0.0081
+L3 — Generic + KPI,5,0.8920 ± 0.0080,0.8920 ± 0.0078
+L4 — KPI-only,5,0.8920 ± 0.0080,0.8920 ± 0.0078

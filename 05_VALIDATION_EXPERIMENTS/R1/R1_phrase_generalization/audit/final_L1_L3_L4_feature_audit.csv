@@ -1,0 +1,6 @@
+seed,n,L1_equals_L3_nonlex,L1_equals_L4_nonlex,L3_lex_zero,L4_lex_zero,L3_equals_L4_full_features,L3_phrase_failures,L1_lexical_rows,L3_lexical_rows,L4_lexical_rows
+42,3000,True,True,True,True,True,0,1193,0,0
+43,3000,True,True,True,True,True,0,1182,0,0
+44,3000,True,True,True,True,True,0,1218,0,0
+45,3000,True,True,True,True,True,0,1209,0,0
+46,3000,True,True,True,True,True,0,1159,0,0

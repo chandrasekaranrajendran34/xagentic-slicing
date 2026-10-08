@@ -1,0 +1,10 @@
+{
+  "method": "paired_case_level_bootstrap",
+  "seed": 42,
+  "resamples": 10000,
+  "heldout_rows": 360,
+  "confidence_level": 0.95,
+  "policy_sha256": "b8e5ef13e6895fcfb3656f7257c94727e3cea17d38f08563436d55b6cf0ba243",
+  "threshold_retuning": false,
+  "interpretation": "Descriptive uncertainty analysis of frozen R4/R5 decisions"
+}

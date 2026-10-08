@@ -1,0 +1,75 @@
+{
+  "n_intents": 100,
+  "selection_model": "Gradient Boosting",
+  "acc_overall": 0.87,
+  "macro_f1": 0.8702357886626556,
+  "contract_valid": 1.0,
+  "oov_gap": 0.05882352941176461,
+  "acc_known": 0.9117647058823529,
+  "acc_unseen": 1.0,
+  "acc_generic": 0.7058823529411765,
+  "acc_ambiguous": 0.6764705882352942,
+  "e1_acc_overall": 0.93,
+  "e1_oov_gap": 0.10477941176470584,
+  "e1_acc_generic": 0.8529411764705882,
+  "e1_acc_unseen": 0.9375,
+  "e1_acc_known": 1.0,
+  "e1_acc_full_split": 0.9444444444444444,
+  "e1_oov_full_split": 0.09034090909090908,
+  "acc_gain_pts": -6.000000000000005,
+  "oov_closed_pts": 4.595588235294123,
+  "slot_recall": 0.9949367088607595,
+  "slot_false_positive": 0.0,
+  "slot_detail": {
+    "recall": {
+      "latency_ms": 1.0,
+      "throughput_mbps": 0.9746835443037974,
+      "reliability_pct": 1.0,
+      "density_per_km2": 1.0,
+      "mobility_kmh": 1.0
+    },
+    "false_positive": {
+      "latency_ms": 0.0,
+      "throughput_mbps": 0.0,
+      "reliability_pct": 0.0,
+      "density_per_km2": 0.0,
+      "mobility_kmh": 0.0
+    },
+    "mean_slot_accuracy": 0.9949367088607595,
+    "mean_false_positive": 0.0
+  },
+  "retry_rate": 0.0,
+  "n_retried": 0,
+  "acc_retried": NaN,
+  "acc_not_retried": 0.87,
+  "verdicts": {
+    "ACCEPT": 85,
+    "ESCALATE": 15
+  },
+  "tool_calls": {
+    "convert_units": 259,
+    "query_lexicon": 100,
+    "get_kpi_envelope": 238,
+    "check_feasibility": 98
+  },
+  "tool_calls_per_intent": 6.95,
+  "escalation": {
+    "budget": 15,
+    "escalated_pct": 0.15,
+    "recall_agent": 0.46153846153846156,
+    "recall_confidence": 0.6923076923076923,
+    "autonomous_acc_agent": 0.9176470588235294,
+    "delta_pts": -23.076923076923073
+  },
+  "llm_calls_per_intent": 4.07,
+  "latency_s_per_intent": 35.64915665888002,
+  "tokens_in": 499829,
+  "tokens_out": 284076,
+  "cost_usd_total": 0.6898364,
+  "cost_usd_per_intent": 0.006898364000000001,
+  "parse_failures": 0,
+  "api_errors": 0,
+  "model": "Qwen/Qwen3.7-Max",
+  "cache_hit_rate": 0.0,
+  "wall_clock_s": 3564.915665888002
+}

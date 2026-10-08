@@ -1,0 +1,4 @@
+uc_kind,r4_autonomous,r4_errors,r5_flagged,errors_captured,correct_escalated,capture_rate
+generic,88,1,24,1,23,1.0
+known,123,0,0,0,0,
+unseen,95,4,2,2,0,0.5

@@ -1,0 +1,12 @@
+{
+  "experiment": "R2 strict feasibility audit",
+  "input_corpus": "/content/xagentic_r2_work/01_SOURCE/BASE_E1_E5_EXTRACTED/XAgentic_Final_Paper_Evidence_2026-10-06/02_E5_QWEN37_N100_SEED52/corpus.csv",
+  "input_corpus_sha256": "5358e25a06c863fcb25b4d906608783d612c0b1411373f140573408555b04b08",
+  "parser_source": "/content/xagentic_r2_work/01_SOURCE/BASE_E1_E5_EXTRACTED/XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py",
+  "parser_source_sha256": "7bf2f1190a2928f273578425f194fc3272385d4baaa9044bff771d0fd748ae05",
+  "parser_function": "parse_intent",
+  "rows": 1200,
+  "method": "Parsed KPI slots reconstructed deterministically from frozen intent text using the unchanged frozen parse_intent() implementation.",
+  "truth_columns_usage": "Retained only for parser-consistency analysis; not substituted for parsed KPI slots.",
+  "experiment_rerun": false
+}

@@ -1,0 +1,4 @@
+,pred_eMBB,pred_URLLC,pred_mMTC
+true_eMBB,273,16,11
+true_URLLC,31,257,12
+true_mMTC,14,9,277

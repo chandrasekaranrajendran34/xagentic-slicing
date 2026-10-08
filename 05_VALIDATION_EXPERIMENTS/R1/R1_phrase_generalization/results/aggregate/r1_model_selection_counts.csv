@@ -1,0 +1,9 @@
+condition,selected_model,count
+L1_original,Gradient Boosting,4
+L1_original,Decision Tree,1
+L2_phrase_family_heldout,Gradient Boosting,4
+L2_phrase_family_heldout,Random Forest,1
+L3_generic_kpi,Gradient Boosting,4
+L3_generic_kpi,Random Forest,1
+L4_kpi_only,Gradient Boosting,4
+L4_kpi_only,Random Forest,1

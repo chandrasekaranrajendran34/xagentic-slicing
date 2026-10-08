@@ -1,0 +1,11 @@
+metric,count,pct
+rows_audited,1200,100.0
+legacy_strict_v2_disagreement,229,19.083333333333332
+legacy_retained_strictly_invalid_candidate,229,19.083333333333332
+legacy_rejected_strictly_valid_candidate,0,0.0
+strict_v2_empty_feasible_set,14,1.1666666666666667
+legacy_nonempty_when_strict_v2_empty,14,1.1666666666666667
+mobility_contributed_to_overacceptance,61,5.083333333333333
+mobility_only_disagreement,37,3.0833333333333335
+latency_contributed_to_overacceptance,63,5.25
+latency_only_disagreement,48,4.0

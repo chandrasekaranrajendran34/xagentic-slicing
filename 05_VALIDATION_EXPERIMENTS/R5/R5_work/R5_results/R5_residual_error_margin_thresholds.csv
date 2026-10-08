@@ -1,0 +1,6 @@
+margin_threshold,residual_errors_at_or_above,fraction_of_r4_residual_errors
+0.3,5,1.0
+0.5,5,1.0
+0.7,5,1.0
+0.8,4,0.8
+0.9,4,0.8

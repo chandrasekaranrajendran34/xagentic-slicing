@@ -1,0 +1,28 @@
+{
+  "experiment_id": "R5",
+  "experiment_name": "High-Confidence Error Detection / Semantic Verification",
+  "primary_question": "Can semantic verification detect high-confidence incorrect predictions that would otherwise be autonomously accepted?",
+  "upstream_experiment": "R4",
+  "upstream_policy_status": "FROZEN",
+  "rules": [
+    "Do not modify frozen R4 artifacts.",
+    "Do not retune the R4 escalation threshold using R5 held-out data.",
+    "Do not modify held-out labels.",
+    "Do not optimize R5 using final held-out results.",
+    "Separate development/calibration from final held-out evaluation.",
+    "Freeze the R5 verifier before final held-out evaluation.",
+    "Record provenance and SHA256 hashes of evidence artifacts."
+  ],
+  "primary_metrics": [
+    "high_confidence_error_count",
+    "high_confidence_error_detection_recall",
+    "verification_precision",
+    "verification_false_positive_rate",
+    "wrong_autonomous_action_rate",
+    "correct_autonomous_preservation_rate",
+    "verification_coverage",
+    "post_verification_accuracy",
+    "additional_escalation_rate",
+    "verification_latency_ms"
+  ]
+}

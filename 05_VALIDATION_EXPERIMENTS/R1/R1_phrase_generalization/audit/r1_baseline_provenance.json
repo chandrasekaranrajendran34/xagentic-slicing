@@ -1,0 +1,26 @@
+{
+  "experiment": "R1_phrase_generalization",
+  "baseline_seed": 42,
+  "authoritative_r1_source": "03_SOURCE_CODE current frozen snapshot",
+  "corpus_generator": "xagentic_common.synth_corpus",
+  "corpus_n": 3000,
+  "p_amb": 0.3,
+  "split": "70/30 stratified; train-only median imputation",
+  "archived_e1": {
+    "accuracy": 0.9333333333,
+    "macro_f1": 0.9335232669,
+    "model": "Gradient Boosting"
+  },
+  "direct_current_source_reproduction": {
+    "accuracy": 0.9277777777777778,
+    "macro_f1": 0.9278323905230472,
+    "model": "Gradient Boosting"
+  },
+  "manual_reproduction": {
+    "accuracy": 0.9277777777777778,
+    "macro_f1": 0.9278323905230472,
+    "model": "Gradient Boosting"
+  },
+  "decision": "Archived E1 aggregate is retained as historical evidence. R1 uses the packaged current frozen source snapshot because manual reconstruction and direct original e1.run() reproduce each other exactly. No attempt is made to tune or alter R1 to reproduce the historical archived metric.",
+  "status": "CURRENT_SOURCE_REPRODUCTION_PASS_ARCHIVE_MISMATCH_DOCUMENTED"
+}

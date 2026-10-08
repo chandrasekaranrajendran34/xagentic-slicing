@@ -1,0 +1,7 @@
+Measure,Count,Percent
+Frozen E5 decisions audited,100,100.0
+Legacy-valid predictions,100,100.0
+Strict-valid predictions,97,97.0
+False-feasible predictions,3,3.0
+False-feasible + ACCEPT,2,2.0
+False-feasible + ESCALATE,1,1.0

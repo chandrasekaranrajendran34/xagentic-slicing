@@ -1,0 +1,14 @@
+{
+  "seed": 46,
+  "condition": "L1_original",
+  "train_n": 2100,
+  "test_n": 900,
+  "selected_model": "Decision Tree",
+  "selected_cv_mean": 0.9231075632083046,
+  "selected_cv_std": 0.01584979019335158,
+  "accuracy": 0.9255555555555556,
+  "macro_f1": 0.9256124393782387,
+  "test_nonambiguous_n": 643,
+  "test_ambiguous_n": 257,
+  "fit_plus_predict_seconds": 0.027959562999967602
+}

@@ -1,0 +1,11 @@
+{
+  "mapping_key": "exact frozen intent text",
+  "e5_rows": 100,
+  "mapped_rows": 100,
+  "truth_matches": 100,
+  "uc_kind_matches": 100,
+  "predictions_regenerated": false,
+  "e5_rerun": false,
+  "strict_oracle": "R2_strict_feasibility_oracle_v2.py",
+  "interpretation": "Each frozen E5 decision was joined to the frozen 1200-row corpus by exact intent text. The original E5 prediction was then audited against both legacy and strict V2 feasibility."
+}

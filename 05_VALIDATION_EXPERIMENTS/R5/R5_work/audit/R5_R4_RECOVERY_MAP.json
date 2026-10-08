@@ -1,0 +1,57 @@
+{
+  "R4_FINAL_ARTIFACT_INVENTORY.csv": {
+    "path": "/content/R5_work/R4_recovered/XAgentic_R4_Uncertainty_Escalation_FINAL/R4_FINAL_ARTIFACT_INVENTORY.csv",
+    "sha256": "ad407206394bc1cd38168e4364a278e9f4be95f59355a6e29b5f74538ecc2319",
+    "size_bytes": 413
+  },
+  "R4_FINAL_FINDINGS_AND_INTERPRETATION.md": {
+    "path": "/content/R5_work/R4_recovered/XAgentic_R4_Uncertainty_Escalation_FINAL/R4_FINAL_FINDINGS_AND_INTERPRETATION.md",
+    "sha256": "bda0c85f7295eab81332ce612646e80f54ac64b853bd7f8dba61887d99727141",
+    "size_bytes": 10176
+  },
+  "R4_FINAL_SHA256_MANIFEST.csv": {
+    "path": "/content/R5_work/R4_recovered/XAgentic_R4_Uncertainty_Escalation_FINAL/R4_FINAL_SHA256_MANIFEST.csv",
+    "sha256": "a8cfd021517e004626042c492a65f6a7f5ce6406a1abbe29b880f90bf67f1f5e",
+    "size_bytes": 1005
+  },
+  "R4_ORIGINAL_COMPLETED_RUN_HASHES.json": {
+    "path": "/content/R5_work/R4_recovered/XAgentic_R4_Uncertainty_Escalation_FINAL/R4_ORIGINAL_COMPLETED_RUN_HASHES.json",
+    "sha256": "34b432ba64a20c2894cfa8318713c70fcf8a8048a4b945455324424ed9f7c1a2",
+    "size_bytes": 420
+  },
+  "R4_RECOVERED_completed_run_summary.json": {
+    "path": "/content/R5_work/R4_recovered/XAgentic_R4_Uncertainty_Escalation_FINAL/R4_RECOVERED_completed_run_summary.json",
+    "sha256": "22b63799134522bd05b053d11288c3dff6cac01ccf9bbd2f77974e1178c2f313",
+    "size_bytes": 1509
+  },
+  "R4_RECOVERED_error_capture_by_uc_kind.csv": {
+    "path": "/content/R5_work/R4_recovered/XAgentic_R4_Uncertainty_Escalation_FINAL/R4_RECOVERED_error_capture_by_uc_kind.csv",
+    "sha256": "4c95637514df072da80873091d2a285b9a067b073be7cf675519610debf97b46",
+    "size_bytes": 110
+  },
+  "R4_RECOVERED_final_system_comparison.csv": {
+    "path": "/content/R5_work/R4_recovered/XAgentic_R4_Uncertainty_Escalation_FINAL/R4_RECOVERED_final_system_comparison.csv",
+    "sha256": "ca1cf43f76f14b9c9d7898f8382cbed5fda641d773af9965ef50731a437f3cf9",
+    "size_bytes": 388
+  },
+  "R4_RECOVERED_frozen_policy_heldout_decisions.csv": {
+    "path": "/content/R5_work/R4_recovered/XAgentic_R4_Uncertainty_Escalation_FINAL/R4_RECOVERED_frozen_policy_heldout_decisions.csv",
+    "sha256": "b06490f8f12c4de85be9f785fd4ae4261676862fbeec447abcd51a323e8d00bb",
+    "size_bytes": 119130
+  },
+  "R4_RECOVERY_PROVENANCE.json": {
+    "path": "/content/R5_work/R4_recovered/XAgentic_R4_Uncertainty_Escalation_FINAL/R4_RECOVERY_PROVENANCE.json",
+    "sha256": "665dac827b144bc06bbd9e993e70f4447300045c44895ecc4333ba0207deeed5",
+    "size_bytes": 718
+  },
+  "R4_recovered_R3_manifest_audit.csv": {
+    "path": "/content/R5_work/R4_recovered/XAgentic_R4_Uncertainty_Escalation_FINAL/R4_recovered_R3_manifest_audit.csv",
+    "sha256": "cf5d3d9d6287667aa3591d53e4b791e6d109731851676b470de97fda79bcfd53",
+    "size_bytes": 5375
+  },
+  "R4_runtime_recovery_summary.csv": {
+    "path": "/content/R5_work/R4_recovered/XAgentic_R4_Uncertainty_Escalation_FINAL/R4_runtime_recovery_summary.csv",
+    "sha256": "5ea735eb81b95e12c258cbf4abc3c680400fb290f99aa9ac94a3cb5a9c4e4deb",
+    "size_bytes": 242
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "status": "RECOVERED_FROM_COMPLETED_FROZEN_RUN_AFTER_COLAB_RESET",
+  "methodological_note": "R4 was completed before the Colab runtime reset. This file reconstructs the completed frozen-policy metrics from the SHA-verified frozen R3 evidence and the previously recorded immutable R4 threshold. No threshold tuning or heldout-driven policy modification was performed during recovery.",
+  "frozen_r3_tau": 0.5486315987262682,
+  "frozen_r4_margin_threshold": 0.7097637192002952,
+  "original_completed_run_hashes": {
+    "r4_policy_sha256": "1b2d69794b1508f807227b12e78fdabce857683731cb91ee1879f7069029db42",
+    "r4_heldout_decisions_sha256": "8f7aab8ed6cdf66a5616d750f070ea02614c0fd1f3e0bf043f36d07f7527611a",
+    "r4_heldout_summary_sha256": "9c4a1c98cf2d17da30045f60a5021b64bdd6deb410f3d7a310b207dff19ad412"
+  },
+  "r3": {
+    "total": 360,
+    "escalated": 19,
+    "autonomous": 341,
+    "autonomous_correct": 329,
+    "autonomous_errors": 12,
+    "coverage": 0.9472222222222222,
+    "autonomous_accuracy": 0.9648093841642229,
+    "selective_risk": 0.03519061583577713
+  },
+  "r4": {
+    "added_uncertainty_escalations": 35,
+    "errors_captured": 7,
+    "correct_cases_escalated": 28,
+    "total_escalated": 54,
+    "autonomous": 306,
+    "autonomous_correct": 301,
+    "autonomous_errors": 5,
+    "coverage": 0.85,
+    "autonomous_accuracy": 0.9836601307189542,
+    "selective_risk": 0.016339869281045753,
+    "r3_residual_error_capture": 0.5833333333333334,
+    "added_escalation_precision": 0.2
+  }
+}

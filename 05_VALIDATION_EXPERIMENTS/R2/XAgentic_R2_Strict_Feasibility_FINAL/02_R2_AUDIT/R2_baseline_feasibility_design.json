@@ -1,0 +1,23 @@
+{
+  "experiment": "R2 Strict Feasibility / Validity Audit",
+  "source_file": "XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_slice.py",
+  "source_sha256": "7bf2f1190a2928f273578425f194fc3272385d4baaa9044bff771d0fd748ae05",
+  "represented_kpis": [
+    "latency_ms",
+    "throughput_mbps",
+    "reliability_pct",
+    "density_per_km2",
+    "mobility_kmh"
+  ],
+  "legacy_feasibility_checks": [
+    "latency_ms",
+    "throughput_mbps",
+    "reliability_pct",
+    "density_per_km2"
+  ],
+  "legacy_missing_check": "mobility_kmh",
+  "legacy_empty_set_behavior": "return all catalogue entries when no candidate remains",
+  "legacy_contract": "pred_label in feasible_set(row)",
+  "audit_principle": "R2 does not modify frozen E1-E5 implementation; strict feasibility is evaluated independently.",
+  "created_utc": "2026-10-07T08:13:09.018353+00:00"
+}

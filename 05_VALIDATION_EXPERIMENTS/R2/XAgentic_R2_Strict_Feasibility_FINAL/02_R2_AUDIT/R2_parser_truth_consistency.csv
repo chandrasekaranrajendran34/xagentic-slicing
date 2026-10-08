@@ -1,0 +1,6 @@
+parsed_slot,truth_column,comparable_rows,exact_matches,close_1pct_matches,close_1pct_pct,mean_abs_error
+latency_ms,lat_true,846,0,697,82.38770685579196,0.18479305290094677
+throughput_mbps,thr_true,875,0,787,89.94285714285714,0.10894664460260128
+reliability_pct,rel_true,1049,0,1049,100.0,2.499148637419116e-05
+density_per_km2,den_true,674,0,674,100.0,0.25322226077213594
+mobility_kmh,mob_true,554,0,464,83.75451263537906,0.2076919795228006

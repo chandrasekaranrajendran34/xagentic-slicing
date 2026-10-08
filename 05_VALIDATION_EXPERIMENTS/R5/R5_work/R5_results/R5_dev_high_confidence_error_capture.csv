@@ -1,0 +1,4 @@
+confidence_threshold,high_conf_errors,semantic_disagreement_caught,capture_rate
+0.8,26,21,0.8076923076923077
+0.9,11,9,0.8181818181818182
+0.95,8,6,0.75

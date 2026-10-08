@@ -1,0 +1,901 @@
+id,condition,true_id,pred_id,true_slice,pred_slice,ambiguous,uc_kind,use_case,correct
+1431,L1_original,0,0,eMBB,eMBB,0,generic,municipal network service,1
+2090,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+280,L1_original,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1681,L1_original,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2295,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+1702,L1_original,1,1,URLLC,URLLC,0,known,factory robot control,1
+787,L1_original,1,1,URLLC,URLLC,0,generic,enterprise application,1
+2594,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+2291,L1_original,2,2,mMTC,mMTC,0,generic,research testbed service,1
+182,L1_original,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+698,L1_original,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+47,L1_original,2,2,mMTC,mMTC,0,generic,municipal network service,1
+2294,L1_original,2,2,mMTC,mMTC,1,generic,municipal network service,1
+1046,L1_original,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1409,L1_original,2,2,mMTC,mMTC,1,generic,public safety communications,1
+1140,L1_original,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+1868,L1_original,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1129,L1_original,1,1,URLLC,URLLC,1,known,factory robot control,1
+2947,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1310,L1_original,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+1554,L1_original,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1979,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+2056,L1_original,1,1,URLLC,URLLC,0,generic,research testbed service,1
+1358,L1_original,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2293,L1_original,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+465,L1_original,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2781,L1_original,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+726,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+2190,L1_original,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1258,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+613,L1_original,1,1,URLLC,URLLC,1,generic,enterprise application,1
+555,L1_original,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+550,L1_original,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1586,L1_original,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1593,L1_original,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+2917,L1_original,1,1,URLLC,URLLC,0,generic,retail branch connectivity,1
+1700,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+1309,L1_original,1,1,URLLC,URLLC,0,generic,event coverage service,1
+1876,L1_original,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2891,L1_original,2,2,mMTC,mMTC,0,generic,retail branch connectivity,1
+1350,L1_original,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+520,L1_original,1,1,URLLC,URLLC,1,generic,campus connectivity,1
+1561,L1_original,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1464,L1_original,0,0,eMBB,eMBB,0,generic,public safety communications,1
+1794,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+548,L1_original,2,2,mMTC,mMTC,0,generic,research testbed service,1
+2524,L1_original,1,1,URLLC,URLLC,1,unseen,substation differential tripping,1
+2289,L1_original,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+979,L1_original,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+645,L1_original,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1479,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+674,L1_original,2,2,mMTC,mMTC,0,known,smart water meters,1
+1130,L1_original,2,2,mMTC,mMTC,0,generic,municipal network service,1
+2521,L1_original,1,2,URLLC,mMTC,1,unseen,port crane synchronisation,0
+258,L1_original,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+1616,L1_original,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2402,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+990,L1_original,0,0,eMBB,eMBB,0,generic,municipal network service,1
+2621,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+1131,L1_original,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1915,L1_original,1,0,URLLC,eMBB,0,generic,campus connectivity,0
+2906,L1_original,2,2,mMTC,mMTC,0,generic,campus connectivity,1
+2703,L1_original,0,0,eMBB,eMBB,0,generic,public safety communications,1
+1801,L1_original,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+460,L1_original,1,1,URLLC,URLLC,0,generic,campus connectivity,1
+871,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1927,L1_original,1,1,URLLC,URLLC,0,known,remote surgery,1
+2442,L1_original,0,0,eMBB,eMBB,0,generic,enterprise application,1
+2729,L1_original,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1955,L1_original,2,2,mMTC,mMTC,1,known,smart water meters,1
+1136,L1_original,2,2,mMTC,mMTC,0,generic,public safety communications,1
+876,L1_original,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+206,L1_original,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+351,L1_original,0,0,eMBB,eMBB,0,generic,retail branch connectivity,1
+2912,L1_original,2,2,mMTC,mMTC,0,generic,municipal network service,1
+2551,L1_original,1,0,URLLC,eMBB,1,generic,research testbed service,0
+696,L1_original,0,0,eMBB,eMBB,1,generic,research testbed service,1
+2913,L1_original,0,0,eMBB,eMBB,1,known,live broadcast,1
+762,L1_original,0,0,eMBB,eMBB,1,generic,event coverage service,1
+1063,L1_original,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+619,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+318,L1_original,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1956,L1_original,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+1910,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1092,L1_original,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+1939,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2851,L1_original,1,1,URLLC,URLLC,0,known,remote surgery,1
+102,L1_original,0,0,eMBB,eMBB,1,known,live broadcast,1
+2842,L1_original,1,1,URLLC,URLLC,0,generic,retail branch connectivity,1
+1194,L1_original,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2983,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1076,L1_original,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1233,L1_original,0,0,eMBB,eMBB,1,known,4K video streaming,1
+347,L1_original,2,2,mMTC,mMTC,0,generic,retail branch connectivity,1
+2271,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+2905,L1_original,1,1,URLLC,URLLC,0,generic,event coverage service,1
+1034,L1_original,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+58,L1_original,1,1,URLLC,URLLC,0,known,remote surgery,1
+1731,L1_original,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2994,L1_original,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+2472,L1_original,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+682,L1_original,1,1,URLLC,URLLC,0,known,remote surgery,1
+2104,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1929,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+1563,L1_original,0,1,eMBB,URLLC,1,unseen,high-definition conferencing,0
+925,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2120,L1_original,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+1082,L1_original,2,2,mMTC,mMTC,0,generic,smart city service,1
+1917,L1_original,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1385,L1_original,2,2,mMTC,mMTC,1,known,asset trackers,1
+2818,L1_original,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+1205,L1_original,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+126,L1_original,0,0,eMBB,eMBB,1,known,live broadcast,1
+1694,L1_original,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+1322,L1_original,2,2,mMTC,mMTC,0,generic,event coverage service,1
+998,L1_original,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2300,L1_original,2,2,mMTC,mMTC,0,generic,smart city service,1
+506,L1_original,2,2,mMTC,mMTC,1,generic,smart city service,1
+2741,L1_original,2,2,mMTC,mMTC,1,known,environmental monitoring,1
+1456,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1087,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+456,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2068,L1_original,1,1,URLLC,URLLC,1,generic,retail branch connectivity,1
+1805,L1_original,2,2,mMTC,mMTC,1,known,environmental monitoring,1
+1782,L1_original,0,0,eMBB,eMBB,0,generic,smart city service,1
+1598,L1_original,2,2,mMTC,mMTC,1,known,smart water meters,1
+1463,L1_original,2,2,mMTC,mMTC,0,generic,smart city service,1
+2415,L1_original,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+703,L1_original,1,1,URLLC,URLLC,1,unseen,rail interlocking signalling,1
+1283,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+1797,L1_original,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+783,L1_original,0,1,eMBB,URLLC,1,unseen,digital signage uplink,0
+866,L1_original,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+803,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+1169,L1_original,2,2,mMTC,mMTC,0,generic,event coverage service,1
+944,L1_original,2,2,mMTC,mMTC,0,generic,research testbed service,1
+2037,L1_original,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2772,L1_original,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+1244,L1_original,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+710,L1_original,2,2,mMTC,mMTC,0,generic,event coverage service,1
+2494,L1_original,1,1,URLLC,URLLC,1,known,factory robot control,1
+2363,L1_original,2,2,mMTC,mMTC,0,known,smart water meters,1
+2512,L1_original,1,1,URLLC,URLLC,0,generic,enterprise application,1
+2949,L1_original,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+2800,L1_original,1,0,URLLC,eMBB,0,generic,municipal network service,0
+2269,L1_original,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1163,L1_original,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2058,L1_original,0,0,eMBB,eMBB,0,generic,event coverage service,1
+1090,L1_original,1,1,URLLC,URLLC,0,known,factory robot control,1
+649,L1_original,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+1241,L1_original,2,2,mMTC,mMTC,0,known,smart water meters,1
+933,L1_original,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+474,L1_original,0,0,eMBB,eMBB,0,generic,research testbed service,1
+196,L1_original,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1826,L1_original,2,2,mMTC,mMTC,0,generic,research testbed service,1
+1079,L1_original,2,2,mMTC,mMTC,1,known,smart water meters,1
+1914,L1_original,0,0,eMBB,eMBB,1,generic,smart city service,1
+1203,L1_original,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+1419,L1_original,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1969,L1_original,1,1,URLLC,URLLC,0,known,factory robot control,1
+2279,L1_original,2,2,mMTC,mMTC,0,generic,retail branch connectivity,1
+1470,L1_original,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1137,L1_original,0,1,eMBB,URLLC,1,unseen,digital signage uplink,0
+1617,L1_original,0,0,eMBB,eMBB,1,generic,municipal network service,1
+204,L1_original,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2437,L1_original,1,1,URLLC,URLLC,0,generic,smart city service,1
+2773,L1_original,1,0,URLLC,eMBB,1,unseen,surgical imaging feedback,0
+2387,L1_original,2,2,mMTC,mMTC,1,known,asset trackers,1
+76,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+210,L1_original,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+970,L1_original,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+197,L1_original,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+911,L1_original,2,2,mMTC,mMTC,1,known,asset trackers,1
+2642,L1_original,2,2,mMTC,mMTC,1,known,asset trackers,1
+2028,L1_original,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1605,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+566,L1_original,2,2,mMTC,mMTC,0,generic,public safety communications,1
+93,L1_original,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+1139,L1_original,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2768,L1_original,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+72,L1_original,0,0,eMBB,eMBB,0,generic,enterprise application,1
+1329,L1_original,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+205,L1_original,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+2017,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+808,L1_original,1,1,URLLC,URLLC,0,known,remote surgery,1
+1977,L1_original,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+2029,L1_original,1,0,URLLC,eMBB,1,generic,retail branch connectivity,0
+1425,L1_original,0,0,eMBB,eMBB,0,generic,municipal network service,1
+2083,L1_original,1,1,URLLC,URLLC,1,known,drone fleet control,1
+861,L1_original,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+1621,L1_original,1,1,URLLC,URLLC,0,generic,municipal network service,1
+279,L1_original,0,0,eMBB,eMBB,0,generic,retail branch connectivity,1
+2557,L1_original,1,2,URLLC,mMTC,1,unseen,substation differential tripping,0
+2003,L1_original,2,1,mMTC,URLLC,1,unseen,soil-moisture reporting nodes,0
+2988,L1_original,0,0,eMBB,eMBB,0,generic,municipal network service,1
+2823,L1_original,0,1,eMBB,URLLC,1,unseen,digital signage uplink,0
+2590,L1_original,1,1,URLLC,URLLC,0,known,factory robot control,1
+2213,L1_original,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+980,L1_original,2,2,mMTC,mMTC,1,generic,public safety communications,1
+1780,L1_original,1,0,URLLC,eMBB,1,generic,smart city service,0
+952,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2910,L1_original,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+881,L1_original,2,2,mMTC,mMTC,0,generic,campus connectivity,1
+2292,L1_original,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+2935,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2857,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1527,L1_original,0,0,eMBB,eMBB,1,known,live broadcast,1
+2141,L1_original,2,2,mMTC,mMTC,1,generic,retail branch connectivity,1
+1471,L1_original,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+340,L1_original,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1569,L1_original,0,0,eMBB,eMBB,1,generic,public safety communications,1
+2188,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+661,L1_original,1,1,URLLC,URLLC,0,known,remote surgery,1
+2367,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1823,L1_original,2,2,mMTC,mMTC,1,generic,municipal network service,1
+2736,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+121,L1_original,1,1,URLLC,URLLC,1,known,factory robot control,1
+2035,L1_original,1,0,URLLC,eMBB,0,generic,event coverage service,0
+2874,L1_original,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+2303,L1_original,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+1781,L1_original,2,2,mMTC,mMTC,0,generic,smart city service,1
+2302,L1_original,1,1,URLLC,URLLC,0,generic,event coverage service,1
+1954,L1_original,1,1,URLLC,URLLC,1,known,drone fleet control,1
+45,L1_original,0,0,eMBB,eMBB,1,known,4K video streaming,1
+1353,L1_original,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1865,L1_original,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+52,L1_original,1,1,URLLC,URLLC,1,generic,research testbed service,1
+2629,L1_original,1,1,URLLC,URLLC,0,generic,municipal network service,1
+1600,L1_original,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+338,L1_original,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+938,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+700,L1_original,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1436,L1_original,2,2,mMTC,mMTC,0,generic,smart city service,1
+1314,L1_original,0,0,eMBB,eMBB,1,known,4K video streaming,1
+2116,L1_original,1,1,URLLC,URLLC,0,generic,public safety communications,1
+743,L1_original,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1965,L1_original,0,0,eMBB,eMBB,1,known,4K video streaming,1
+2451,L1_original,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+2877,L1_original,0,0,eMBB,eMBB,0,generic,retail branch connectivity,1
+2133,L1_original,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+1213,L1_original,1,1,URLLC,URLLC,0,known,factory robot control,1
+1682,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+1555,L1_original,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2998,L1_original,1,1,URLLC,URLLC,1,known,drone fleet control,1
+977,L1_original,2,2,mMTC,mMTC,0,generic,municipal network service,1
+2464,L1_original,1,1,URLLC,URLLC,0,generic,municipal network service,1
+734,L1_original,2,2,mMTC,mMTC,0,generic,public safety communications,1
+2124,L1_original,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1099,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1878,L1_original,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+639,L1_original,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2604,L1_original,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+164,L1_original,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1721,L1_original,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+804,L1_original,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2916,L1_original,0,0,eMBB,eMBB,1,known,4K video streaming,1
+11,L1_original,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+2483,L1_original,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+862,L1_original,1,0,URLLC,eMBB,1,unseen,rail interlocking signalling,0
+2094,L1_original,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+2486,L1_original,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+752,L1_original,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1332,L1_original,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+912,L1_original,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2282,L1_original,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+129,L1_original,0,1,eMBB,URLLC,1,generic,event coverage service,0
+493,L1_original,1,1,URLLC,URLLC,0,generic,retail branch connectivity,1
+2447,L1_original,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+934,L1_original,1,1,URLLC,URLLC,1,known,remote surgery,1
+2407,L1_original,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+597,L1_original,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1885,L1_original,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1475,L1_original,2,2,mMTC,mMTC,0,known,smart water meters,1
+2677,L1_original,1,1,URLLC,URLLC,1,known,factory robot control,1
+361,L1_original,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+301,L1_original,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1658,L1_original,2,2,mMTC,mMTC,0,generic,retail branch connectivity,1
+193,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+842,L1_original,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+20,L1_original,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+800,L1_original,2,2,mMTC,mMTC,0,generic,campus connectivity,1
+1070,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+594,L1_original,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+2871,L1_original,0,0,eMBB,eMBB,1,generic,event coverage service,1
+159,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+1503,L1_original,0,0,eMBB,eMBB,1,generic,smart city service,1
+1787,L1_original,2,2,mMTC,mMTC,1,generic,event coverage service,1
+2450,L1_original,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1665,L1_original,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2776,L1_original,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+2929,L1_original,1,1,URLLC,URLLC,0,known,factory robot control,1
+2774,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2266,L1_original,1,1,URLLC,URLLC,0,known,factory robot control,1
+2595,L1_original,0,0,eMBB,eMBB,0,generic,smart city service,1
+797,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+1121,L1_original,2,2,mMTC,mMTC,0,generic,campus connectivity,1
+1412,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+451,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2900,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+869,L1_original,2,2,mMTC,mMTC,1,generic,retail branch connectivity,1
+1268,L1_original,2,2,mMTC,mMTC,1,known,asset trackers,1
+1101,L1_original,0,2,eMBB,mMTC,1,generic,retail branch connectivity,0
+1684,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2644,L1_original,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1421,L1_original,2,2,mMTC,mMTC,0,generic,research testbed service,1
+1644,L1_original,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+83,L1_original,2,2,mMTC,mMTC,1,known,smart water meters,1
+2344,L1_original,1,1,URLLC,URLLC,0,known,factory robot control,1
+1510,L1_original,1,1,URLLC,URLLC,1,unseen,rail interlocking signalling,1
+1381,L1_original,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+342,L1_original,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+330,L1_original,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+308,L1_original,2,2,mMTC,mMTC,0,known,smart water meters,1
+890,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+1734,L1_original,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1517,L1_original,2,2,mMTC,mMTC,1,generic,enterprise application,1
+2721,L1_original,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1896,L1_original,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+732,L1_original,0,0,eMBB,eMBB,1,generic,event coverage service,1
+635,L1_original,2,2,mMTC,mMTC,0,generic,campus connectivity,1
+1649,L1_original,2,2,mMTC,mMTC,0,known,smart water meters,1
+2175,L1_original,0,0,eMBB,eMBB,1,generic,research testbed service,1
+1669,L1_original,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+1706,L1_original,2,2,mMTC,mMTC,1,generic,smart city service,1
+1302,L1_original,0,0,eMBB,eMBB,1,known,live broadcast,1
+1394,L1_original,2,0,mMTC,eMBB,0,unseen,cold-chain condition reporting,0
+1141,L1_original,1,1,URLLC,URLLC,0,generic,retail branch connectivity,1
+1993,L1_original,1,1,URLLC,URLLC,0,known,factory robot control,1
+2353,L1_original,1,1,URLLC,URLLC,0,generic,retail branch connectivity,1
+2006,L1_original,2,2,mMTC,mMTC,0,generic,event coverage service,1
+2485,L1_original,1,1,URLLC,URLLC,1,known,factory robot control,1
+6,L1_original,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+80,L1_original,2,2,mMTC,mMTC,0,generic,campus connectivity,1
+2386,L1_original,1,1,URLLC,URLLC,0,generic,research testbed service,1
+2359,L1_original,1,1,URLLC,URLLC,1,known,factory robot control,1
+1840,L1_original,1,1,URLLC,URLLC,0,known,factory robot control,1
+2493,L1_original,0,0,eMBB,eMBB,0,generic,public safety communications,1
+1053,L1_original,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+165,L1_original,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2167,L1_original,1,1,URLLC,URLLC,0,generic,public safety communications,1
+2062,L1_original,1,1,URLLC,URLLC,0,generic,smart city service,1
+1908,L1_original,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+415,L1_original,1,0,URLLC,eMBB,1,generic,municipal network service,0
+1655,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+593,L1_original,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+1750,L1_original,1,0,URLLC,eMBB,1,unseen,rail interlocking signalling,0
+2364,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1845,L1_original,0,0,eMBB,eMBB,0,generic,smart city service,1
+2419,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1198,L1_original,1,1,URLLC,URLLC,0,generic,event coverage service,1
+2702,L1_original,2,2,mMTC,mMTC,1,generic,research testbed service,1
+370,L1_original,1,1,URLLC,URLLC,0,generic,research testbed service,1
+1851,L1_original,0,2,eMBB,mMTC,1,unseen,high-definition conferencing,0
+2537,L1_original,2,2,mMTC,mMTC,1,known,environmental monitoring,1
+1859,L1_original,2,2,mMTC,mMTC,0,generic,public safety communications,1
+154,L1_original,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+2375,L1_original,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1875,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2870,L1_original,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+412,L1_original,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+525,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+2351,L1_original,2,2,mMTC,mMTC,0,known,smart water meters,1
+1021,L1_original,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1713,L1_original,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+1223,L1_original,2,2,mMTC,mMTC,0,generic,retail branch connectivity,1
+2887,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+960,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+983,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+21,L1_original,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+2849,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2044,L1_original,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+286,L1_original,1,0,URLLC,eMBB,1,generic,smart city service,0
+266,L1_original,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+885,L1_original,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2527,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1637,L1_original,2,2,mMTC,mMTC,0,generic,research testbed service,1
+953,L1_original,2,2,mMTC,mMTC,0,generic,retail branch connectivity,1
+840,L1_original,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+994,L1_original,1,1,URLLC,URLLC,0,generic,smart city service,1
+2276,L1_original,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+255,L1_original,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+1564,L1_original,1,1,URLLC,URLLC,0,generic,retail branch connectivity,1
+2072,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+2140,L1_original,1,1,URLLC,URLLC,0,generic,research testbed service,1
+2909,L1_original,2,2,mMTC,mMTC,1,generic,municipal network service,1
+1521,L1_original,0,2,eMBB,mMTC,1,generic,enterprise application,0
+111,L1_original,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+276,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+571,L1_original,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1093,L1_original,1,1,URLLC,URLLC,0,generic,smart city service,1
+554,L1_original,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+509,L1_original,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+2692,L1_original,1,1,URLLC,URLLC,1,known,factory robot control,1
+2904,L1_original,0,0,eMBB,eMBB,0,generic,enterprise application,1
+1559,L1_original,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+64,L1_original,1,1,URLLC,URLLC,1,known,remote surgery,1
+1467,L1_original,0,2,eMBB,mMTC,1,generic,research testbed service,0
+2409,L1_original,0,1,eMBB,URLLC,1,unseen,high-definition conferencing,0
+390,L1_original,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+731,L1_original,2,2,mMTC,mMTC,1,known,smart water meters,1
+1288,L1_original,1,1,URLLC,URLLC,0,generic,research testbed service,1
+424,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1889,L1_original,2,2,mMTC,mMTC,0,generic,research testbed service,1
+1013,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+2151,L1_original,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2666,L1_original,2,2,mMTC,mMTC,1,known,environmental monitoring,1
+658,L1_original,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+2684,L1_original,2,2,mMTC,mMTC,0,generic,public safety communications,1
+478,L1_original,1,1,URLLC,URLLC,0,generic,smart city service,1
+2530,L1_original,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1941,L1_original,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+2329,L1_original,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+766,L1_original,1,1,URLLC,URLLC,0,generic,event coverage service,1
+2659,L1_original,1,0,URLLC,eMBB,0,generic,enterprise application,0
+2628,L1_original,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2892,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1278,L1_original,0,0,eMBB,eMBB,0,generic,enterprise application,1
+2385,L1_original,0,0,eMBB,eMBB,1,generic,research testbed service,1
+2434,L1_original,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1196,L1_original,2,2,mMTC,mMTC,0,generic,retail branch connectivity,1
+1573,L1_original,1,1,URLLC,URLLC,1,generic,event coverage service,1
+811,L1_original,1,1,URLLC,URLLC,0,generic,research testbed service,1
+1629,L1_original,0,0,eMBB,eMBB,1,known,live broadcast,1
+289,L1_original,1,1,URLLC,URLLC,0,generic,retail branch connectivity,1
+1296,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+2920,L1_original,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+350,L1_original,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+765,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+480,L1_original,0,0,eMBB,eMBB,0,generic,public safety communications,1
+930,L1_original,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2795,L1_original,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+733,L1_original,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+1632,L1_original,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1186,L1_original,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+335,L1_original,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2719,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+328,L1_original,1,1,URLLC,URLLC,0,generic,municipal network service,1
+947,L1_original,2,2,mMTC,mMTC,0,generic,public safety communications,1
+1190,L1_original,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+1372,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2539,L1_original,1,1,URLLC,URLLC,0,known,remote surgery,1
+694,L1_original,1,0,URLLC,eMBB,1,generic,campus connectivity,0
+2085,L1_original,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1918,L1_original,1,1,URLLC,URLLC,0,generic,retail branch connectivity,1
+2039,L1_original,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1810,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2441,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+511,L1_original,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+616,L1_original,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+779,L1_original,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+553,L1_original,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2480,L1_original,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+1533,L1_original,0,0,eMBB,eMBB,0,generic,enterprise application,1
+948,L1_original,0,0,eMBB,eMBB,1,known,4K video streaming,1
+719,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1707,L1_original,0,0,eMBB,eMBB,0,generic,event coverage service,1
+751,L1_original,1,1,URLLC,URLLC,0,generic,research testbed service,1
+2067,L1_original,0,2,eMBB,mMTC,1,unseen,in-flight entertainment uplink,0
+927,L1_original,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+82,L1_original,1,1,URLLC,URLLC,0,generic,research testbed service,1
+73,L1_original,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1242,L1_original,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2000,L1_original,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2960,L1_original,2,0,mMTC,eMBB,1,generic,retail branch connectivity,0
+2337,L1_original,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+2603,L1_original,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+831,L1_original,0,0,eMBB,eMBB,0,generic,event coverage service,1
+2378,L1_original,2,2,mMTC,mMTC,0,generic,enterprise application,1
+1595,L1_original,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+1303,L1_original,1,1,URLLC,URLLC,1,unseen,substation differential tripping,1
+638,L1_original,2,2,mMTC,mMTC,1,generic,research testbed service,1
+724,L1_original,1,1,URLLC,URLLC,1,known,factory robot control,1
+2673,L1_original,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1970,L1_original,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+1485,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+524,L1_original,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+1944,L1_original,0,0,eMBB,eMBB,1,known,live broadcast,1
+455,L1_original,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2803,L1_original,1,1,URLLC,URLLC,0,generic,smart city service,1
+695,L1_original,2,2,mMTC,mMTC,1,known,smart water meters,1
+2112,L1_original,0,0,eMBB,eMBB,0,generic,event coverage service,1
+2565,L1_original,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2036,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+848,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+179,L1_original,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+723,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+190,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1916,L1_original,2,2,mMTC,mMTC,0,generic,municipal network service,1
+1216,L1_original,1,1,URLLC,URLLC,0,known,remote surgery,1
+714,L1_original,0,2,eMBB,mMTC,0,generic,smart city service,0
+1117,L1_original,1,1,URLLC,URLLC,0,generic,municipal network service,1
+621,L1_original,0,0,eMBB,eMBB,0,generic,research testbed service,1
+868,L1_original,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+1803,L1_original,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+1951,L1_original,1,1,URLLC,URLLC,0,known,remote surgery,1
+2860,L1_original,1,1,URLLC,URLLC,0,generic,municipal network service,1
+1855,L1_original,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+878,L1_original,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+587,L1_original,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+485,L1_original,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+259,L1_original,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1078,L1_original,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+15,L1_original,0,0,eMBB,eMBB,0,generic,research testbed service,1
+1037,L1_original,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+294,L1_original,0,0,eMBB,eMBB,0,generic,smart city service,1
+1760,L1_original,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+1395,L1_original,0,2,eMBB,mMTC,1,unseen,digital signage uplink,0
+2474,L1_original,2,2,mMTC,mMTC,0,generic,enterprise application,1
+2925,L1_original,0,0,eMBB,eMBB,1,generic,smart city service,1
+959,L1_original,2,2,mMTC,mMTC,0,known,smart water meters,1
+1636,L1_original,1,1,URLLC,URLLC,0,generic,public safety communications,1
+35,L1_original,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1893,L1_original,0,0,eMBB,eMBB,0,generic,research testbed service,1
+1712,L1_original,2,2,mMTC,mMTC,1,known,asset trackers,1
+264,L1_original,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2352,L1_original,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+2801,L1_original,2,2,mMTC,mMTC,0,generic,retail branch connectivity,1
+945,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+489,L1_original,0,0,eMBB,eMBB,1,known,live broadcast,1
+1515,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2882,L1_original,2,2,mMTC,mMTC,0,known,smart water meters,1
+2272,L1_original,1,2,URLLC,mMTC,1,generic,municipal network service,0
+1995,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+1119,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1758,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+641,L1_original,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+926,L1_original,2,2,mMTC,mMTC,1,known,asset trackers,1
+343,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1741,L1_original,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+147,L1_original,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1722,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+517,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2479,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+898,L1_original,1,1,URLLC,URLLC,0,known,remote surgery,1
+2526,L1_original,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+834,L1_original,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+2566,L1_original,1,1,URLLC,URLLC,0,known,remote surgery,1
+1043,L1_original,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+557,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+2813,L1_original,2,2,mMTC,mMTC,0,generic,event coverage service,1
+81,L1_original,0,0,eMBB,eMBB,1,known,4K video streaming,1
+44,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+1044,L1_original,0,0,eMBB,eMBB,0,generic,retail branch connectivity,1
+673,L1_original,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+2278,L1_original,1,1,URLLC,URLLC,0,generic,public safety communications,1
+1759,L1_original,1,1,URLLC,URLLC,0,known,factory robot control,1
+287,L1_original,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1020,L1_original,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+821,L1_original,2,2,mMTC,mMTC,1,known,asset trackers,1
+741,L1_original,0,0,eMBB,eMBB,1,generic,research testbed service,1
+2896,L1_original,1,2,URLLC,mMTC,1,unseen,port crane synchronisation,0
+982,L1_original,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+274,L1_original,1,1,URLLC,URLLC,1,known,factory robot control,1
+1740,L1_original,0,0,eMBB,eMBB,0,generic,enterprise application,1
+2122,L1_original,1,1,URLLC,URLLC,0,generic,event coverage service,1
+2850,L1_original,0,0,eMBB,eMBB,1,generic,campus connectivity,1
+2185,L1_original,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+1366,L1_original,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+254,L1_original,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+1816,L1_original,1,1,URLLC,URLLC,1,generic,research testbed service,1
+316,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+999,L1_original,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+211,L1_original,1,1,URLLC,URLLC,0,generic,event coverage service,1
+1831,L1_original,1,1,URLLC,URLLC,1,generic,municipal network service,1
+900,L1_original,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2617,L1_original,1,1,URLLC,URLLC,0,generic,municipal network service,1
+2391,L1_original,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2306,L1_original,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1761,L1_original,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1458,L1_original,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+2528,L1_original,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+247,L1_original,1,1,URLLC,URLLC,0,generic,event coverage service,1
+2045,L1_original,2,2,mMTC,mMTC,1,known,pipeline telemetry,1
+2986,L1_original,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1457,L1_original,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+863,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+1480,L1_original,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2651,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+705,L1_original,0,1,eMBB,URLLC,1,generic,public safety communications,0
+420,L1_original,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+2390,L1_original,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2097,L1_original,0,0,eMBB,eMBB,0,generic,research testbed service,1
+614,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+2614,L1_original,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2970,L1_original,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2525,L1_original,2,2,mMTC,mMTC,0,generic,smart city service,1
+1260,L1_original,0,0,eMBB,eMBB,0,generic,public safety communications,1
+1601,L1_original,2,2,mMTC,mMTC,0,generic,public safety communications,1
+756,L1_original,0,0,eMBB,eMBB,0,generic,retail branch connectivity,1
+495,L1_original,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+824,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+2974,L1_original,1,1,URLLC,URLLC,0,generic,campus connectivity,1
+1330,L1_original,1,0,URLLC,eMBB,1,generic,smart city service,0
+917,L1_original,2,2,mMTC,mMTC,0,generic,campus connectivity,1
+1779,L1_original,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1142,L1_original,2,2,mMTC,mMTC,0,known,smart water meters,1
+536,L1_original,2,2,mMTC,mMTC,0,generic,event coverage service,1
+1218,L1_original,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+168,L1_original,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+1362,L1_original,0,0,eMBB,eMBB,0,generic,smart city service,1
+1317,L1_original,0,0,eMBB,eMBB,0,generic,enterprise application,1
+377,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+633,L1_original,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+2248,L1_original,1,1,URLLC,URLLC,1,known,drone fleet control,1
+562,L1_original,1,1,URLLC,URLLC,0,generic,retail branch connectivity,1
+2048,L1_original,2,2,mMTC,mMTC,0,generic,retail branch connectivity,1
+2549,L1_original,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1775,L1_original,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+291,L1_original,0,0,eMBB,eMBB,0,generic,enterprise application,1
+2165,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2792,L1_original,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2658,L1_original,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2139,L1_original,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1408,L1_original,1,1,URLLC,URLLC,1,known,haptic teleoperation,1
+972,L1_original,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1992,L1_original,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+505,L1_original,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2516,L1_original,2,0,mMTC,eMBB,0,unseen,cold-chain condition reporting,0
+1998,L1_original,0,2,eMBB,mMTC,1,unseen,in-flight entertainment uplink,0
+282,L1_original,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1048,L1_original,1,1,URLLC,URLLC,1,unseen,port crane synchronisation,1
+213,L1_original,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1532,L1_original,2,2,mMTC,mMTC,0,generic,enterprise application,1
+2280,L1_original,0,0,eMBB,eMBB,0,generic,smart city service,1
+1783,L1_original,1,1,URLLC,URLLC,0,known,factory robot control,1
+62,L1_original,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+508,L1_original,1,0,URLLC,eMBB,1,generic,smart city service,0
+2579,L1_original,2,2,mMTC,mMTC,0,generic,campus connectivity,1
+1925,L1_original,2,2,mMTC,mMTC,1,known,environmental monitoring,1
+2711,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1880,L1_original,2,2,mMTC,mMTC,0,generic,retail branch connectivity,1
+1207,L1_original,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1871,L1_original,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+358,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2958,L1_original,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1342,L1_original,1,1,URLLC,URLLC,0,generic,campus connectivity,1
+1863,L1_original,0,0,eMBB,eMBB,0,generic,municipal network service,1
+957,L1_original,0,0,eMBB,eMBB,1,generic,smart city service,1
+1928,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+51,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2336,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2254,L1_original,1,0,URLLC,eMBB,1,unseen,substation differential tripping,0
+810,L1_original,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2414,L1_original,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+2623,L1_original,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1614,L1_original,0,0,eMBB,eMBB,0,generic,municipal network service,1
+1301,L1_original,2,2,mMTC,mMTC,1,known,smart water meters,1
+1683,L1_original,0,0,eMBB,eMBB,0,generic,public safety communications,1
+2752,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1000,L1_original,1,1,URLLC,URLLC,1,known,remote surgery,1
+588,L1_original,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2358,L1_original,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1289,L1_original,2,2,mMTC,mMTC,0,known,smart water meters,1
+1429,L1_original,1,0,URLLC,eMBB,1,generic,public safety communications,0
+1368,L1_original,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+394,L1_original,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1701,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+1698,L1_original,0,1,eMBB,URLLC,1,unseen,in-flight entertainment uplink,0
+2885,L1_original,2,2,mMTC,mMTC,1,known,smart water meters,1
+1550,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+2232,L1_original,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+1114,L1_original,1,2,URLLC,mMTC,1,generic,retail branch connectivity,0
+1106,L1_original,2,2,mMTC,mMTC,0,generic,research testbed service,1
+418,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+835,L1_original,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1088,L1_original,2,2,mMTC,mMTC,0,known,smart water meters,1
+416,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+142,L1_original,1,2,URLLC,mMTC,1,unseen,rail interlocking signalling,0
+2223,L1_original,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+475,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2495,L1_original,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2012,L1_original,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+2229,L1_original,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+487,L1_original,1,1,URLLC,URLLC,0,known,remote surgery,1
+989,L1_original,2,2,mMTC,mMTC,1,known,smart water meters,1
+1097,L1_original,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+379,L1_original,1,0,URLLC,eMBB,0,generic,public safety communications,0
+2967,L1_original,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+708,L1_original,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1160,L1_original,2,0,mMTC,eMBB,1,unseen,soil-moisture reporting nodes,0
+2290,L1_original,1,1,URLLC,URLLC,1,unseen,rail interlocking signalling,1
+2816,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+1328,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+622,L1_original,1,1,URLLC,URLLC,0,known,remote surgery,1
+2676,L1_original,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+1393,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2082,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+1802,L1_original,2,0,mMTC,eMBB,1,generic,research testbed service,0
+2588,L1_original,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+428,L1_original,2,2,mMTC,mMTC,0,known,smart water meters,1
+2687,L1_original,2,2,mMTC,mMTC,1,known,environmental monitoring,1
+543,L1_original,0,0,eMBB,eMBB,0,unseen,in-flight entertainment uplink,1
+2685,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1336,L1_original,1,1,URLLC,URLLC,1,unseen,substation differential tripping,1
+48,L1_original,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2724,L1_original,0,2,eMBB,mMTC,1,unseen,newsroom contribution feed,0
+2326,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2311,L1_original,1,1,URLLC,URLLC,0,generic,retail branch connectivity,1
+2775,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+735,L1_original,0,2,eMBB,mMTC,1,generic,enterprise application,0
+691,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+215,L1_original,2,2,mMTC,mMTC,1,known,environmental monitoring,1
+1945,L1_original,1,1,URLLC,URLLC,0,generic,municipal network service,1
+1267,L1_original,1,1,URLLC,URLLC,1,known,drone fleet control,1
+795,L1_original,0,0,eMBB,eMBB,0,generic,smart city service,1
+1466,L1_original,2,2,mMTC,mMTC,1,known,environmental monitoring,1
+469,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1921,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2680,L1_original,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+1445,L1_original,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+1879,L1_original,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+778,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1415,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+1763,L1_original,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+1499,L1_original,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+886,L1_original,1,1,URLLC,URLLC,0,known,factory robot control,1
+345,L1_original,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+2948,L1_original,2,2,mMTC,mMTC,1,known,asset trackers,1
+1603,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+864,L1_original,0,0,eMBB,eMBB,0,generic,smart city service,1
+889,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1379,L1_original,2,2,mMTC,mMTC,1,known,asset trackers,1
+2200,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2077,L1_original,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2500,L1_original,1,1,URLLC,URLLC,0,generic,public safety communications,1
+1765,L1_original,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1255,L1_original,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+364,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1948,L1_original,1,1,URLLC,URLLC,0,known,remote surgery,1
+2476,L1_original,1,1,URLLC,URLLC,0,generic,campus connectivity,1
+371,L1_original,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2555,L1_original,2,2,mMTC,mMTC,0,generic,public safety communications,1
+2091,L1_original,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+1786,L1_original,1,0,URLLC,eMBB,1,generic,enterprise application,0
+166,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1045,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1662,L1_original,0,0,eMBB,eMBB,0,generic,retail branch connectivity,1
+488,L1_original,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2258,L1_original,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1570,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+532,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2760,L1_original,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+1976,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+2867,L1_original,2,2,mMTC,mMTC,1,unseen,street luminaire telemetry,1
+2560,L1_original,1,1,URLLC,URLLC,0,known,remote surgery,1
+404,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2026,L1_original,1,1,URLLC,URLLC,0,generic,municipal network service,1
+2328,L1_original,0,0,eMBB,eMBB,1,generic,enterprise application,1
+2883,L1_original,0,0,eMBB,eMBB,0,generic,public safety communications,1
+89,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+2582,L1_original,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2471,L1_original,2,1,mMTC,URLLC,1,unseen,street luminaire telemetry,0
+2011,L1_original,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+2203,L1_original,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+2270,L1_original,2,2,mMTC,mMTC,1,unseen,utility submetering fleet,1
+2955,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+2424,L1_original,0,0,eMBB,eMBB,0,generic,public safety communications,1
+1821,L1_original,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+874,L1_original,1,1,URLLC,URLLC,1,unseen,rail interlocking signalling,1
+1716,L1_original,0,0,eMBB,eMBB,0,generic,smart city service,1
+2366,L1_original,2,2,mMTC,mMTC,1,generic,public safety communications,1
+2226,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+1689,L1_original,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1877,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+2982,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+2262,L1_original,0,0,eMBB,eMBB,0,generic,smart city service,1
+607,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1526,L1_original,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+2723,L1_original,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+2624,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+1083,L1_original,0,0,eMBB,eMBB,1,known,AR/VR gaming,1
+2022,L1_original,0,0,eMBB,eMBB,0,generic,smart city service,1
+220,L1_original,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1806,L1_original,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+432,L1_original,0,0,eMBB,eMBB,1,generic,campus connectivity,1
+2591,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2099,L1_original,2,2,mMTC,mMTC,0,generic,public safety communications,1
+1500,L1_original,0,0,eMBB,eMBB,1,unseen,high-definition conferencing,1
+108,L1_original,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+87,L1_original,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2790,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+2053,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2951,L1_original,2,2,mMTC,mMTC,1,generic,research testbed service,1
+127,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1327,L1_original,1,0,URLLC,eMBB,1,unseen,substation differential tripping,0
+567,L1_original,0,0,eMBB,eMBB,1,known,live broadcast,1
+123,L1_original,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+799,L1_original,1,1,URLLC,URLLC,1,known,factory robot control,1
+1853,L1_original,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+2556,L1_original,0,0,eMBB,eMBB,1,generic,public safety communications,1
+1730,L1_original,2,2,mMTC,mMTC,0,unseen,soil-moisture reporting nodes,1
+792,L1_original,0,0,eMBB,eMBB,1,generic,public safety communications,1
+689,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+143,L1_original,2,2,mMTC,mMTC,0,known,smart water meters,1
+1930,L1_original,1,1,URLLC,URLLC,1,unseen,rail interlocking signalling,1
+1538,L1_original,2,2,mMTC,mMTC,1,known,smart water meters,1
+2163,L1_original,0,0,eMBB,eMBB,0,generic,smart city service,1
+2457,L1_original,0,0,eMBB,eMBB,1,known,live broadcast,1
+2531,L1_original,2,2,mMTC,mMTC,0,generic,event coverage service,1
+2198,L1_original,2,2,mMTC,mMTC,1,known,environmental monitoring,1
+1592,L1_original,2,2,mMTC,mMTC,1,known,asset trackers,1
+146,L1_original,2,2,mMTC,mMTC,1,generic,event coverage service,1
+2519,L1_original,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+1631,L1_original,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1335,L1_original,0,1,eMBB,URLLC,0,unseen,high-definition conferencing,0
+827,L1_original,2,2,mMTC,mMTC,0,generic,campus connectivity,1
+1905,L1_original,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1830,L1_original,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+539,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+1768,L1_original,1,1,URLLC,URLLC,0,known,factory robot control,1
+592,L1_original,1,1,URLLC,URLLC,0,generic,public safety communications,1
+234,L1_original,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+782,L1_original,2,2,mMTC,mMTC,0,generic,public safety communications,1
+2174,L1_original,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+160,L1_original,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+2156,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+2893,L1_original,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2144,L1_original,2,2,mMTC,mMTC,0,generic,smart city service,1
+1172,L1_original,2,2,mMTC,mMTC,1,known,environmental monitoring,1
+1524,L1_original,0,0,eMBB,eMBB,1,generic,campus connectivity,1
+243,L1_original,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+922,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2683,L1_original,1,1,URLLC,URLLC,0,generic,public safety communications,1
+921,L1_original,0,0,eMBB,eMBB,1,known,stadium hotspot,1
+2838,L1_original,0,0,eMBB,eMBB,1,generic,municipal network service,1
+1862,L1_original,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2938,L1_original,1,1,URLLC,URLLC,0,generic,campus connectivity,1
+924,L1_original,0,2,eMBB,mMTC,1,generic,campus connectivity,0
+1898,L1_original,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1271,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+2401,L1_original,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+1240,L1_original,1,1,URLLC,URLLC,1,known,remote surgery,1
+2365,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2145,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+2953,L1_original,1,1,URLLC,URLLC,0,generic,public safety communications,1
+596,L1_original,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1285,L1_original,1,0,URLLC,eMBB,0,generic,public safety communications,0
+2268,L1_original,0,0,eMBB,eMBB,1,generic,municipal network service,1
+1670,L1_original,2,2,mMTC,mMTC,0,unseen,utility submetering fleet,1
+209,L1_original,2,2,mMTC,mMTC,0,known,smart water meters,1
+2397,L1_original,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+2820,L1_original,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+541,L1_original,1,1,URLLC,URLLC,0,unseen,substation differential tripping,1
+1770,L1_original,0,0,eMBB,eMBB,1,unseen,in-flight entertainment uplink,1
+334,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1389,L1_original,0,0,eMBB,eMBB,0,known,4K video streaming,1
+1933,L1_original,1,1,URLLC,URLLC,0,generic,research testbed service,1
+893,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+2821,L1_original,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+1320,L1_original,0,0,eMBB,eMBB,1,known,live broadcast,1
+2807,L1_original,2,2,mMTC,mMTC,0,unseen,street luminaire telemetry,1
+383,L1_original,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+699,L1_original,0,0,eMBB,eMBB,0,generic,public safety communications,1
+2065,L1_original,1,2,URLLC,mMTC,1,generic,campus connectivity,0
+1771,L1_original,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+854,L1_original,2,2,mMTC,mMTC,0,generic,event coverage service,1
+2542,L1_original,1,1,URLLC,URLLC,0,generic,smart city service,1
+1333,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2826,L1_original,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+2897,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+1098,L1_original,0,0,eMBB,eMBB,0,generic,smart city service,1
+1798,L1_original,1,2,URLLC,mMTC,1,generic,campus connectivity,0
+395,L1_original,2,2,mMTC,mMTC,0,generic,campus connectivity,1
+2503,L1_original,1,1,URLLC,URLLC,0,generic,enterprise application,1
+224,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1427,L1_original,2,2,mMTC,mMTC,1,known,smart water meters,1
+2340,L1_original,0,0,eMBB,eMBB,1,generic,retail branch connectivity,1
+2748,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+2005,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1376,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+2993,L1_original,2,2,mMTC,mMTC,1,unseen,soil-moisture reporting nodes,1
+2756,L1_original,2,2,mMTC,mMTC,1,known,smart water meters,1
+1387,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+601,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2648,L1_original,2,2,mMTC,mMTC,0,known,pipeline telemetry,1
+1483,L1_original,1,1,URLLC,URLLC,0,known,factory robot control,1
+814,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1170,L1_original,0,0,eMBB,eMBB,1,generic,municipal network service,1
+2422,L1_original,1,1,URLLC,URLLC,0,known,remote surgery,1
+1528,L1_original,1,1,URLLC,URLLC,0,known,haptic teleoperation,1
+1406,L1_original,2,2,mMTC,mMTC,0,known,asset trackers,1
+1903,L1_original,1,1,URLLC,URLLC,0,unseen,port crane synchronisation,1
+231,L1_original,0,0,eMBB,eMBB,1,known,live broadcast,1
+838,L1_original,1,1,URLLC,URLLC,0,known,drone fleet control,1
+577,L1_original,1,0,URLLC,eMBB,1,unseen,port crane synchronisation,0
+2829,L1_original,0,0,eMBB,eMBB,1,unseen,digital signage uplink,1
+534,L1_original,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+615,L1_original,0,0,eMBB,eMBB,0,known,AR/VR gaming,1
+1145,L1_original,2,2,mMTC,mMTC,0,generic,research testbed service,1
+1729,L1_original,1,1,URLLC,URLLC,0,unseen,rail interlocking signalling,1
+2448,L1_original,0,0,eMBB,eMBB,0,unseen,high-definition conferencing,1
+1225,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+942,L1_original,0,0,eMBB,eMBB,0,known,stadium hotspot,1
+13,L1_original,1,1,URLLC,URLLC,0,generic,campus connectivity,1
+202,L1_original,1,1,URLLC,URLLC,1,known,remote surgery,1
+1659,L1_original,0,0,eMBB,eMBB,0,generic,campus connectivity,1
+2087,L1_original,2,2,mMTC,mMTC,0,known,environmental monitoring,1
+609,L1_original,0,0,eMBB,eMBB,0,known,live broadcast,1
+321,L1_original,0,0,eMBB,eMBB,0,unseen,digital signage uplink,1
+823,L1_original,1,1,URLLC,URLLC,0,known,smart-grid protection,1

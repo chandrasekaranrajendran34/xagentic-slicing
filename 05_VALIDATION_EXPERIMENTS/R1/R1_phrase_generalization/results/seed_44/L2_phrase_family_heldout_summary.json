@@ -1,0 +1,14 @@
+{
+  "seed": 44,
+  "condition": "L2_phrase_family_heldout",
+  "train_n": 1368,
+  "test_n": 733,
+  "selected_model": "Gradient Boosting",
+  "selected_cv_mean": 0.937149590752559,
+  "selected_cv_std": 0.01097128260661996,
+  "accuracy": 0.946793997271487,
+  "macro_f1": 0.9466578930847668,
+  "test_nonambiguous_n": 484,
+  "test_ambiguous_n": 249,
+  "fit_plus_predict_seconds": 1.475426164000055
+}

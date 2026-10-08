@@ -1,0 +1,55 @@
+{
+  "data_governance": {
+    "development_heldout_id_overlap": 0,
+    "development_rows": 840,
+    "heldout_labels_used_for_threshold_selection": false,
+    "heldout_results_used_for_threshold_selection": false,
+    "heldout_rows": 360,
+    "post_heldout_retuning_allowed": false
+  },
+  "development_evidence_sha256": {
+    "r4_surviving_cases": "22866921bedff9d089ba7b33784f4be087d74d1dc313f47839957fea666f1c33",
+    "semantic_rows": "d75bad994a8e1115af530d915e82ae829a2fdb3def1523158ef4c8a952f95f86",
+    "threshold_sweep": "f44b47d0965d4eb98033c76245b9ad05c4a5b58820ce56347b880ae542985843"
+  },
+  "development_selection_evidence": {
+    "correct_autonomous_preservation": 0.934876989869754,
+    "correct_escalated": 45,
+    "development_total": 840,
+    "error_detection_recall": 0.6153846153846154,
+    "errors_captured": 8,
+    "final_autonomous_accuracy": 0.9923195084485408,
+    "final_coverage_over_840": 0.775,
+    "final_selective_risk": 0.0076804915514592,
+    "r4_autonomous": 704,
+    "r4_residual_errors": 13,
+    "verification_flagged": 53,
+    "verification_precision": 0.1509433962264151
+  },
+  "policy_name": "R5_semantic_verification_v1",
+  "selection_rationale": "The 7.5% development quantile was selected as a conservative risk-coverage operating point. It captures 8 of 13 residual R4 development errors while escalating 53 of 704 R4-autonomous development cases and preserving approximately 93.49% of correct R4 autonomous decisions. More aggressive thresholds capture at most one additional development error while causing substantially more correct-case escalation.",
+  "semantic_verifier": {
+    "deployment_scoring": "full_development_class_prototypes",
+    "development_scoring": "leave_one_out_class_prototypes",
+    "escalation_rule": "semantic_support_margin <= frozen_threshold",
+    "frozen_semantic_support_threshold": -0.0275677986595984,
+    "max_df": 0.98,
+    "min_df": 2,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "normalization": "l2",
+    "prototype_method": "class_mean_TFIDF",
+    "representation": "TF-IDF",
+    "selected_development_quantile": 0.075,
+    "sublinear_tf": true,
+    "verification_score": "predicted_class_similarity_minus_best_other_class_similarity"
+  },
+  "stage": "R5-09",
+  "status": "FROZEN_BEFORE_HELDOUT_EVALUATION",
+  "upstream_policy": {
+    "r3_feasible_mass_threshold": 0.5486315987262682,
+    "r4_margin_threshold": 0.7097637192002952
+  }
+}

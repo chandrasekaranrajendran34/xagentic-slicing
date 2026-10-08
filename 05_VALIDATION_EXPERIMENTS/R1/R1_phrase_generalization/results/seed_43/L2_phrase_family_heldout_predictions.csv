@@ -1,0 +1,703 @@
+id,condition,true_id,pred_id,true_slice,pred_slice,ambiguous,uc_kind,use_case,correct
+0,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+3,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+9,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+14,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+16,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+18,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+24,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+27,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+37,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+38,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+42,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+45,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+49,L2_phrase_family_heldout,1,0,URLLC,eMBB,0,unseen,surgical imaging feedback,0
+57,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+60,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+63,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+66,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+68,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+70,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+84,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+92,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+94,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+98,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+102,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+103,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+104,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+105,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+107,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+110,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+111,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+119,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+120,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+142,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+153,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+154,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+155,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,cold-chain condition reporting,0
+156,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+166,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+167,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+172,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+173,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+174,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+181,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+185,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+187,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+198,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+199,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+200,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+206,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+207,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+208,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+213,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,newsroom contribution feed,0
+217,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+225,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+229,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+232,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+233,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+240,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+249,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+252,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+256,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+257,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+265,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+268,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+283,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+288,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+290,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+300,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+306,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+312,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+313,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+314,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+317,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+318,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+331,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+339,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+345,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+356,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+359,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+360,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+367,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+369,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+370,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+378,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+379,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+382,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+383,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+384,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+387,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+395,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+401,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,cold-chain condition reporting,0
+418,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+422,L2_phrase_family_heldout,2,0,mMTC,eMBB,1,unseen,cold-chain condition reporting,0
+427,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+432,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+436,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+437,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+453,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+456,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+459,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+460,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+462,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+464,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+467,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+470,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+481,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+496,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+498,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+505,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+509,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+510,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+515,L2_phrase_family_heldout,2,0,mMTC,eMBB,0,unseen,cold-chain condition reporting,0
+517,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+530,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+537,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+539,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+545,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+550,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+551,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+552,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+554,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+556,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+560,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+561,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+562,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+570,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+572,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+573,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+575,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+576,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+582,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+585,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+586,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+589,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+590,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+591,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+592,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+596,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+603,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+610,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+611,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+615,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+616,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+619,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+623,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+624,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+629,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+631,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+637,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+646,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+647,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+658,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+660,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+661,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+663,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+666,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+676,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+678,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+689,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+696,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+702,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+703,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+704,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+709,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+712,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+713,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+714,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+715,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+723,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+727,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+730,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+731,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+737,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+738,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+742,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+755,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+761,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+763,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+765,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+768,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+777,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+778,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+782,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+785,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+786,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+787,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+794,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+795,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+800,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+804,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+807,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+808,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+809,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+812,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+817,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+829,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+832,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+833,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+841,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+847,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+848,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+853,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+854,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+859,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+862,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+864,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+866,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+872,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+878,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+879,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+881,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+887,L2_phrase_family_heldout,2,0,mMTC,eMBB,1,unseen,cold-chain condition reporting,0
+896,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+897,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+901,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+907,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+908,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+919,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+924,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+929,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+932,L2_phrase_family_heldout,2,0,mMTC,eMBB,0,unseen,cold-chain condition reporting,0
+935,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+937,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+942,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+950,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+955,L2_phrase_family_heldout,1,0,URLLC,eMBB,0,unseen,surgical imaging feedback,0
+964,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+966,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+968,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+971,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+975,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+977,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+981,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+984,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+993,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1005,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1006,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1009,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1016,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+1019,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1022,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1025,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+1029,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+1032,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1044,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1051,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1056,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1060,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1063,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1070,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1071,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1078,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1079,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1080,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1081,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1089,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1090,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1092,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1101,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1103,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1105,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1114,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1115,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1122,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1124,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1132,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1134,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1136,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1139,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1146,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1150,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1159,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1161,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1164,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1171,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1172,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,cold-chain condition reporting,0
+1176,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1181,L2_phrase_family_heldout,2,0,mMTC,eMBB,1,unseen,cold-chain condition reporting,0
+1186,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1187,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1188,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+1190,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1209,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1211,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1215,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1216,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1220,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1221,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1232,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1234,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1235,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1236,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1238,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1241,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+1242,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+1245,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1249,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1251,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1252,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1260,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1262,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1265,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1268,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1269,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1283,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1289,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1290,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1297,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1306,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1308,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1321,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1323,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,newsroom contribution feed,0
+1332,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1334,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1336,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1339,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1350,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1357,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1358,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1359,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1360,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1361,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1364,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1365,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1372,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1376,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1381,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1385,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1397,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1400,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1401,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1403,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1407,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+1414,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1417,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1424,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1425,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1436,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1442,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1446,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1459,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1466,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,cold-chain condition reporting,0
+1467,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1475,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1482,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1497,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1508,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1510,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1511,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1513,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1514,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1515,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1518,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1519,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1520,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1522,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1524,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1527,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1528,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1531,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1534,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1541,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1545,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1549,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1553,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1556,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1564,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1572,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+1578,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1586,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1588,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1590,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1592,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1603,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1606,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1607,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1613,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1617,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,newsroom contribution feed,0
+1618,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1619,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1622,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1625,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1628,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1630,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1642,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1646,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,cold-chain condition reporting,0
+1649,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1656,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1657,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1659,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1662,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1669,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1674,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1675,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1680,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1690,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1693,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1698,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1705,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+1709,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1710,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1712,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1713,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1714,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1720,L2_phrase_family_heldout,1,2,URLLC,mMTC,1,unseen,surgical imaging feedback,0
+1723,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1724,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1727,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1734,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1739,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1742,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1743,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1748,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1751,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1760,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+1779,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1780,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1784,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+1788,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1791,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1793,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1799,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1800,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1801,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1802,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,cold-chain condition reporting,0
+1807,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1808,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1814,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1815,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1816,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1819,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1823,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1832,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1840,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1841,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1846,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1848,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+1850,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+1866,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1867,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1879,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1888,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1895,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+1896,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+1897,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1901,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+1906,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1920,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1921,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+1922,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1924,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1928,L2_phrase_family_heldout,2,0,mMTC,eMBB,1,unseen,cold-chain condition reporting,0
+1930,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1936,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+1939,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+1941,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+1942,L2_phrase_family_heldout,1,0,URLLC,eMBB,0,unseen,surgical imaging feedback,0
+1946,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1949,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+1950,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1952,L2_phrase_family_heldout,2,0,mMTC,eMBB,1,unseen,cold-chain condition reporting,0
+1953,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+1955,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1963,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1966,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+1967,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+1972,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+1982,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+1995,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+1996,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2003,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2007,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2015,L2_phrase_family_heldout,2,0,mMTC,eMBB,0,unseen,cold-chain condition reporting,0
+2016,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2019,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2021,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2023,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2032,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2036,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2042,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2049,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2058,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2061,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+2064,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2065,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2070,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+2073,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2081,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2088,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2098,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2100,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2101,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2106,L2_phrase_family_heldout,0,1,eMBB,URLLC,0,unseen,newsroom contribution feed,0
+2107,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2108,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2109,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+2112,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+2122,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2125,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2128,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2131,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2138,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2139,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2140,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,surgical imaging feedback,0
+2145,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2153,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2161,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2166,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2169,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2172,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2175,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2178,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2181,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2184,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2192,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2198,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2206,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2207,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2213,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2217,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2220,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2225,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2230,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2235,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2246,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+2248,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2261,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2277,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2282,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2293,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2296,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2297,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2299,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2304,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2306,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2308,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2309,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2314,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2317,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2318,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2321,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2331,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2333,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2335,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2342,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2349,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+2351,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2353,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2355,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2360,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2362,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2364,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2367,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,newsroom contribution feed,0
+2368,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2370,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2372,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,cold-chain condition reporting,0
+2373,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+2377,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2385,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2389,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2390,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2395,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2397,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+2402,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2406,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2408,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2416,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2419,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2423,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2427,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2428,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2432,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2436,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2450,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2452,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2455,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2462,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2463,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2468,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2473,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2481,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2485,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2490,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2495,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2506,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2510,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2513,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2514,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2515,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2529,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+2533,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2538,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2543,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2545,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2546,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2556,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2563,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2565,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2568,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2572,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2575,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2578,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2579,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2582,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2592,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2598,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2601,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2605,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2611,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+2618,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2638,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2642,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2643,L2_phrase_family_heldout,0,2,eMBB,mMTC,1,unseen,newsroom contribution feed,0
+2645,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2646,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2648,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+2653,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2657,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2663,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2664,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2668,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2671,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2672,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2676,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2678,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2683,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2688,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2691,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2696,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2699,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2701,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2703,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2706,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2707,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2710,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2711,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2714,L2_phrase_family_heldout,2,0,mMTC,eMBB,1,unseen,cold-chain condition reporting,0
+2718,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2723,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2732,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+2735,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2736,L2_phrase_family_heldout,0,1,eMBB,URLLC,1,unseen,newsroom contribution feed,0
+2738,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2743,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,drone fleet control,1
+2750,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2753,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2766,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,fixed wireless access,1
+2767,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2771,L2_phrase_family_heldout,2,1,mMTC,URLLC,1,unseen,cold-chain condition reporting,0
+2780,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,unseen,cold-chain condition reporting,1
+2785,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2787,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2788,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2790,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+2791,L2_phrase_family_heldout,1,0,URLLC,eMBB,1,unseen,surgical imaging feedback,0
+2797,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2798,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2801,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2812,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2815,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2816,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2818,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,unseen,surgical imaging feedback,1
+2819,L2_phrase_family_heldout,2,0,mMTC,eMBB,1,unseen,cold-chain condition reporting,0
+2822,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2823,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2829,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2834,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2847,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+2858,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,smart water meters,1
+2861,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2863,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2865,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1
+2870,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2871,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2877,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2878,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2884,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2888,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2890,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2898,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2899,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2901,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+2907,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2914,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,unseen,surgical imaging feedback,1
+2919,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2922,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2928,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2931,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,unseen,newsroom contribution feed,1
+2938,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2948,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,known,agricultural sensors,1
+2949,L2_phrase_family_heldout,0,0,eMBB,eMBB,1,known,live broadcast,1
+2957,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+2958,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,unseen,newsroom contribution feed,1
+2968,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,smart-grid protection,1
+2969,L2_phrase_family_heldout,2,2,mMTC,mMTC,1,unseen,cold-chain condition reporting,1
+2970,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,fixed wireless access,1
+2975,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,agricultural sensors,1
+2986,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2987,L2_phrase_family_heldout,2,2,mMTC,mMTC,0,known,smart water meters,1
+2989,L2_phrase_family_heldout,1,1,URLLC,URLLC,1,known,smart-grid protection,1
+2992,L2_phrase_family_heldout,1,1,URLLC,URLLC,0,known,drone fleet control,1
+2997,L2_phrase_family_heldout,0,0,eMBB,eMBB,0,known,live broadcast,1

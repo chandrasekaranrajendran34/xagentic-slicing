@@ -1,0 +1,17 @@
+case_id,category,expected_strict_set,strict_v2_set,legacy_set,strict_test_passed,legacy_strict_differs,strict_empty,legacy_nonempty_when_strict_empty
+L01,latency_only,URLLC,URLLC,URLLC,True,False,False,False
+L02,latency_only,URLLC,URLLC,eMBB|URLLC,True,True,False,False
+L03,latency_only,eMBB|URLLC,eMBB|URLLC,eMBB|URLLC,True,False,False,False
+L04,latency_only,eMBB|URLLC|mMTC,eMBB|URLLC|mMTC,eMBB|URLLC|mMTC,True,False,False,False
+M01,mobility_only,eMBB|URLLC|mMTC,eMBB|URLLC|mMTC,eMBB|URLLC|mMTC,True,False,False,False
+M02,mobility_only,eMBB|URLLC,eMBB|URLLC,eMBB|URLLC|mMTC,True,True,False,False
+M03,mobility_only,URLLC,URLLC,eMBB|URLLC|mMTC,True,True,False,False
+M04,mobility_only,,,eMBB|URLLC|mMTC,True,True,True,True
+T01,throughput_only,eMBB,eMBB,eMBB,True,False,False,False
+R01,reliability_only,URLLC,URLLC,URLLC,True,False,False,False
+D01,density_only,mMTC,mMTC,mMTC,True,False,False,False
+N01,missing_all,eMBB|URLLC|mMTC,eMBB|URLLC|mMTC,eMBB|URLLC|mMTC,True,False,False,False
+C01,cross_kpi_feasible,URLLC,URLLC,URLLC,True,False,False,False
+C02,cross_kpi_feasible,eMBB,eMBB,eMBB,True,False,False,False
+X01,cross_kpi_conflict,,,eMBB,True,True,True,True
+X02,impossible,,,eMBB|URLLC|mMTC,True,True,True,True

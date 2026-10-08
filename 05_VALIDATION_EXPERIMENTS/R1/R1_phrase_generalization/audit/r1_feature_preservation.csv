@@ -1,0 +1,12 @@
+feature,L1_equals_L3,L1_equals_L4
+latency_ms,True,True
+throughput_mbps,True,True
+reliability_pct,True,True
+density_per_km2,True,True
+mobility_kmh,True,True
+log_latency,True,True
+log_throughput,True,True
+log_density,True,True
+miss_latency,True,True
+miss_throughput,True,True
+miss_density,True,True

@@ -1,0 +1,37 @@
+{
+  "experiment": "R1_phrase_generalization",
+  "status": "PASS_CLOSED",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "number_of_condition_runs": 20,
+  "conditions": [
+    "L1_original",
+    "L2_phrase_family_heldout",
+    "L3_generic_kpi",
+    "L4_kpi_only"
+  ],
+  "L1_macro_f1_mean": 0.9311180533610628,
+  "L1_macro_f1_std": 0.0064969529193629,
+  "L2_macro_f1_mean": 0.9547637276205958,
+  "L2_macro_f1_std": 0.0081209701604133,
+  "L3_macro_f1_mean": 0.8919547811791408,
+  "L3_macro_f1_std": 0.0077854241416592,
+  "L4_macro_f1_mean": 0.8919547811791408,
+  "L4_macro_f1_std": 0.0077854241416592,
+  "lexical_ablation_macro_f1_drop_mean": 0.0391632721819219,
+  "lexical_ablation_macro_f1_drop_std": 0.0089231478383458,
+  "L3_L4_equivalence_all_seeds": true,
+  "important_interpretation": {
+    "L2_is_directly_comparable_to_L1": false,
+    "L3_L4_are_independent_feature_conditions": false,
+    "phrase_family_performance_collapse_observed": false,
+    "lexical_information_contributes": true
+  },
+  "provenance_note": "Current frozen source snapshot is authoritative for R1. Historical archived E1 metric mismatch was separately documented and was not forced into the R1 results.",
+  "closed_utc": "2026-10-07T06:07:46.064913+00:00"
+}

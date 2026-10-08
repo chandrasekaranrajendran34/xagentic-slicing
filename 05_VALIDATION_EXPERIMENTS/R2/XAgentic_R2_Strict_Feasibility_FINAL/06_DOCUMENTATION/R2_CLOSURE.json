@@ -1,0 +1,28 @@
+{
+  "r2_status": "INTEGRITY_VALIDATED",
+  "authoritative_oracle": "R2_strict_feasibility_oracle_v2.py",
+  "v1_status": "SUPERSEDED_RETAINED_FOR_PROVENANCE",
+  "controlled_tests": {
+    "passed": 16,
+    "total": 16
+  },
+  "request_level": {
+    "rows": 1200,
+    "legacy_strict_disagreement": 229,
+    "strict_empty": 14,
+    "mobility_contributed": 61,
+    "mobility_only": 37
+  },
+  "e5_decision_level": {
+    "rows": 100,
+    "legacy_valid": 100,
+    "strict_valid": 97,
+    "false_feasible": 3,
+    "false_feasible_accept": 2,
+    "false_feasible_escalate": 1
+  },
+  "frozen_evidence_unchanged": true,
+  "model_rerun": false,
+  "model_retraining": false,
+  "ready_for_packaging": true
+}

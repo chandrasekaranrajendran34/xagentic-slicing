@@ -1,0 +1,14 @@
+{
+  "seed": 44,
+  "condition": "L4_kpi_only",
+  "train_n": 2100,
+  "test_n": 900,
+  "selected_model": "Random Forest",
+  "selected_cv_mean": 0.8869458448140305,
+  "selected_cv_std": 0.009592234239587412,
+  "accuracy": 0.8988888888888888,
+  "macro_f1": 0.8985085193534017,
+  "test_nonambiguous_n": 639,
+  "test_ambiguous_n": 261,
+  "fit_plus_predict_seconds": 1.3138456500000757
+}

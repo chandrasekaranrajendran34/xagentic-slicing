@@ -1,0 +1,157 @@
+XAGENTIC FINAL EXPERIMENT EVIDENCE
+=================================
+
+Finalized: 2026-10-06
+
+PRIMARY E1-E4 EVIDENCE
+----------------------
+Seeds:
+42, 43, 44, 45, 46
+
+E1:
+Mean accuracy = 91.67%
+SD = 1.35 percentage points
+
+Mean OOV gap = 12.66 points
+SD = 2.15 points
+
+Mean ambiguous accuracy = 75.88%
+
+Mean fidelity = 8.56x
+
+IMPORTANT:
+SHAP backend = PermutationExplainer
+Do NOT report TreeSHAP.
+
+
+E4:
+Baseline accuracy = 91.72%
+Explainer-only = 89.72%
+Semantic-prior-only = 93.17%
+Combined = 88.28%
+
+Explainer effect = -2.00 points
+Semantic prior effect = +1.44 points
+Combined effect = -3.44 points
+
+Interaction gamma = -2.89 points
+
+Previously computed 95% CI for gamma:
+approximately [-4.5, -1.2] points.
+
+
+FINAL E5 EVIDENCE
+-----------------
+
+Model:
+Qwen/Qwen3.7-Max
+
+Seed:
+52
+
+N:
+100 intents
+
+Accuracy:
+87.00%
+
+Macro-F1:
+87.02%
+
+Known accuracy:
+91.18%
+
+Unseen accuracy:
+100.00%
+
+Generic accuracy:
+70.59%
+
+Ambiguous accuracy:
+67.65%
+
+OOV gap:
+5.88 points
+
+Slot recall:
+99.49%
+
+Slot false-positive rate:
+0%
+
+Contract validity:
+100%
+
+Retry rate:
+0%
+
+Tool calls / intent:
+6.95
+
+LLM calls / intent:
+4.07
+
+Latency / intent:
+35.65 seconds
+
+Tokens input:
+499829
+
+Tokens output:
+284076
+
+Parse failures:
+0
+
+API errors:
+0
+
+Cache hit rate:
+0%
+
+
+SAME-INTENT E1 vs E5
+--------------------
+
+E1 accuracy:
+93.00%
+
+E5 accuracy:
+87.00%
+
+Difference:
+-6.00 percentage points
+
+E1 OOV gap:
+10.48 points
+
+E5 OOV gap:
+5.88 points
+
+OOV gap reduction:
+approximately 4.60 points
+
+
+PAPER CLAIM RULES
+-----------------
+
+1. Do NOT claim E5 improves overall accuracy.
+
+2. E5 demonstrates structured agentic reasoning,
+   slot extraction, contract validity, tool use,
+   and improved unseen/open-vocabulary handling.
+
+3. E4 demonstrates that independently useful
+   components do not necessarily compose additively.
+
+4. Do NOT report TreeSHAP.
+   SHAP PermutationExplainer was used.
+
+5. Do NOT report monetary LLM cost until
+   Qwen/Qwen3.7-Max pricing is independently verified.
+
+6. Keep five-seed E1-E4 evidence separate from
+   seed-52 E5 validation.
+
+7. Exploratory N=10/N=40 model-screening results
+   must not replace final N=100 E5 evidence.

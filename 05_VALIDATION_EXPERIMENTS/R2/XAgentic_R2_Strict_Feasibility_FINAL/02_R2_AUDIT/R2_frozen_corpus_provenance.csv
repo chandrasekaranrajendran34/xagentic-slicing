@@ -1,0 +1,2 @@
+path,rows,columns,size_bytes,sha256,has_required_truth_columns,missing_required_columns
+/content/xagentic_r2_work/01_SOURCE/BASE_E1_E5_EXTRACTED/XAgentic_Final_Paper_Evidence_2026-10-06/02_E5_QWEN37_N100_SEED52/corpus.csv,1200,12,307478,5358e25a06c863fcb25b4d906608783d612c0b1411373f140573408555b04b08,True,

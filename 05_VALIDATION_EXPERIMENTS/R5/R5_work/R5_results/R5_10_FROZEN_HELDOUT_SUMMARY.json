@@ -1,0 +1,39 @@
+{
+  "evaluation": "FIRST_VALID_FROZEN_HELDOUT_EVALUATION",
+  "frozen_semantic_support_threshold": -0.0275677986595984,
+  "heldout_retuning_performed": false,
+  "implementation_correction": "R5 semantic verification applied only to R4-autonomous cases, which are the defined R5 input population.",
+  "methodological_change": false,
+  "policy_sha256": "b8e5ef13e6895fcfb3656f7257c94727e3cea17d38f08563436d55b6cf0ba243",
+  "post_heldout_retuning_allowed": false,
+  "previous_R5_10_status": "ABORTED_BEFORE_RESULT_DUE_TO_NONCLASS_FINAL_PRED_ON_R4_ESCALATED_ROWS",
+  "r4": {
+    "autonomous": 306,
+    "autonomous_accuracy": 0.9836601307189542,
+    "autonomous_correct": 301,
+    "autonomous_errors": 5,
+    "coverage": 0.85,
+    "escalated": 54,
+    "selective_risk": 0.016339869281045753
+  },
+  "r5": {
+    "additional_escalation_rate_over_r4_autonomous": 0.08496732026143791,
+    "additional_escalations": 26,
+    "autonomous": 280,
+    "autonomous_accuracy": 0.9928571428571429,
+    "autonomous_correct": 278,
+    "autonomous_errors": 2,
+    "correct_autonomous_preservation": 0.9235880398671097,
+    "correct_cases_escalated": 23,
+    "coverage": 0.7777777777777778,
+    "error_detection_recall": 0.6,
+    "escalated": 80,
+    "r4_errors_captured": 3,
+    "selective_risk": 0.007142857142857143,
+    "verification_false_positive_rate": 0.07641196013289037,
+    "verification_precision": 0.11538461538461539,
+    "wrong_autonomous_over_total": 0.005555555555555556
+  },
+  "stage": "R5-10B",
+  "total": 360
+}

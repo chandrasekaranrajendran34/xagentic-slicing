@@ -1,0 +1,14 @@
+{
+  "seed": 45,
+  "condition": "L2_phrase_family_heldout",
+  "train_n": 1392,
+  "test_n": 700,
+  "selected_model": "Random Forest",
+  "selected_cv_mean": 0.9431286635977847,
+  "selected_cv_std": 0.010456258008279097,
+  "accuracy": 0.9614285714285714,
+  "macro_f1": 0.9609493911719938,
+  "test_nonambiguous_n": 468,
+  "test_ambiguous_n": 232,
+  "fit_plus_predict_seconds": 1.0201010829996449
+}

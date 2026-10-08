@@ -1,0 +1,16 @@
+{
+  "R1_FINAL": {
+    "filename": "XAgentic_R1_Phrase_Generalization_FINAL_2026-10-07.zip",
+    "original_path": "/content/XAgentic_R1_Phrase_Generalization_FINAL_2026-10-07.zip",
+    "size_bytes": 5403252,
+    "sha256": "bdac27c42a7514700dc878c372c7a2555dd6a1bfcaca9326b1df9900a2e371a4"
+  },
+  "BASE_E1_E5": {
+    "filename": "XAgentic_Final_Paper_Evidence_2026-10-06 (1).zip",
+    "original_path": "/content/XAgentic_Final_Paper_Evidence_2026-10-06 (1).zip",
+    "size_bytes": 384861,
+    "sha256": "04a9c98f6cfdf89132fe70f26b7aec5e011805255cd4d202726674d09b8c601a"
+  },
+  "created_utc": "2026-10-07T07:04:46.698180+00:00",
+  "purpose": "R2 strict feasibility / validity audit provenance"
+}

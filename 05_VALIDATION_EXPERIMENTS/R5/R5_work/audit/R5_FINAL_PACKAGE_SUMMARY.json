@@ -1,0 +1,17 @@
+{
+  "experiment": "R5 Frozen Semantic Verification",
+  "completed_through": "R5-13A",
+  "heldout_cases": 360,
+  "development_cases": 840,
+  "frozen_policy_sha256": "b8e5ef13e6895fcfb3656f7257c94727e3cea17d38f08563436d55b6cf0ba243",
+  "frozen_threshold": -0.0275677986595984,
+  "r3_autonomous_errors": 12,
+  "r4_autonomous_errors": 5,
+  "r5_autonomous_errors": 2,
+  "r5_autonomous": 280,
+  "r5_coverage": 0.7777777777777778,
+  "r5_selective_risk": 0.007142857142857143,
+  "heldout_retuning": false,
+  "manifest_entries": 91,
+  "statistical_caution": "The 95% bootstrap CI for absolute risk reduction includes zero."
+}

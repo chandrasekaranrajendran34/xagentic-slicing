@@ -1,0 +1,12 @@
+{
+  "freeze_status": "PASS",
+  "frozen_semantic_support_threshold": -0.0275677986595984,
+  "heldout_evaluated_before_freeze": false,
+  "heldout_used_for_selection": false,
+  "note": "R5 semantic verifier frozen using development evidence only. The next stage may evaluate this immutable policy exactly once on the frozen 360-row held-out set.",
+  "policy_file": "/content/R5_work/R5_results/R5_FROZEN_SEMANTIC_VERIFICATION_POLICY.json",
+  "policy_sha256": "b8e5ef13e6895fcfb3656f7257c94727e3cea17d38f08563436d55b6cf0ba243",
+  "retuning_after_heldout": "PROHIBITED",
+  "selected_quantile": 0.075,
+  "stage": "R5-09"
+}

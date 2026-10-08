@@ -1,0 +1,746 @@
+{
+  "e1": {
+    "acc_overall": 0.9222222222222223,
+    "acc_clear": 0.9918032786885246,
+    "acc_ambiguous": 0.7758620689655172,
+    "n_clear": 244,
+    "n_ambiguous": 116,
+    "err_total": 28,
+    "err_from_ambiguous": 26,
+    "acc_known": 1.0,
+    "n_known": 135,
+    "err_known": 0,
+    "acc_unseen": 0.8521739130434782,
+    "n_unseen": 115,
+    "err_unseen": 17,
+    "acc_generic": 0.9,
+    "n_generic": 110,
+    "err_generic": 11,
+    "oov_gap": 0.12391304347826093,
+    "experiment": "E1",
+    "label": "Post-hoc (SHAP)",
+    "model": "Gradient Boosting",
+    "model_selection": "5-fold CV macro F1 on train split",
+    "tau_selected": 0.9,
+    "tau_selection": "smallest tau with >=98% out-of-fold autonomous accuracy",
+    "escalation_oof": [
+      {
+        "tau": 0.5,
+        "escalated": 0.04523809523809524,
+        "precision": 0.23684210526315788,
+        "recall": 0.14285714285714285,
+        "autonomous_acc": 0.9326683291770573
+      },
+      {
+        "tau": 0.6,
+        "escalated": 0.07142857142857142,
+        "precision": 0.38333333333333336,
+        "recall": 0.36507936507936506,
+        "autonomous_acc": 0.9487179487179487
+      },
+      {
+        "tau": 0.7,
+        "escalated": 0.10238095238095238,
+        "precision": 0.38372093023255816,
+        "recall": 0.5238095238095238,
+        "autonomous_acc": 0.960212201591512
+      },
+      {
+        "tau": 0.8,
+        "escalated": 0.12976190476190477,
+        "precision": 0.3211009174311927,
+        "recall": 0.5555555555555556,
+        "autonomous_acc": 0.9616963064295485
+      },
+      {
+        "tau": 0.9,
+        "escalated": 0.1976190476190476,
+        "precision": 0.27710843373493976,
+        "recall": 0.7301587301587301,
+        "autonomous_acc": 0.9747774480712166
+      }
+    ],
+    "escalation_signals": [
+      {
+        "signal": "Confidence only",
+        "budget": 0.18611111111111112,
+        "escalated": 0.18611111111111112,
+        "precision": 0.31343283582089554,
+        "recall": 0.75,
+        "autonomous_acc": 0.9761092150170648
+      },
+      {
+        "signal": "Attribution concentration only",
+        "budget": 0.18611111111111112,
+        "escalated": 0.18611111111111112,
+        "precision": 0.208955223880597,
+        "recall": 0.5,
+        "autonomous_acc": 0.9522184300341296
+      },
+      {
+        "signal": "Confidence + contract",
+        "budget": 0.18611111111111112,
+        "escalated": 0.18611111111111112,
+        "precision": 0.3283582089552239,
+        "recall": 0.7857142857142857,
+        "autonomous_acc": 0.9795221843003413
+      },
+      {
+        "signal": "Confidence + contract + attribution",
+        "budget": 0.18611111111111112,
+        "escalated": 0.18611111111111112,
+        "precision": 0.31343283582089554,
+        "recall": 0.75,
+        "autonomous_acc": 0.9761092150170648
+      }
+    ],
+    "macro_f1": 0.9221193918172571,
+    "slot_recall": 0.9544406722118486,
+    "slot_false_positive": 0.0,
+    "parse_latency_ms": 0.11654077250113914,
+    "mean_confidence_correct": 0.958221515656603,
+    "mean_confidence_wrong": 0.7567058869415224,
+    "fidelity": {
+      "top1": 0.17222222222222222,
+      "rand1": 0.011111111111111112,
+      "low1": 0.0,
+      "ratio1": 15.5,
+      "ratiolow1": 172222222.2222222,
+      "top2": 0.36666666666666664,
+      "rand2": 0.06111111111111111,
+      "low2": 0.0,
+      "ratio2": 6.0,
+      "ratiolow2": 366666666.6666666,
+      "top3": 0.5138888888888888,
+      "rand3": 0.07222222222222222,
+      "low3": 0.0,
+      "ratio3": 7.115384615384615,
+      "ratiolow3": 513888888.88888884,
+      "explanation_latency_ms": 161.16413048055418,
+      "inference_latency_ms": 0.019038269445243512,
+      "latency_ratio": 8465.272063938519,
+      "backend": "PermutationExplainer"
+    },
+    "baseline_rule_acc": 0.7027777777777777,
+    "baseline_rule_f1": 0.7036829749287499,
+    "baseline_rulelex_acc": 0.8166666666666667,
+    "baseline_rulelex_f1": 0.8188818437754914,
+    "baseline_rulelex_valid": 0.9611111111111111,
+    "baseline_rulelex_lat_ms": 0.0478294500024074,
+    "escalation": [
+      {
+        "tau": 0.5,
+        "escalated": 0.06111111111111111,
+        "precision": 0.2727272727272727,
+        "recall": 0.21428571428571427,
+        "autonomous_acc": 0.9349112426035503
+      },
+      {
+        "tau": 0.6,
+        "escalated": 0.07777777777777778,
+        "precision": 0.32142857142857145,
+        "recall": 0.32142857142857145,
+        "autonomous_acc": 0.9427710843373494
+      },
+      {
+        "tau": 0.7,
+        "escalated": 0.08888888888888889,
+        "precision": 0.3125,
+        "recall": 0.35714285714285715,
+        "autonomous_acc": 0.9451219512195121
+      },
+      {
+        "tau": 0.8,
+        "escalated": 0.1361111111111111,
+        "precision": 0.3469387755102041,
+        "recall": 0.6071428571428571,
+        "autonomous_acc": 0.9646302250803859
+      },
+      {
+        "tau": 0.9,
+        "escalated": 0.2111111111111111,
+        "precision": 0.2894736842105263,
+        "recall": 0.7857142857142857,
+        "autonomous_acc": 0.9788732394366197
+      }
+    ]
+  },
+  "e2": {
+    "experiment": "E2",
+    "label": "In-hoc vs post-hoc",
+    "table": [
+      {
+        "explainer": "Linear-Attribution",
+        "kind": "in-hoc",
+        "model": "Logistic Regression",
+        "acc": 0.9027777777777778,
+        "f1": 0.9024517250954713,
+        "infer_ms": 0.00489324999964285,
+        "expl_ms": 0.004702052774518961,
+        "ratio": 0.9609263321641355,
+        "top1": 0.275,
+        "rand1": 0.03333333333333333,
+        "fid1": 8.25,
+        "top3": 0.48333333333333334,
+        "rand3": 0.1,
+        "fid3": 4.833333333333333
+      },
+      {
+        "explainer": "Decision-Path",
+        "kind": "in-hoc",
+        "model": "Decision Tree (d=8)",
+        "acc": 0.9166666666666666,
+        "f1": 0.916819403307569,
+        "infer_ms": 0.005105055556163683,
+        "expl_ms": 0.012192827777350127,
+        "ratio": 2.3883829751135406,
+        "top1": 0.25555555555555554,
+        "rand1": 0.025,
+        "fid1": 10.222222222222221,
+        "top3": 0.43333333333333335,
+        "rand3": 0.075,
+        "fid3": 5.777777777777779
+      },
+      {
+        "explainer": "SENN",
+        "kind": "in-hoc",
+        "model": "SENN (32 hidden)",
+        "acc": 0.9,
+        "f1": 0.9000220393486771,
+        "infer_ms": 0.0029012500009331335,
+        "expl_ms": 0.0012094694435897204,
+        "ratio": 0.4168787395780153,
+        "top1": 0.2916666666666667,
+        "rand1": 0.05,
+        "fid1": 5.833333333333333,
+        "top3": 0.39166666666666666,
+        "rand3": 0.11666666666666667,
+        "fid3": 3.357142857142857
+      },
+      {
+        "explainer": "SHAP",
+        "kind": "post-hoc",
+        "model": "Gradient Boosting",
+        "acc": 0.9222222222222223,
+        "f1": 0.9221193918172571,
+        "infer_ms": 0.01626152222039915,
+        "expl_ms": 149.4044633111116,
+        "ratio": 9187.606257653557,
+        "top1": 0.17222222222222222,
+        "rand1": 0.011111111111111112,
+        "fid1": 15.5,
+        "top3": 0.5138888888888888,
+        "rand3": 0.07222222222222222,
+        "fid3": 7.115384615384615
+      },
+      {
+        "explainer": "LIME",
+        "kind": "post-hoc",
+        "model": "Gradient Boosting",
+        "acc": 0.9266666666666666,
+        "f1": 0.9249748796069457,
+        "infer_ms": 0.01626152222039915,
+        "expl_ms": 56.93600885333581,
+        "ratio": 3501.2717801973567,
+        "top1": 0.11333333333333333,
+        "rand1": 0.02,
+        "fid1": 5.666666666666666,
+        "top3": 0.14,
+        "rand3": 0.06666666666666667,
+        "fid3": 2.1
+      }
+    ],
+    "details": {
+      "Linear-Attribution": {
+        "fidelity": {
+          "top1": 0.275,
+          "rand1": 0.03333333333333333,
+          "low1": 0.013888888888888888,
+          "ratio1": 8.25,
+          "ratiolow1": 19.800000000000004,
+          "top2": 0.425,
+          "rand2": 0.07777777777777778,
+          "low2": 0.019444444444444445,
+          "ratio2": 5.464285714285714,
+          "ratiolow2": 21.857142857142858,
+          "top3": 0.48333333333333334,
+          "rand3": 0.1,
+          "low3": 0.019444444444444445,
+          "ratio3": 4.833333333333333,
+          "ratiolow3": 24.857142857142858
+        },
+        "subgroup": {
+          "acc_overall": 0.9027777777777778,
+          "acc_clear": 0.9836065573770492,
+          "acc_ambiguous": 0.7327586206896551,
+          "n_clear": 244,
+          "n_ambiguous": 116,
+          "err_total": 35,
+          "err_from_ambiguous": 31,
+          "acc_known": 1.0,
+          "n_known": 135,
+          "err_known": 0,
+          "acc_unseen": 0.8260869565217391,
+          "n_unseen": 115,
+          "err_unseen": 20,
+          "acc_generic": 0.8636363636363636,
+          "n_generic": 110,
+          "err_generic": 15,
+          "oov_gap": 0.1551383399209486
+        }
+      },
+      "Decision-Path": {
+        "fidelity": {
+          "top1": 0.25555555555555554,
+          "rand1": 0.025,
+          "low1": 0.0,
+          "ratio1": 10.222222222222221,
+          "ratiolow1": 255555555.55555552,
+          "top2": 0.3527777777777778,
+          "rand2": 0.058333333333333334,
+          "low2": 0.0,
+          "ratio2": 6.047619047619048,
+          "ratiolow2": 352777777.7777778,
+          "top3": 0.43333333333333335,
+          "rand3": 0.075,
+          "low3": 0.0,
+          "ratio3": 5.777777777777779,
+          "ratiolow3": 433333333.3333333
+        },
+        "subgroup": {
+          "acc_overall": 0.9166666666666666,
+          "acc_clear": 0.9918032786885246,
+          "acc_ambiguous": 0.7586206896551724,
+          "n_clear": 244,
+          "n_ambiguous": 116,
+          "err_total": 30,
+          "err_from_ambiguous": 28,
+          "acc_known": 1.0,
+          "n_known": 135,
+          "err_known": 0,
+          "acc_unseen": 0.8434782608695652,
+          "n_unseen": 115,
+          "err_unseen": 18,
+          "acc_generic": 0.8909090909090909,
+          "n_generic": 110,
+          "err_generic": 12,
+          "oov_gap": 0.13280632411067195
+        }
+      },
+      "SENN": {
+        "fidelity": {
+          "top1": 0.2916666666666667,
+          "rand1": 0.05,
+          "low1": 0.008333333333333333,
+          "ratio1": 5.833333333333333,
+          "ratiolow1": 35.0,
+          "top2": 0.39166666666666666,
+          "rand2": 0.09722222222222222,
+          "low2": 0.025,
+          "ratio2": 4.0285714285714285,
+          "ratiolow2": 15.666666666666666,
+          "top3": 0.39166666666666666,
+          "rand3": 0.11666666666666667,
+          "low3": 0.022222222222222223,
+          "ratio3": 3.357142857142857,
+          "ratiolow3": 17.625
+        },
+        "subgroup": {
+          "acc_overall": 0.9,
+          "acc_clear": 0.9795081967213115,
+          "acc_ambiguous": 0.7327586206896551,
+          "n_clear": 244,
+          "n_ambiguous": 116,
+          "err_total": 36,
+          "err_from_ambiguous": 31,
+          "acc_known": 1.0,
+          "n_known": 135,
+          "err_known": 0,
+          "acc_unseen": 0.8260869565217391,
+          "n_unseen": 115,
+          "err_unseen": 20,
+          "acc_generic": 0.8545454545454545,
+          "n_generic": 110,
+          "err_generic": 16,
+          "oov_gap": 0.15968379446640313
+        }
+      },
+      "SHAP": {
+        "fidelity": {
+          "top1": 0.17222222222222222,
+          "rand1": 0.011111111111111112,
+          "low1": 0.0,
+          "ratio1": 15.5,
+          "ratiolow1": 172222222.2222222,
+          "top2": 0.36666666666666664,
+          "rand2": 0.06111111111111111,
+          "low2": 0.0,
+          "ratio2": 6.0,
+          "ratiolow2": 366666666.6666666,
+          "top3": 0.5138888888888888,
+          "rand3": 0.07222222222222222,
+          "low3": 0.0,
+          "ratio3": 7.115384615384615,
+          "ratiolow3": 513888888.88888884
+        },
+        "subgroup": {
+          "acc_overall": 0.9222222222222223,
+          "acc_clear": 0.9918032786885246,
+          "acc_ambiguous": 0.7758620689655172,
+          "n_clear": 244,
+          "n_ambiguous": 116,
+          "err_total": 28,
+          "err_from_ambiguous": 26,
+          "acc_known": 1.0,
+          "n_known": 135,
+          "err_known": 0,
+          "acc_unseen": 0.8521739130434782,
+          "n_unseen": 115,
+          "err_unseen": 17,
+          "acc_generic": 0.9,
+          "n_generic": 110,
+          "err_generic": 11,
+          "oov_gap": 0.12391304347826093
+        }
+      },
+      "LIME": {
+        "fidelity": {
+          "top1": 0.11333333333333333,
+          "rand1": 0.02,
+          "low1": 0.006666666666666667,
+          "ratio1": 5.666666666666666,
+          "ratiolow1": 16.999999999999996,
+          "top2": 0.13333333333333333,
+          "rand2": 0.02666666666666667,
+          "low2": 0.013333333333333334,
+          "ratio2": 5.0,
+          "ratiolow2": 10.0,
+          "top3": 0.14,
+          "rand3": 0.06666666666666667,
+          "low3": 0.013333333333333334,
+          "ratio3": 2.1,
+          "ratiolow3": 10.5
+        },
+        "n_evaluated": 150
+      }
+    },
+    "best_inhoc": "Decision-Path",
+    "best_inhoc_acc": 0.9166666666666666,
+    "best_inhoc_expl_ms": 0.012192827777350127,
+    "best_inhoc_fidelity": 10.222222222222221,
+    "shap_acc": 0.9222222222222223,
+    "shap_expl_ms": 149.4044633111116,
+    "shap_fidelity": 15.5,
+    "speedup": 12253.471142162049,
+    "accuracy_cost": 0.005555555555555647,
+    "mean_inhoc_expl_ms": 0.006034783331819602,
+    "mean_posthoc_expl_ms": 103.17023608222371
+  },
+  "e3": {
+    "experiment": "E3",
+    "label": "Semantic Intent Agent",
+    "table": [
+      {
+        "variant": "A. Lexicon (E1)",
+        "acc": 0.9222222222222223,
+        "f1": 0.9221193918172571,
+        "acc_known": 1.0,
+        "acc_unseen": 0.8521739130434782,
+        "acc_generic": 0.9,
+        "oov_gap": 0.12391304347826093,
+        "acc_ambiguous": 0.7758620689655172,
+        "intent_ms": 0.10428652166713921,
+        "escalated80": 0.1361111111111111,
+        "autonomous80": 0.9646302250803859
+      },
+      {
+        "variant": "B. TF-IDF n-gram",
+        "acc": 0.9444444444444444,
+        "f1": 0.9445357448214301,
+        "acc_known": 0.9851851851851852,
+        "acc_unseen": 0.9478260869565217,
+        "acc_generic": 0.8909090909090909,
+        "oov_gap": 0.06581759625237882,
+        "acc_ambiguous": 0.853448275862069,
+        "intent_ms": 0.10324174833385769,
+        "escalated80": 0.1361111111111111,
+        "autonomous80": 0.9839228295819936
+      }
+    ],
+    "details": {
+      "A. Lexicon (E1)": {
+        "subgroup": {
+          "acc_overall": 0.9222222222222223,
+          "acc_clear": 0.9918032786885246,
+          "acc_ambiguous": 0.7758620689655172,
+          "n_clear": 244,
+          "n_ambiguous": 116,
+          "err_total": 28,
+          "err_from_ambiguous": 26,
+          "acc_known": 1.0,
+          "n_known": 135,
+          "err_known": 0,
+          "acc_unseen": 0.8521739130434782,
+          "n_unseen": 115,
+          "err_unseen": 17,
+          "acc_generic": 0.9,
+          "n_generic": 110,
+          "err_generic": 11,
+          "oov_gap": 0.12391304347826093
+        },
+        "escalation": [
+          {
+            "tau": 0.5,
+            "escalated": 0.06111111111111111,
+            "precision": 0.2727272727272727,
+            "recall": 0.21428571428571427,
+            "autonomous_acc": 0.9349112426035503
+          },
+          {
+            "tau": 0.6,
+            "escalated": 0.07777777777777778,
+            "precision": 0.32142857142857145,
+            "recall": 0.32142857142857145,
+            "autonomous_acc": 0.9427710843373494
+          },
+          {
+            "tau": 0.7,
+            "escalated": 0.08888888888888889,
+            "precision": 0.3125,
+            "recall": 0.35714285714285715,
+            "autonomous_acc": 0.9451219512195121
+          },
+          {
+            "tau": 0.8,
+            "escalated": 0.1361111111111111,
+            "precision": 0.3469387755102041,
+            "recall": 0.6071428571428571,
+            "autonomous_acc": 0.9646302250803859
+          },
+          {
+            "tau": 0.9,
+            "escalated": 0.2111111111111111,
+            "precision": 0.2894736842105263,
+            "recall": 0.7857142857142857,
+            "autonomous_acc": 0.9788732394366197
+          }
+        ]
+      },
+      "B. TF-IDF n-gram": {
+        "subgroup": {
+          "acc_overall": 0.9444444444444444,
+          "acc_clear": 0.9877049180327869,
+          "acc_ambiguous": 0.853448275862069,
+          "n_clear": 244,
+          "n_ambiguous": 116,
+          "err_total": 20,
+          "err_from_ambiguous": 17,
+          "acc_known": 0.9851851851851852,
+          "n_known": 135,
+          "err_known": 2,
+          "acc_unseen": 0.9478260869565217,
+          "n_unseen": 115,
+          "err_unseen": 6,
+          "acc_generic": 0.8909090909090909,
+          "n_generic": 110,
+          "err_generic": 12,
+          "oov_gap": 0.06581759625237882
+        },
+        "escalation": [
+          {
+            "tau": 0.5,
+            "escalated": 0.06944444444444445,
+            "precision": 0.28,
+            "recall": 0.35,
+            "autonomous_acc": 0.9611940298507463
+          },
+          {
+            "tau": 0.6,
+            "escalated": 0.08888888888888889,
+            "precision": 0.3125,
+            "recall": 0.5,
+            "autonomous_acc": 0.9695121951219512
+          },
+          {
+            "tau": 0.7,
+            "escalated": 0.1111111111111111,
+            "precision": 0.3,
+            "recall": 0.6,
+            "autonomous_acc": 0.975
+          },
+          {
+            "tau": 0.8,
+            "escalated": 0.1361111111111111,
+            "precision": 0.30612244897959184,
+            "recall": 0.75,
+            "autonomous_acc": 0.9839228295819936
+          },
+          {
+            "tau": 0.9,
+            "escalated": 0.18333333333333332,
+            "precision": 0.2878787878787879,
+            "recall": 0.95,
+            "autonomous_acc": 0.9965986394557823
+          }
+        ]
+      }
+    },
+    "n_phrases": 35,
+    "baseline_variant": "A. Lexicon (E1)",
+    "baseline_acc": 0.9222222222222223,
+    "baseline_oov_gap": 0.12391304347826093,
+    "best_variant": "B. TF-IDF n-gram",
+    "best_acc": 0.9444444444444444,
+    "best_oov_gap": 0.06581759625237882,
+    "gap_closed_pts": 5.809544722588211,
+    "acc_gain_pts": 2.2222222222222143
+  },
+  "e4": {
+    "n_cells": 4,
+    "acc_base": 0.9222222222222223,
+    "acc_e2_only": 0.9166666666666666,
+    "acc_e3_only": 0.9444444444444444,
+    "acc_combined": 0.8805555555555555,
+    "effect_explainer_pts": -0.5555555555555647,
+    "effect_prior_pts": 2.2222222222222143,
+    "effect_combined_pts": -4.166666666666674,
+    "interaction_pts": -5.833333333333323,
+    "oov_base_pts": 12.391304347826093,
+    "oov_combined_pts": 7.256624213145956,
+    "expl_ms_base": 16.487211433337105,
+    "expl_ms_combined": 0.008100858334122071,
+    "speedup_combined": 2035.242532743773,
+    "fid1_combined": 12.666666666666666,
+    "autonomous80_combined": 0.9242902208201893,
+    "escalated80_combined": 0.11944444444444445,
+    "rows": [
+      {
+        "cell": "E1  exact + SHAP",
+        "prior": "exact",
+        "explainer": "shap",
+        "model": "Gradient Boosting",
+        "acc": 0.9222222222222223,
+        "f1": 0.9221193918172571,
+        "infer_ms": 0.011588022223602619,
+        "expl_ms": 16.487211433337105,
+        "ratio": 1422.7804464989513,
+        "fid1": 15.25,
+        "fid3": 6.5769230769230775,
+        "acc_known": 1.0,
+        "acc_unseen": 0.8521739130434782,
+        "acc_generic": 0.9,
+        "oov_gap": 0.12391304347826093,
+        "escalated80": 0.1361111111111111,
+        "autonomous80": 0.9646302250803859,
+        "shap_backend": "PermutationExplainer"
+      },
+      {
+        "cell": "E2  exact + Decision-Path",
+        "prior": "exact",
+        "explainer": "dpath",
+        "model": "Decision Tree (d=8)",
+        "acc": 0.9166666666666666,
+        "f1": 0.916819403307569,
+        "infer_ms": 0.004301941665592798,
+        "expl_ms": 0.00849657777608728,
+        "ratio": 1.9750564829931208,
+        "fid1": 10.222222222222221,
+        "fid3": 5.777777777777779,
+        "acc_known": 1.0,
+        "acc_unseen": 0.8434782608695652,
+        "acc_generic": 0.8909090909090909,
+        "oov_gap": 0.13280632411067195,
+        "escalated80": 0.06388888888888888,
+        "autonomous80": 0.9317507418397626,
+        "shap_backend": null
+      },
+      {
+        "cell": "E3  TF-IDF + SHAP",
+        "prior": "tfidf",
+        "explainer": "shap",
+        "model": "Gradient Boosting",
+        "acc": 0.9444444444444444,
+        "f1": 0.9445357448214301,
+        "infer_ms": 0.013384686109121604,
+        "expl_ms": 16.556062936110212,
+        "ratio": 1236.9406948458304,
+        "fid1": 28.499999999999996,
+        "fid3": 5.039999999999999,
+        "acc_known": 0.9851851851851852,
+        "acc_unseen": 0.9478260869565217,
+        "acc_generic": 0.8909090909090909,
+        "oov_gap": 0.06581759625237882,
+        "escalated80": 0.1361111111111111,
+        "autonomous80": 0.9839228295819936,
+        "shap_backend": "PermutationExplainer"
+      },
+      {
+        "cell": "E4  TF-IDF + Decision-Path",
+        "prior": "tfidf",
+        "explainer": "dpath",
+        "model": "Decision Tree (d=8)",
+        "acc": 0.8805555555555555,
+        "f1": 0.8807127955092962,
+        "infer_ms": 0.0050383583331697285,
+        "expl_ms": 0.008100858334122071,
+        "ratio": 1.607836878292391,
+        "fid1": 12.666666666666666,
+        "fid3": 4.5,
+        "acc_known": 0.9259259259259259,
+        "acc_unseen": 0.8521739130434782,
+        "acc_generic": 0.8545454545454545,
+        "oov_gap": 0.07256624213145957,
+        "escalated80": 0.11944444444444445,
+        "autonomous80": 0.9242902208201893,
+        "shap_backend": null
+      }
+    ]
+  },
+  "e5": null,
+  "comparison": [
+    {
+      "experiment": "E1",
+      "focus": "Post-hoc explanation",
+      "intent_agent": "Lexicon",
+      "explainer": "SHAP (post-hoc)",
+      "acc": 0.9222222222222223,
+      "f1": 0.9221193918172571,
+      "expl_ms": 161.16413048055418,
+      "fidelity": 15.5,
+      "oov_gap": 0.12391304347826093
+    },
+    {
+      "experiment": "E2",
+      "focus": "In-hoc explanation",
+      "intent_agent": "Lexicon",
+      "explainer": "Decision-Path (in-hoc)",
+      "acc": 0.9166666666666666,
+      "f1": 0.916819403307569,
+      "expl_ms": 0.012192827777350127,
+      "fidelity": 10.222222222222221,
+      "oov_gap": 0.13280632411067195
+    },
+    {
+      "experiment": "E3",
+      "focus": "Semantic intent parsing",
+      "intent_agent": "TF-IDF n-gram",
+      "explainer": "SHAP (post-hoc)",
+      "acc": 0.9444444444444444,
+      "f1": 0.9445357448214301,
+      "expl_ms": 161.16413048055418,
+      "fidelity": 15.5,
+      "oov_gap": 0.06581759625237882
+    },
+    {
+      "experiment": "E4",
+      "focus": "Combined (E2 + E3)",
+      "intent_agent": "TF-IDF n-gram",
+      "explainer": "Decision-Path (in-hoc)",
+      "acc": 0.8805555555555555,
+      "f1": 0.8807127955092962,
+      "expl_ms": 0.008100858334122071,
+      "fidelity": 12.666666666666666,
+      "oov_gap": 0.07256624213145957
+    }
+  ]
+}

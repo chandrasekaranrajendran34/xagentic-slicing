@@ -1,0 +1,166 @@
+{
+  "acc_overall": 0.9027777777777778,
+  "acc_clear": 0.9957081545064378,
+  "acc_ambiguous": 0.7322834645669292,
+  "n_clear": 233,
+  "n_ambiguous": 127,
+  "err_total": 35,
+  "err_from_ambiguous": 34,
+  "acc_known": 0.9923664122137404,
+  "n_known": 131,
+  "err_known": 1,
+  "acc_unseen": 0.832,
+  "n_unseen": 125,
+  "err_unseen": 21,
+  "acc_generic": 0.875,
+  "n_generic": 104,
+  "err_generic": 13,
+  "oov_gap": 0.13886641221374052,
+  "experiment": "E1",
+  "label": "Post-hoc (SHAP)",
+  "model": "Gradient Boosting",
+  "model_selection": "5-fold CV macro F1 on train split",
+  "tau_selected": 0.9,
+  "tau_selection": "smallest tau with >=98% out-of-fold autonomous accuracy",
+  "escalation_oof": [
+    {
+      "tau": 0.5,
+      "escalated": 0.04285714285714286,
+      "precision": 0.25,
+      "recall": 0.14285714285714285,
+      "autonomous_acc": 0.9328358208955224
+    },
+    {
+      "tau": 0.6,
+      "escalated": 0.0761904761904762,
+      "precision": 0.34375,
+      "recall": 0.3492063492063492,
+      "autonomous_acc": 0.9471649484536082
+    },
+    {
+      "tau": 0.7,
+      "escalated": 0.10357142857142858,
+      "precision": 0.3448275862068966,
+      "recall": 0.47619047619047616,
+      "autonomous_acc": 0.9561752988047809
+    },
+    {
+      "tau": 0.8,
+      "escalated": 0.14404761904761904,
+      "precision": 0.3140495867768595,
+      "recall": 0.6031746031746031,
+      "autonomous_acc": 0.9652294853963839
+    },
+    {
+      "tau": 0.9,
+      "escalated": 0.20357142857142857,
+      "precision": 0.30994152046783624,
+      "recall": 0.8412698412698413,
+      "autonomous_acc": 0.9850523168908819
+    }
+  ],
+  "escalation_signals": [
+    {
+      "signal": "Confidence only",
+      "budget": 0.20833333333333334,
+      "escalated": 0.20833333333333334,
+      "precision": 0.3333333333333333,
+      "recall": 0.7142857142857143,
+      "autonomous_acc": 0.9649122807017544
+    },
+    {
+      "signal": "Attribution concentration only",
+      "budget": 0.20833333333333334,
+      "escalated": 0.20833333333333334,
+      "precision": 0.24,
+      "recall": 0.5142857142857142,
+      "autonomous_acc": 0.9403508771929825
+    },
+    {
+      "signal": "Confidence + contract",
+      "budget": 0.20833333333333334,
+      "escalated": 0.20833333333333334,
+      "precision": 0.3333333333333333,
+      "recall": 0.7142857142857143,
+      "autonomous_acc": 0.9649122807017544
+    },
+    {
+      "signal": "Confidence + contract + attribution",
+      "budget": 0.20833333333333334,
+      "escalated": 0.20833333333333334,
+      "precision": 0.32,
+      "recall": 0.6857142857142857,
+      "autonomous_acc": 0.9614035087719298
+    }
+  ],
+  "macro_f1": 0.9027527172162619,
+  "slot_recall": 0.9585348934370016,
+  "slot_false_positive": 0.0,
+  "parse_latency_ms": 0.10760208749919305,
+  "mean_confidence_correct": 0.9553108389266075,
+  "mean_confidence_wrong": 0.7590328742090674,
+  "fidelity": {
+    "top1": 0.16111111111111112,
+    "rand1": 0.025,
+    "low1": 0.0,
+    "ratio1": 6.444444444444445,
+    "ratiolow1": 161111111.1111111,
+    "top2": 0.3111111111111111,
+    "rand2": 0.03333333333333333,
+    "low2": 0.0,
+    "ratio2": 9.333333333333334,
+    "ratiolow2": 311111111.1111111,
+    "top3": 0.4361111111111111,
+    "rand3": 0.03333333333333333,
+    "low3": 0.0,
+    "ratio3": 13.083333333333334,
+    "ratiolow3": 436111111.1111111,
+    "explanation_latency_ms": 161.64451705833218,
+    "inference_latency_ms": 0.00943866388701685,
+    "latency_ratio": 17125.783796653548,
+    "backend": "PermutationExplainer"
+  },
+  "baseline_rule_acc": 0.6666666666666666,
+  "baseline_rule_f1": 0.6654201215628807,
+  "baseline_rulelex_acc": 0.7861111111111111,
+  "baseline_rulelex_f1": 0.7869098417445893,
+  "baseline_rulelex_valid": 0.975,
+  "baseline_rulelex_lat_ms": 0.0675102999998166,
+  "escalation": [
+    {
+      "tau": 0.5,
+      "escalated": 0.030555555555555555,
+      "precision": 0.18181818181818182,
+      "recall": 0.05714285714285714,
+      "autonomous_acc": 0.9054441260744985
+    },
+    {
+      "tau": 0.6,
+      "escalated": 0.05555555555555555,
+      "precision": 0.4,
+      "recall": 0.22857142857142856,
+      "autonomous_acc": 0.9205882352941177
+    },
+    {
+      "tau": 0.7,
+      "escalated": 0.08333333333333333,
+      "precision": 0.43333333333333335,
+      "recall": 0.37142857142857144,
+      "autonomous_acc": 0.9333333333333333
+    },
+    {
+      "tau": 0.8,
+      "escalated": 0.14166666666666666,
+      "precision": 0.39215686274509803,
+      "recall": 0.5714285714285714,
+      "autonomous_acc": 0.9514563106796117
+    },
+    {
+      "tau": 0.9,
+      "escalated": 0.2222222222222222,
+      "precision": 0.3125,
+      "recall": 0.7142857142857143,
+      "autonomous_acc": 0.9642857142857143
+    }
+  ]
+}

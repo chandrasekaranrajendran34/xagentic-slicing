@@ -1,0 +1,6 @@
+seed,train_n,test_n,train_families,test_families,family_overlap,train_eMBB,train_URLLC,train_mMTC,test_eMBB,test_URLLC,test_mMTC,test_nonambiguous,test_ambiguous,train_lexical_hits,test_lexical_hits
+42,570,267,18,9,0,191,189,190,77,102,88,188,79,286,177
+43,568,269,18,9,0,180,192,196,88,99,82,188,81,286,177
+44,529,308,18,9,0,163,180,186,105,111,92,229,79,260,203
+45,573,264,18,9,0,188,201,184,80,90,94,183,81,282,181
+46,569,268,18,9,0,181,204,184,87,87,94,177,91,290,173

@@ -1,0 +1,68 @@
+[
+  {
+    "slice": "eMBB",
+    "intent": "Deploy a slice for fixed wireless access with latency under 21 ms, at least 284 Mbps throughput and 99.5127% reliability for about 379 devices per square km.",
+    "top": [
+      [
+        "lex:eMBB",
+        0.22713655887621154
+      ],
+      [
+        "reliability (%)",
+        0.15131050955480027
+      ],
+      [
+        "throughput (Mbps)",
+        0.1344667424766286
+      ],
+      [
+        "lex:URLLC",
+        0.06081675339075403
+      ]
+    ]
+  },
+  {
+    "slice": "URLLC",
+    "intent": "Provision connectivity for smart-grid protection. Target budget: 2.0 ms latency, 99.9944% reliability, 2,351 devices/km2, users moving at 20 km/h.",
+    "top": [
+      [
+        "lex:URLLC",
+        0.28959539562993875
+      ],
+      [
+        "reliability (%)",
+        0.27743287441063663
+      ],
+      [
+        "lex:mMTC",
+        0.03656281281756093
+      ],
+      [
+        "mobility (km/h)",
+        -0.03577856065605065
+      ]
+    ]
+  },
+  {
+    "slice": "mMTC",
+    "intent": "Create a network slice supporting soil-moisture reporting nodes with 0.030 Mbps guaranteed bitrate, 97.5877 percent reliability, 45,904 terminals per km2 and 25 km/h mobility.",
+    "top": [
+      [
+        "mobility (km/h)",
+        0.2233360303981308
+      ],
+      [
+        "reliability (%)",
+        0.10886873528455455
+      ],
+      [
+        "throughput (Mbps)",
+        0.09847262594272828
+      ],
+      [
+        "lex:eMBB",
+        0.07176775944873091
+      ]
+    ]
+  }
+]

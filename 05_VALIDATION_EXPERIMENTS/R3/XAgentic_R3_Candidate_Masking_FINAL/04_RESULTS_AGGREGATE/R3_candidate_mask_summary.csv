@@ -1,0 +1,8 @@
+metric,count
+rows,100
+baseline_correct,87
+baseline_strict_valid,97
+r3_escalated,3
+r3_autonomous,97
+r3_autonomous_valid,97
+r3_autonomous_correct,85

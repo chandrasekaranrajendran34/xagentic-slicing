@@ -1,0 +1,30 @@
+{
+  "source": "/content/R2_FROZEN_REFERENCE/XAgentic_R2_Strict_Feasibility_FINAL/01_SOURCE/BASE_E1_E5_EXTRACTED/XAgentic_Final_Paper_Evidence_2026-10-06/03_SOURCE_CODE/xagentic_common.py",
+  "source_sha256": "1484f474ba7f40b451583115da9fc7c4fdebc79f9c6876d9a0d7447f649cfbb6",
+  "oracle": "/content/R2_FROZEN_REFERENCE/XAgentic_R2_Strict_Feasibility_FINAL/02_R2_AUDIT/R2_strict_feasibility_oracle_v2.py",
+  "oracle_sha256": "75b1cd0e4847f2cbc38690ec32c1b0dd17343c89582e0f4ed206fb7421867cd1",
+  "seed": 42,
+  "n_total": 3000,
+  "n_train": 2100,
+  "n_test": 900,
+  "selection_model": "Gradient Boosting",
+  "cv_macro_f1": 0.9347078205163128,
+  "classes": [
+    0,
+    1,
+    2
+  ],
+  "baseline_accuracy": 0.9277777777777778,
+  "baseline_macro_f1": 0.9278323905230472,
+  "predict_argmax_disagreements": 0,
+  "strict_empty_test_rows": 0,
+  "candidate_set_distribution": {
+    "3": 900
+  },
+  "r2_v2_validation": {
+    "frozen_rows_checked": 1200,
+    "mismatches": 0,
+    "expected_strict_empty": 14,
+    "observed_strict_empty": 14
+  }
+}

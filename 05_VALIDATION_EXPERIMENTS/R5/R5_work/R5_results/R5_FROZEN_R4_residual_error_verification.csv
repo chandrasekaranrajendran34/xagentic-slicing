@@ -1,0 +1,6 @@
+position,id,uc_kind,truth,final_pred,semantic_pred,semantic_support_margin,r5_verification_flag,r5_additional_escalation
+8,658,unseen,URLLC,mMTC,URLLC,-0.02132928766174269,False,False
+46,1197,generic,eMBB,mMTC,eMBB,-0.04722172232243094,True,True
+236,240,unseen,eMBB,mMTC,eMBB,-0.059061074924815105,True,True
+260,810,unseen,eMBB,mMTC,eMBB,-0.022600738564807932,False,False
+286,769,unseen,URLLC,eMBB,URLLC,-0.06754814351155136,True,True
